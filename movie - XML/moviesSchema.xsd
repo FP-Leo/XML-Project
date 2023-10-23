@@ -1,0 +1,8 @@
+<schema
+xmlns="http://www.w3.org/2000/10/XMLSchema"
+version="1.0">
+
+<element name="movies"/>
+<attribute name="name"/>
+
+</schema>
