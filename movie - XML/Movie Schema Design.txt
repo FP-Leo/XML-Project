@@ -1,0 +1,82 @@
+- Movie
+  - Details
+    - Title
+    - Release Date
+    - Duration
+    - Rating
+    - Plot
+    - Genre
+    - Awards ( nominated, won )
+
+  - Production
+    - Production Company
+      - Company Name
+      - Budget
+      - Shooting Locations
+
+  - Creative Team
+    - Director
+      - Director's Name
+      - Biography
+      - Filmography
+    - Screenwriter
+      - Screenwriter's Name
+      - Biography
+      - Other Works
+    - Composer
+      - Composer's Name
+      - Biography
+      - Soundtrack
+
+  - Cast
+    - Actors
+      - Lead Actors
+        - Lead Role (Character Name)
+          - Actor's Name
+          - Character Description
+        - Supporting Role (Character Name)
+          - Actor's Name
+          - Character Description
+      - Antagonist (Character Name)
+        - Actor's Name
+        - Character Description
+      - Other Supporting Actors
+      - Cameos
+
+  - Post-Production
+    - Film Editor
+      - Editor's Name
+      - Biography
+      - Filmography
+    - Sound Design and Mixing
+      - Sound Designer's Name
+      - Biography
+      - Soundtrack
+    - Visual Effects (VFX)
+      - VFX Supervisor's Name
+      - Biography
+      - CGI Details
+    - Marketing and Publicity
+      - Marketing Company
+      - Publicity Company
+      - Marketing Strategies
+
+  - Release and Distribution
+    - Distribution Company
+      - Distributor's Name
+      - Release Strategy
+      - Box Office Performance
+    - Home Video and Streaming
+      - Streaming Platforms
+      - DVD/Blu-ray Release
+      - Merchandising
+
+  - Audience and Reception
+    - Critical Reception
+      - Reviews
+      - Rotten Tomatoes Score
+      - IMDb Rating
+    - Audience Response
+      - Box Office Revenue
+      - Viewer Ratings
+    - Sequels or Spin-offs
