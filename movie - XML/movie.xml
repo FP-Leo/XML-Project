@@ -1,22 +1,26 @@
-<movie>
-	<detail>
-		<title>
+<?xml version="1.0" encoding="UTF-16"?>
+<!-- Movies tag represents a list of movies -->
+<movies>
+	<movie>
+		<detail>
+			<title>
 			
 		</title>
-		<release_date>
+			<release_date>
 		
 		</release_date>
-		<duration>
+			<duration>
 		
 		</duration>
-		<rating>
+			<rating>
 		
 		</rating>
-		<plot>
+			<plot>
 		
 		</plot>
-		<genre>
+			<genre>
 		
 		</genre>
-	</detail>
-</movie>
+		</detail>
+	</movie>
+</movies>
