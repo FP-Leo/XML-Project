@@ -1,8 +1,11 @@
+https://www.liquid-technologies.com/online-xsd-validator // XSD VALIDATOR
+
+
 FORMAT: 
 NAME - TYPE - OCCURRANCE/REQUIREMENT - DATA TYPE
 
-A  // Attribute
-E // Element
+A  // xs:attribute
+E // xs:element
 
 R // Required
 O // Optional
@@ -14,18 +17,17 @@ CC // Complex Custom Data
 
 - Movie - E -  1+ - 
     - Title - A- R - STRING 
-    - Release Date - A - O - CC (sequence integer 1-31 day, integer 1-12 month, integer >=1896 year)
+    - Release Date - A - O - CC (xs:sequence integer 1-31 day, integer 1-12 month, integer >=1896 year)
     - Duration - A - O - SC ( integer, >=60 min)
     - Rating - A - O -  CC ( choice - G, PG, PG-13, R, NC-17, X(no longer in use?))
     - Plot - A - O - STRING 
     - Genre - A - R - CC ( see genres.txt )
-    - Awards ( nominated, won ) - A - O - STRING?
 
   - Production
     - Production Company - E - >= 0 - 
       - Company Name - A - R - 
       - Budget - A - R - SC (integer, >=1000$)
-      - Shooting Locations - A - O - STRING? ( or sequence CC with Country, City?) 
+      - Shooting Locations - A - O - STRING? ( or xs:sequence CC with Country, City?) 
 
   - Creative Team - E - 1 - 
     - Director - E - 1+ - 
@@ -43,8 +45,6 @@ CC // Complex Custom Data
       - Other Works - A - O - STRING
 
   - Cast - E - 1 - 
-    - Actors - E - 1 -  // List of actors
-      - Lead Actors - E - 1 - //List of lead actors
         - Lead Role (Character Name) - E - 1+ - 
           - Actor's Name - A - R - STRING
           - Character Description - A - O - STRING
@@ -53,10 +53,6 @@ CC // Complex Custom Data
           - Actor's Name - A - R - STRING
           - Character Description - A - O - STRING
           - Other Works - A - O - STRING
-      - Antagonist (Character Name) - E - 0+ - 
-        - Actor's Name - A - R - STRING 
-        - Character Description - A - O - STRING
-        - Other Works - A - O - STRING
       - Cameos - E - 0+ - 
          - Name - A - R - STRING
   - Post-Production - E - 1 - 
@@ -66,11 +62,6 @@ CC // Complex Custom Data
       - Other Works - A - O - STRING
     - Sound Designer - E - 
       - Sound Designer's Name - A - R - STRING
-      - Biography  - A - O - STRING
-      - Other Works - A - O - STRING
-    - Visual Effects (VFX) - E - 1+ -
-      - VFX Supervisor's Name - A - R - STRING
-      - CGI Details - 
       - Biography  - A - O - STRING
       - Other Works - A - O - STRING
     - Marketing and Publicity - E - 1 - 
