@@ -16,33 +16,31 @@ CC // Complex Custom Data
 - Movies - E - 1 - 
 
 - Movie - E -  1+ - 
-    - Title - A- R - STRING 
-    - Release Date - A - O - CC (xs:sequence integer 1-31 day, integer 1-12 month, integer >=1896 year)
-    - Duration - A - O - SC ( integer, >=60 min)
-    - Rating - A - O -  CC ( choice - G, PG, PG-13, R, NC-17, X(no longer in use?))
-    - Plot - A - O - STRING 
-    - Genre - A - R - CC ( see genres.txt )
+    - Title - A- R - STRING - DONE
+    - Release Date - A - O - DATE - DONE
+    - Duration - A - O - SC ( integer, >=60 min) - DONE
+    - Rating - A - O -  SC ( choice - G, PG, PG-13, R, NC-17, X(no longer in use?)) - DONE
+    - Plot - E - O - STRING -DONE
+    - Genre - A - R - SC ( see genres.txt ) - DONE
 
   - Production
     - Production Company - E - >= 0 - 
-      - Company Name - A - R - 
-      - Budget - A - R - SC (integer, >=1000$)
-      - Shooting Locations - A - O - STRING? ( or xs:sequence CC with Country, City?) 
+      - Companies - E - R 
+        - Company 
+      - Budget - E - R - SC (integer, >=1000$)
+      - Shooting Locations - E - O -
 
   - Creative Team - E - 1 - 
-    - Director - E - 1+ - 
-      - Director's Name - A - R - STRING
-      - Biography - A - O - STRING
-      - Other Works - A - O - Reference to other movies? 
-    - Screenwriter - E - 1+ - 
-      - Screenwriter's Name - A - R - STRING
-      - Biography - A - O - STRING
-      - Other Works - A - O - STRING
-    - Composer - E - 1+ -  
-      - Composer's Name - A - R - STRING
-      - Biography - A - O - STRING
-      - Soundtrack - E? 
-      - Other Works - A - O - STRING
+    - Employee
+      - Director - E - 1+ - 
+        - Director's Name - A - R - STRING
+        - Biography - A - O - STRING
+      - Screenwriter - E - 1+ - 
+        - Screenwriter's Name - A - R - STRING
+        - Biography - A - O - STRING
+      - Composer - E - 1+ -  
+        - Composer's Name - A - R - STRING
+        - Biography - A - O - STRING
 
   - Cast - E - 1 - 
         - Lead Role (Character Name) - E - 1+ - 
