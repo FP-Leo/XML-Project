@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-16"?>
 <!-- Movies tag represents a list of movies -->
-<movies>
-	<movie id="1" title="Harry Potter And The Philosopher Stone" genre="Fantasy" release_date="01.02.2002" duration="152" rating="PG">
+<movies xmlns:m="https://raw.githubusercontent.com/FP-Leo/School-Projects/main/movie%20-%20XML"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		  xsi:schemaLocation="https://raw.githubusercontent.com/FP-Leo/School-Projects/main/movie%20-%20XML/ moviesSchema.xsd"
+		  >
+	<movie id="1" title="Harry Potter And The Philosopher Stone" genre="Fantasy" release_date="2002-02-01" duration="152" rating="PG">
 		<plot>	
 				Late one night, Albus Dumbledore and Minerva McGonagall, professors at Hogwarts School of Witchcraft and Wizardry, along with groundskeeper Rubeus Hagrid, deliver an orphaned infant wizard named Harry Potter to his Muggle aunt and uncle, Petunia and Vernon Dursley, his only living relatives.
 				Ten years later, just before Harry's eleventh birthday, owls begin delivering letters addressed to him. When the abusive Dursleys adamantly refuse to allow Harry to open any and flee to an island hut, Hagrid arrives to personally deliver Harry's letter of acceptance to Hogwarts. Hagrid also reveals that Harry's parents, James and Lily, were killed by a dark wizard named Lord Voldemort. The killing curse that Voldemort had cast towards Harry rebounded, destroying Voldemort's body and giving Harry his lightning-bolt scar. Hagrid then takes Harry to Diagon Alley for school supplies and gives him a pet snowy owl whom he names Hedwig. Harry buys a wand that is connected to Voldemort's own wand.
@@ -12,15 +15,17 @@
 				Harry recovers in the school infirmary. Dumbledore tells him the stone has been destroyed to prevent misuse, and that Ron and Hermione are safe. He also reveals how Harry defeated Quirrell: when Lily died to save Harry, a love-based protection against Voldemort was placed on him. At the end-of-school-year feast, Harry, Ron, and Hermione are rewarded extra house points for their heroism, tying Gryffindor for first place with Slytherin; Dumbledore then awards ten points to their housemate Neville Longbottom for having had the courage to stand up to the trio, granting Gryffindor the House Cup. Harry returns to the Dursleys for the summer, happy to finally have a real home at Hogwarts. 
 		</plot>
 		<production>
-			<company>
-				<name>Warner Bros. Pictures</name>
-			</company>
-			<company>
-				<name>Heyday Films</name>
-			</company>
-			<company>
-				<name>1492 Pictures</name>
-			</company>
+			<companies>
+				<company>
+					<name>Warner Bros. Pictures</name>
+				</company>
+				<company>
+					<name>Heyday Films</name>
+				</company>
+				<company>
+					<name>1492 Pictures</name>
+				</company>
+			</companies>
 			<budget currency="dollar">125000000</budget>
 			<shooting_locations>
 				<country>
@@ -30,19 +35,21 @@
 			</shooting_locations>
 		</production>
 		<creative_team>
-			<director>
+			<employee>
 				<name>Chris Colombus</name>
 				<biography>	
 							Chris Joseph Columbus[1] (born September 10, 1958) is an American filmmaker. Born in Spangler, Pennsylvania, Columbus studied film at Tisch School of the Arts where he developed an interest in filmmaking. After writing screenplays for several teen comedies in the mid-1980s, he made his directorial debut with a teen adventure, Adventures in Babysitting (1987). Columbus gained recognition soon after with the highly successful Christmas comedy Home Alone (1990) and its sequel Home Alone 2: Lost in New York (1992).
 							The comedy Mrs. Doubtfire (1993), starring Robin Williams, was another box office success for Columbus. He went on to direct several other films throughout the 1990s, which were mostly met with lukewarm reception. However, he found commercial success again for directing the film adaptations of J. K. Rowling's novels, Harry Potter and the Philosopher's Stone (2001) and its sequel, Harry Potter and the Chamber of Secrets (2002), which are his highest-grossing films to date. In addition to directing, Columbus was a producer for Harry Potter and the Prisoner of Azkaban (2004), and the drama The Help (2011). He also directed the fantasy Percy Jackson and the Olympians: The Lightning Thief (2010) and the 3D action comedy Pixels (2015).
 							Columbus is the co-founder of 1492 Pictures, a film production company that has produced some of his films since 1995. More recently, he co-founded another production firm with his daughter in 2014, called Maiden Voyage Pictures. In 2017, he launched ZAG Animation Studios, alongside Michael Barnathan, Haim Saban, and Jeremy Zag. Columbus is also known for his collaboration with composer John Williams, with whom he had worked on the films Home Alone and Harry Potter. 
 				</biography>
-			</director>
-			<screenwriter>
+				<job>Director</job>
+			</employee>
+			<employee>
 				<name>Steve Kloves</name>
 				<biography>Stephen Keith Kloves[1] (born March 18, 1960) is an American filmmaker. He wrote and directed the 1989 film The Fabulous Baker Boys and is mainly known for his adaptations of novels, especially for all but one of the Harry Potter films (the exception being Harry Potter and the Order of the Phoenix) and for Wonder Boys, for which he was nominated for the Academy Award for Best Adapted Screenplay. </biography>
-			</screenwriter>
-			<screenwriter>
+				<job>Screenwriter</job>
+			</employee>
+			<employee>
 				<name>Joanne Kathleen Rowling</name>
 				<biography>	
 							Joanne Rowling CH OBE FRSL (/ˈroʊlɪŋ/ "rolling";[1] born 31 July 1965), best known by her pen name J. K. Rowling, is a British author and philanthropist. She wrote Harry Potter, a seven-volume fantasy series published from 1997 to 2007. The series has sold over 600 million copies, been translated into 84 languages, and spawned a global media franchise including films and video games. The Casual Vacancy (2012) was her first novel for adults. She writes Cormoran Strike, an ongoing crime fiction series, under the alias Robert Galbraith.
@@ -50,12 +57,14 @@
 							Rowling concluded the Harry Potter series with Harry Potter and the Deathly Hallows (2007). The novels follow a boy called Harry Potter as he attends Hogwarts (a school for wizards), and battles Lord Voldemort. Death and the divide between good and evil are the central themes of the series. Its influences include Bildungsroman (the coming-of-age genre), school stories, fairy tales, and Christian allegory. The series revived fantasy as a genre in the children's market, spawned a host of imitators, and inspired an active fandom. Critical reception has been more mixed. Many reviewers see Rowling's writing as conventional; some regard her portrayal of gender and social division as regressive. There were also religious debates over the Harry Potter series.
 							Rowling has won many accolades for her work. She has received an OBE and made a Companion of Honour for services to literature and philanthropy. Harry Potter brought her wealth and recognition, which she has used to advance philanthropic endeavours and political causes. She co-founded the charity Lumos and established the Volant Charitable Trust, named after her mother. Rowling's charitable giving centres on medical causes and supporting at-risk women and children. In politics, she has donated to Britain's Labour Party and opposed Scottish independence and Brexit. She has publicly expressed her opinions on transgender people and related civil rights since 2017. These have been criticised as transphobic by LGBT rights organisations and some feminists, but have received support from other feminists and individuals.  
 				</biography>
-			</screenwriter>
-			<producer>
+				<job>Screenwriter</job>
+			</employee>
+			<employee>
 				<name>David Heyman</name>
 				<biography>David Jonathan Heyman (born 26 July 1961) is a British film producer and the founder of Heyday Films. Heyman is best known as the primary producer of all eight installments of the Harry Potter film series, which are based on a series of popular fantasy novels of the same name by author J. K. Rowling. He then produced all three installments of its spin-off prequel series, Fantastic Beasts. His work makes him the second-most commercially successful producer of all time.</biography>
-			</producer>
-			<composer>
+				<job>Producer</job>
+			</employee>
+			<employee>
 				<name>John Williams</name>
 				<biography>	
 							John Towner Williams (born February 8, 1932)[1][2][3] is an American composer, conductor, and pianist. In a career that has spanned seven decades, he has composed some of the most popular, recognizable and critically acclaimed film scores in cinema history. Williams has won 25 Grammy Awards, five Academy Awards, seven British Academy Film Awards, and four Golden Globe Awards. With 53 Academy Award nominations, he is the second most-nominated individual, after only Walt Disney. His compositions are considered the epitome of film music, and he is considered among the greatest composers in the history of cinema.[4] Williams has composed many of his film scoring works for frequent collaborators Steven Spielberg and George Lucas, and other directors such as Chris Columbus, Oliver Stone, Richard Donner, Irvin Kershner, Sydney Pollack, Alfred Hitchcock, Mark Rydell, Mark Robson, Jean-Jacques Annaud, Robert Altman, and J. J. Abrams. He has a very distinct and recognizable sound that mixes romanticism, impressionism and atonal music with complex orchestration[5].
@@ -63,68 +72,78 @@
 							Williams has also composed numerous classical concertos and other works for orchestral ensembles and solo instruments. He served as the Boston Pops' principal conductor from 1980 to 1993 and is its laureate conductor.[7] Other works by Williams include theme music for the 1984 Summer Olympic Games, NBC Sunday Night Football, "The Mission" theme used by NBC News and Seven News in Australia, the television series Lost in Space and Land of the Giants, and the incidental music for the first season of Gilligan's Island.[8] Williams announced but then rescinded his intention to retire from film score composing after the release of Indiana Jones and the Dial of Destiny in 2023.[9]
 							In 2005, the American Film Institute selected Williams's score to 1977's Star Wars as the greatest film score of all time. The Library of Congress entered the Star Wars soundtrack into the National Recording Registry for being "culturally, historically, or aesthetically significant".[10] Williams was inducted into the Hollywood Bowl's Hall of Fame in 2000, and he received a Kennedy Center Honor in 2004. His AFI Life Achievement Award in 2016 was the first to be awarded outside of the acting and directing fields. He has composed the score for nine of the top 25 highest-grossing films at the U.S. box office (adjusted for inflation).[11] His work has influenced other composers of film, popular, and contemporary classical music.
 				</biography>
-			</composer>
+				<job>Composer</job>
+			</employee>
 		</creative_team>
 		<cast>
 			<lead_role>
-				<actor>
+				<employee>
 					<name>Daniel Radcliffe</name>
+					<job>Actor</job>
 					<character>Harry Potter</character>
 					<character_description>An 11-year-old orphan living with his unwelcoming aunt, uncle, and cousin, who learns of his own fame as a wizard known to have survived his parents' murder at the hands of the dark wizard Lord Voldemort as an infant when he is accepted to Hogwarts School of Witchcraft and Wizardry. Columbus had wanted Radcliffe for the role since he saw him in the BBC's production of David Copperfield, before the open casting sessions had taken place, but had been told by casting director Susan Figgis that Radcliffe's protective parents would not allow their son to take the part.[6] Columbus explained that his persistence in giving Radcliffe the role was responsible for Figgis' resignation.[6] Radcliffe was asked to audition in 2000, when Heyman and Kloves met him and his parents at a production of Stones in His Pockets in London.[7] Heyman and Columbus successfully managed to convince Radcliffe's parents that their son would be protected from media intrusion, and they agreed to let him play Harry.[6] Rowling approved of Radcliffe's casting, stating that "having seen [his] screen test I don't think Chris Columbus could have found a better Harry."[8] Radcliffe was reportedly paid £1 million for the film, although he felt the fee was "not that important" to him.[9] The Saunders triplets appear as Harry as a baby.</character_description>
 					<role>Protagonist</role>
-				</actor>
-				<actor>
+				</employee>
+				<employee>
 					<name>Emma Watson</name>
+					<job>Actor</job>
 					<character>Hermione Granger</character>
 					<character_description>Harry's other best friend and the trio's brains. Watson's Oxford theatre teacher passed her name on to the casting agents and she had to do over five interviews before she got the part.[11] Watson took her audition seriously, but "never really thought [she] had any chance of getting the role."[9] The producers were impressed by Watson's self-confidence and she outperformed the thousands of other girls who had applied.</character_description>
 					<role>Protagonist</role>
-				</actor>
-				<actor>
+				</employee>
+				<employee>
 					<name>Rupert Grint</name>
+					<job>Actor</job>
 					<character>Ron Wealsey</character>
 					<character_description>Harry's best friend at Hogwarts and a younger member of the Weasley wizarding family. A fan of the series, Grint decided he would be perfect for the part "because [he has] ginger hair".[9] Having seen a Newsround report about the open casting he sent in a video of himself rapping about how he wished to receive the part. His attempt was successful as the casting team asked for a meeting with him.</character_description>
 					<role>Protagonist</role>
-				</actor>
-				<actor>
+				</employee>
+				<employee>
 					<name>Ian Hart</name>
+					<job>Actor</job>
 					<character>Lord Voldemort</character>
 					<character_description>Voldemort, an anagrammatic sobriquet for Tom Marvolo Riddle, is the archenemy of Harry Potter, who according to a prophecy has "the power to vanquish the Dark Lord". He attempts to murder the boy, but instead kills his parents, Lily and James Potter, and leaves Harry with a scar on his forehead in the shape of a lightning bolt. Nearly every witch or wizard dares not utter his name and refers to him instead with such monikers as "You-Know-Who", "He-Who-Must-Not-Be-Named", or "The Dark Lord". Voldemort's obsession with blood purity signifies his aim to rid the wizarding world of Muggle (non-magical) heritage and to conquer both worlds, Muggle and wizarding, to achieve pure-blood dominance. Through his mother's family, he is the last descendant of the wizard Salazar Slytherin,[6][7] one of the four founders of Hogwarts School of Witchcraft and Wizardry. He is the leader of the Death Eaters, a group of evil wizards and witches dedicated to ridding the Wizarding World of Muggles and establishing Voldemort as its supreme ruler. </character_description>
 					<role>Antagonist</role>
 					<character>Professor Quirrell</character>
 					<character_description>The stuttering Defence Against the Dark Arts teacher at Hogwarts</character_description>
 					<role>Antagonist</role>
-				</actor>
+				</employee>
 			</lead_role>
 			<support_role>
-				<actor>
-					<name></name>
+				<employee>
+					<name>Alan Rickman</name>
+					<job>Actor</job>
 					<character>Severus Snape</character>
 					<character_description>The Potions Master and head of Slytherin House.</character_description>
 					<role>Neutral</role>
-				</actor>
-				<actor>
-					<name></name>
+				</employee>
+				<employee>
+					<name>Richard Harris</name>
+					<job>Actor</job>
 					<character>Albus Dumbledore</character>
 					<character_description>Hogwarts' Headmaster and one of the most famous and powerful wizards of all time. Harris initially rejected the role, only to reverse his decision after his granddaughter stated she would never speak to him again if he did not take it.</character_description>
 					<role>Protagonist</role>
-				</actor>
-				<actor>
+				</employee>
+				<employee>
 					<name>Tom Felton</name>
+					<job>Actor</job>
 					<character>Draco Malfoy</character>
 					<character_description>A student in Slytherin and Harry's rival.</character_description>
 					<role>Antagonist</role>
-				</actor>
+				</employee>
 			</support_role>
 		</cast>
 		<post_production>
-			<film_editor>
+			<employee>
 				<name>Richard Francis-Bruce</name>
 				<biography>Richard Leslie Francis-Bruce AM (born 10 December 1948) is an Australian film editor who has received several nominations for the Academy Award for Best Film Editing. </biography>
-			</film_editor>
-			<sound_desginer>
+				<job>Film Editor</job>
+			</employee>
+			<employee>
 				<name>John A. Midgley</name>
 				<biography>John Midgley is an English sound engineer. He won an Oscar in the category Best Sound Mixing for Hugo and has been nominated for another two. He has worked on more than 100 films since 1977.</biography>
-			</sound_desginer>
+				<job>Sound Designer</job>
+			</employee>
 			<marketing_company>
 				<company>
 					<name>Warner Bros. Pictures</name>
@@ -142,7 +161,7 @@
 					<name>Warner Bros. Pictures</name>
 				</company>
 			</distribution_company>
-			<stream>
+			<streaming_services>
 				<company>
 					<name>Peacock</name>
 				</company>
@@ -152,13 +171,13 @@
 				<company>
 					<name>Max</name>
 				</company>
-			</stream>
+			</streaming_services>
 		</release_and_distribution>
 		<reception>
-			<viewer_rating system="5.0">4.8</viewer_rating>
-			<IMDb system="10.0">7.6</IMDb>
-			<rotten_tomatoes system="100%">81</rotten_tomatoes>
-			<revenue currency="dollar" >1024254401</revenue>
+			<viewer_rating>4.8</viewer_rating>
+			<IMDb>7.6</IMDb>
+			<rotten_tomatoes>81</rotten_tomatoes>
+			<revenue currency="dollar">1024254401</revenue>
 		</reception>
 	</movie>
 </movies>

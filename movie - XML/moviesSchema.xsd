@@ -6,6 +6,7 @@ xmlns="https://raw.githubusercontent.com/FP-Leo/School-Projects/main/movie%20-%2
 version="1.0"
 >
 
+<!-- ROOT ELEMENT - MOVIES SCHEMA -->
 <xs:element name="movies" type="movieListType"/>
 
 <xs:complexType name="movieListType">
@@ -14,14 +15,21 @@ version="1.0"
 	</xs:sequence>
 </xs:complexType>
 
+<!-- MOVIE SCHEMA -->
 <xs:complexType name="movieType">
 	<xs:sequence>
 		<xs:element name="plot" type="xs:string" minOccurs="0"/>
+		<!-- Design implemented at Production Schema below-->
 		<xs:element name="production" type="productionType"/>
+		<!-- Design implemented at Creative Team Schema below-->
 		<xs:element name="creative_team"/>
+		<!-- Design implemented at Cast Schema below-->
 		<xs:element name="cast"/>
+		<!-- Design implemented at Post Production Schema below-->
 		<xs:element name="post_production"/>
-		<xs:element name="distribution"/>
+		<!-- Design implemented at Release and Distribution Schema below-->
+		<xs:element name="release_and_distribution"/>
+		<!-- Design implemented at Reception Schema Below -->
 		<xs:element name="reception"/>
 	</xs:sequence>
 	<xs:attribute name="id" type="xs:ID" use="required"/>
@@ -89,29 +97,42 @@ version="1.0"
 	</xs:attribute>
 </xs:complexType>
 
+<xs:complexType name="companyType">
+	<xs:sequence>
+		<xs:element name="company" maxOccurs="unbounded">
+			<xs:complexType>
+				<xs:sequence>
+					<xs:element name="name" type="xs:string"/>
+				</xs:sequence>
+			</xs:complexType>
+		</xs:element>
+	</xs:sequence>
+</xs:complexType>
+
+<xs:simpleType name="currencyType">
+	<xs:restriction base="xs:string">
+		<xs:enumeration value="dollar"/>
+		<xs:enumeration value="euro"/>
+		<xs:enumeration value="turkish lira"/>
+	</xs:restriction>
+</xs:simpleType>
+
+<!-- PRODUCTION SCHEMA -->
 <xs:complexType name="productionType">
 	<xs:sequence>
-		<xs:element name="company" type="companyType" maxOccurs="unbounded"/>
+		<xs:element name="companies" type="companyType"/>
 		<xs:element name="budget">
 			<xs:complexType>
 				<xs:sequence>
 					<xs:element name="amount">
 						<xs:simpleType>
 							<xs:restriction base="xs:long">
-								<xs:minInclusive value="0"/>
+								<xs:minInclusive value="1000"/>
 							</xs:restriction>
 						</xs:simpleType>
 					</xs:element>
 				</xs:sequence>
-				<xs:attribute name="currency">
-						<xs:simpleType>
-							<xs:restriction base="xs:string">
-								<xs:enumeration value="dollar"/>
-								<xs:enumeration value="euro"/>
-								<xs:enumeration value="turkish lira"/>
-							</xs:restriction>
-						</xs:simpleType>
-				</xs:attribute>
+				<xs:attribute name="currency" type="currencyType"/>
 			</xs:complexType>
 		</xs:element>
 		<xs:element name="shooting_locations">
@@ -125,10 +146,129 @@ version="1.0"
 	</xs:sequence>
 </xs:complexType>
 
-<xs:complexType name="companyType">
+<!-- CREATIVE TEAM SCHEMA -->
+<xs:complexType name="employeeType">
 	<xs:sequence>
 		<xs:element name="name" type="xs:string"/>
+		<xs:element name="biography" type="xs:string" minOccurs="0"/>
+		<xs:element name="job">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="Director"/>
+					<xs:enumeration value="Screenwriter"/>
+					<xs:enumeration value="Producer"/>
+					<xs:enumeration value="Composer"/>
+					<xs:enumeration value="Actor"/>
+					<xs:enumeration value="Film Editor"/>
+					<xs:enumeration value="Sound Designer"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:element>
 	</xs:sequence>
 </xs:complexType>
+
+<xs:element name="creative_team">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element name="employee" type="employeeType" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+
+<!-- CAST SCHEMA -->
+<xs:complexType name="actorType">
+	<xs:complexContent>
+		<xs:extension base="employeeType">
+			<xs:sequence>
+				<xs:element name="character" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element name="character_description" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element name="role" minOccurs="0" maxOccurs="unbounded">
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Protagonist"/>
+							<xs:enumeration value="Antagonist"/>
+							<xs:enumeration value="Neutral"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+			</xs:sequence>
+		</xs:extension>
+	</xs:complexContent>
+</xs:complexType>
+
+<xs:complexType name="castType">
+	<xs:sequence>
+		<xs:element name="employee" type="actorType"/>
+	</xs:sequence>
+</xs:complexType>
+
+<xs:element name="cast">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element name="lead_role" type="castType"/>
+			<xs:element name="support_role" type="castType"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+
+<!-- POST PRODUCTION SCHEMA -->
+<xs:element name="post_production">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element name="employee" type="employeeType" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="marketing_company" type="companyType" minOccurs="0"/>
+			<xs:element name="publicity_company" type="companyType" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+
+<!-- RELEASE AND DISTRIBUTION SCHEMA -->
+<xs:element name="release_and_distribution">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element name="distribution_company" type="companyType" minOccurs="0"/>
+			<xs:element name="streaming_services" type="companyType" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+
+<!-- RECEPTION SCHEMA -->
+<xs:element name="reception">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element name="viewer_rating">
+				<xs:simpleType>
+					<xs:restriction base="xs:float">
+						<xs:minInclusive value="0.0"/>
+						<xs:maxInclusive value="5.0"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="IMBD">
+				<xs:simpleType>
+					<xs:restriction base="xs:float">
+						<xs:minInclusive value="0.0"/>
+						<xs:maxInclusive value="10.0"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="rotten_tomatoes">
+				<xs:simpleType>
+					<xs:restriction base="xs:float">
+						<xs:minInclusive value="0.0"/>
+						<xs:maxInclusive value="100.0"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="revenue">
+				<xs:simpleType>
+					<xs:restriction base="xs:long">
+						<xs:minInclusive value="1000"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
 
 </xs:schema>
