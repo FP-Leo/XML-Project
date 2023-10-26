@@ -71,67 +71,67 @@
 	<xs:attribute name="id" type="xs:ID" use="required"/>
 	<xs:attribute name="title" type="xs:string" use="required"/>
 	<xs:attribute name="release_date" type="xs:date" use="optional"/>
-	<xs:attribute name="duration" use="optional">
-		<xs:simpleType>
-			<xs:restriction base="xs:integer">
-				<xs:minInclusive value="60"/>
-			</xs:restriction>
-		</xs:simpleType>
-	</xs:attribute>
-	<xs:attribute name="rating" use="optional">
-		<xs:simpleType>
-			<xs:restriction base="xs:string">
-				<xs:enumeration value="G"/>
-				<xs:enumeration value="PG"/>
-				<xs:enumeration value="PG-13"/>
-				<xs:enumeration value="R"/>
-				<xs:enumeration value="NC-17"/>
-				<xs:enumeration value="X"/>
-			</xs:restriction>
-		</xs:simpleType>
-	</xs:attribute>
-	<xs:attribute name="genre" use="required">
-		<xs:simpleType>
-			<xs:restriction base="xs:string">
-				<xs:enumeration value="Action"/>
-				<xs:enumeration value="Adventure"/>
-				<xs:enumeration value="Animation"/>
-				<xs:enumeration value="Biographical"/>
-				<xs:enumeration value="BlackComedy"/>
-				<xs:enumeration value="Children's"/>
-				<xs:enumeration value="Comedy"/>
-				<xs:enumeration value="Crime"/>
-				<xs:enumeration value="Cult"/>
-				<xs:enumeration value="Disaster"/>
-				<xs:enumeration value="Documentary"/>
-				<xs:enumeration value="Drama"/>
-				<xs:enumeration value="Erotic"/>
-				<xs:enumeration value="Family"/>
-				<xs:enumeration value="Fantasy"/>
-				<xs:enumeration value="FilmNoir"/>
-				<xs:enumeration value="Historical"/>
-				<xs:enumeration value="Horror"/>
-				<xs:enumeration value="Independent"/>
-				<xs:enumeration value="Music"/>
-				<xs:enumeration value="Musical"/>
-				<xs:enumeration value="Mystery"/>
-				<xs:enumeration value="Political"/>
-				<xs:enumeration value="Psychological"/>
-				<xs:enumeration value="Romance"/>
-				<xs:enumeration value="Satire"/>
-				<xs:enumeration value="ScienceFiction"/>
-				<xs:enumeration value="Silent"/>
-				<xs:enumeration value="Social"/>
-				<xs:enumeration value="Sports"/>
-				<xs:enumeration value="Supernatural"/>
-				<xs:enumeration value="Suspense"/>
-				<xs:enumeration value="Thriller"/>
-				<xs:enumeration value="War"/>
-				<xs:enumeration value="Western"/>
-			</xs:restriction>
-		</xs:simpleType>
-	</xs:attribute>
+	<xs:attribute name="duration" use="optional" type="durationType"/>
+	<xs:attribute name="rating" use="optional" type="ratingType"/>
+	<xs:attribute name="genre" use="required" type="genreType"/>
 </xs:complexType>
+
+<xs:simpleType name="durationType">
+	<xs:restriction base="xs:integer">
+		<xs:minInclusive value="60"/>
+	</xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="ratingType">
+	<xs:restriction base="xs:string">
+		<xs:enumeration value="G"/>
+		<xs:enumeration value="PG"/>
+		<xs:enumeration value="PG-13"/>
+		<xs:enumeration value="R"/>
+		<xs:enumeration value="NC-17"/>
+		<xs:enumeration value="X"/>
+	</xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="genreType">
+	<xs:restriction base="xs:string">
+		<xs:enumeration value="Action"/>
+		<xs:enumeration value="Adventure"/>
+		<xs:enumeration value="Animation"/>
+		<xs:enumeration value="Biographical"/>
+		<xs:enumeration value="BlackComedy"/>
+		<xs:enumeration value="Children's"/>
+		<xs:enumeration value="Comedy"/>
+		<xs:enumeration value="Crime"/>
+		<xs:enumeration value="Cult"/>
+		<xs:enumeration value="Disaster"/>
+		<xs:enumeration value="Documentary"/>
+		<xs:enumeration value="Drama"/>
+		<xs:enumeration value="Erotic"/>
+		<xs:enumeration value="Family"/>
+		<xs:enumeration value="Fantasy"/>
+		<xs:enumeration value="FilmNoir"/>
+		<xs:enumeration value="Historical"/>
+		<xs:enumeration value="Horror"/>
+		<xs:enumeration value="Independent"/>
+		<xs:enumeration value="Music"/>
+		<xs:enumeration value="Musical"/>
+		<xs:enumeration value="Mystery"/>
+		<xs:enumeration value="Political"/>
+		<xs:enumeration value="Psychological"/>
+		<xs:enumeration value="Romance"/>
+		<xs:enumeration value="Satire"/>
+		<xs:enumeration value="ScienceFiction"/>
+		<xs:enumeration value="Silent"/>
+		<xs:enumeration value="Social"/>
+		<xs:enumeration value="Sports"/>
+		<xs:enumeration value="Supernatural"/>
+		<xs:enumeration value="Suspense"/>
+		<xs:enumeration value="Thriller"/>
+		<xs:enumeration value="War"/>
+		<xs:enumeration value="Western"/>
+	</xs:restriction>
+</xs:simpleType>
 
 <!-- ___________________________________________________________________  -->
 

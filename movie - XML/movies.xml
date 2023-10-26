@@ -187,7 +187,7 @@
 			</revenue>
 		</reception>
 	</movie>
-<movie id="ID-2" title="Green Mile" genre="Drama" release_date="1999-12-10" duration="189" rating="PG">
+	<movie id="ID-2" title="Green Mile" genre="Drama" release_date="1999-12-10" duration="189" rating="PG">
 		<plot>
 				At a Louisiana assisted-living home in 1999, retiree Paul Edgecomb begins to cry while watching the film Top Hat. His companion Elaine becomes concerned, and Paul explains to her that the film reminded him of events that he witnessed when he was an officer at Cold Mountain Penitentiary's death row, nicknamed "The Green Mile".
 				In 1935, Paul supervised Corrections Officers Brutus "Brutal" Howell, Dean Stanton, Harry Terwilliger, and Percy Wetmore, reporting to Warden Hal Moores. Percy, the nephew of the state governor's wife, demonstrates a severe sadistic streak but flaunts his family connections to avoid being held accountable. He is particularly abusive towards prisoner Eduard "Del" Delacroix, breaking his fingers and killing his pet mouse, Mr. Jingles.
@@ -345,6 +345,177 @@
 			<revenue>
 				<currency>Dollar</currency>
 				<amount>286800000</amount>
+			</revenue>
+		</reception>
+	</movie>
+	<movie id="ID-3 title="Titanic" genre="Drama" release_date="1997-11-01" duration="195" rating="PG">
+		<plot>
+			In 1996, aboard the research vessel Akademik Mstislav Keldysh, Brock Lovett and his team search the wreck of RMS Titanic. They recover a safe they hope contains a necklace with a large diamond known as the Heart of the Ocean. Instead, they find only a drawing of a young nude woman wearing the necklace. The sketch is dated April 14, 1912, the same day the Titanic struck the iceberg that caused it to sink. After viewing a television news story about the discovery, centenarian Rose Dawson Calvert contacts Lovett, identifying herself as the woman in the drawing. Hoping she can help locate the necklace, Lovett brings Rose aboard Keldysh, where she recounts her experiences as a Titanic passenger.
+			In 1912 Southampton, 17-year-old Rose DeWitt Bukater, her wealthy fiancé Caledon "Cal" Hockley and Rose's widowed mother Ruth board the Titanic. Ruth emphasizes that Rose's marrying Cal will resolve the family's financial problems and maintain their upper-class status. Meanwhile, Jack Dawson, a poor young artist, wins a third-class Titanic ticket in a poker game. After setting sail, Rose, distraught over her loveless engagement, climbs over the stern railing, intending to commit suicide. Jack coaxes her back onto the deck and they develop a friendship. Jack soon admits that he has feelings for Rose. When Cal and Ruth object, Rose rejects Jack's attentions, but returns to him after realizing she has fallen in love.
+			Rose brings Jack to her state room and requests he draw her nude, wearing only the Heart of the Ocean. They later evade Cal's servant, Lovejoy, and have sex in a Renault Towncar inside the cargo hold. On the forward deck, they witness the ship's collision with an iceberg and overhear its officers discussing its seriousness. Cal discovers Jack's sketch and an insulting note from Rose in his safe, along with the necklace. When Jack and Rose return to warn the others about the collision, Cal has Lovejoy slip the necklace into Jack's pocket to frame him for theft. Jack is confined in the master-at-arms' office. Cal puts the necklace into his own overcoat pocket.
+			With the ship sinking, the crew prioritize women and children for evacuation. Rose finds and frees Jack, and they make it back to the deck, where Cal and Jack urge Rose to board a lifeboat. Intending to save himself, Cal lies that he will get Jack safely off the ship and wraps his overcoat around Rose. As her lifeboat is lowered, Rose, unable to abandon Jack, jumps back onto the ship. Cal grabs Lovejoy's pistol and chases Jack and Rose, but they escape. Cal realizes the necklace is still in the coat he gave Rose. He poses as a lost child's father to board a lifeboat.
+			Jack and Rose return to the deck. The ship's stern is rising as the flooded bow sinks; the two desperately cling to the stern rail. The upended ship breaks in half and the bow section sinks. The stern slams back onto the ocean, upends again and sinks. In the freezing water, Jack helps Rose onto a wood transom panel among the debris, buoyant enough only for one person, and makes her promise to survive. Jack dies of cold shock, but Rose is among six people saved by the one returning lifeboat. RMS Carpathia rescues the survivors. Rose avoids Cal and her mother by hiding among the steerage passengers and giving her name as Rose Dawson. Still wearing Cal's overcoat, she discovers the necklace tucked inside the pocket.
+			In the present, Rose says she heard that Cal committed suicide after losing his fortune in the Wall Street Crash of 1929. Lovett abandons his search after hearing Rose's story. Alone on the stern of Keldysh, Rose takes the Heart of the Ocean, which has been in her possession all along, and drops it into the sea over the wreck site. While she is seemingly asleep in her bed, her photos on the dresser depict a life of freedom and adventure inspired by Jack. A young Rose reunites with Jack at the Titanic's Grand Staircase, applauded by those who died that night.
+		</plot>
+		<production>
+			<companies>
+				<company>
+					<name>Paramount Pictures</name>
+				</company>
+				<company>
+					<name>20th Century Studios</name>
+				</company>
+				<company>
+					<name>Lightstorm Entertainment</name>
+				</company>
+			</companies>
+			<budget>
+				<currency>Dollar</currency>
+				<amount>200000000</amount>
+			</budget>
+			<shooting_locations>
+				<country name="United Kingdom">
+					<cities>United States</cities>
+				</country>
+			</shooting_locations>
+		</production>
+		<creative_team>
+			<employee>
+				<name>James Cameron</name>
+				<biography>	
+					James Francis Cameron CC (born August 16, 1954) is a Canadian filmmaker. A major figure in the post-New Hollywood era, Cameron is considered one of the industry's most innovative filmmakers, regularly making use of novel technologies. He first gained recognition for writing and directing The Terminator (1984) and found further success with Aliens (1986), The Abyss (1989), Terminator 2: Judgment Day (1991), and the action comedy True Lies (1994). He wrote and directed Titanic (1997), Avatar (2009) and its sequels, with Titanic earning him Academy Awards for Best Picture, Best Director, and Best Film Editing. A recipient of various other industry accolades, two of his films have been selected for preservation in the National Film Registry by the Library of Congress.
+					Cameron co-founded the production companies Lightstorm Entertainment, Digital Domain, and Earthship Productions. In addition to filmmaking, he is a National Geographic sea tourist and has produced many documentaries on the subject, including Ghosts of the Abyss (2003) and Aliens of the Deep (2005). Cameron has also contributed to underwater filming and remote vehicle technologies and helped create the digital 3D Fusion Camera System. In 2012, Cameron became the first person to do a solo descent to the bottom of the Mariana Trench, the deepest part of the Earth's ocean, in the Deepsea Challenger submersible.
+					Cameron's films have grossed over $8 billion worldwide, making him the second-highest-grossing film director of all time. Three of Cameron's films are amongst the top four highest-grossing films of all time; Avatar (2009), Avatar: The Way of Water (2022) and Titanic (1997) are the highest, third-highest and fourth-highest-grossing films of all time, respectively.[1] Cameron directed the first film to gross over $1 billion, the first two films to gross over $2 billion, and is the only director to have had three films gross over $2 billion.[2][3] In 2010, Time named Cameron one of the 100 most influential people in the world. Cameron is also an environmentalist and runs several sustainability businesses.
+				</biography>
+				<job>Director</job>
+			</employee>
+			<employee>
+				<name>James Cameron</name>
+				<biography>	
+					James Francis Cameron CC (born August 16, 1954) is a Canadian filmmaker. A major figure in the post-New Hollywood era, Cameron is considered one of the industry's most innovative filmmakers, regularly making use of novel technologies. He first gained recognition for writing and directing The Terminator (1984) and found further success with Aliens (1986), The Abyss (1989), Terminator 2: Judgment Day (1991), and the action comedy True Lies (1994). He wrote and directed Titanic (1997), Avatar (2009) and its sequels, with Titanic earning him Academy Awards for Best Picture, Best Director, and Best Film Editing. A recipient of various other industry accolades, two of his films have been selected for preservation in the National Film Registry by the Library of Congress.
+					Cameron co-founded the production companies Lightstorm Entertainment, Digital Domain, and Earthship Productions. In addition to filmmaking, he is a National Geographic sea tourist and has produced many documentaries on the subject, including Ghosts of the Abyss (2003) and Aliens of the Deep (2005). Cameron has also contributed to underwater filming and remote vehicle technologies and helped create the digital 3D Fusion Camera System. In 2012, Cameron became the first person to do a solo descent to the bottom of the Mariana Trench, the deepest part of the Earth's ocean, in the Deepsea Challenger submersible.
+					Cameron's films have grossed over $8 billion worldwide, making him the second-highest-grossing film director of all time. Three of Cameron's films are amongst the top four highest-grossing films of all time; Avatar (2009), Avatar: The Way of Water (2022) and Titanic (1997) are the highest, third-highest and fourth-highest-grossing films of all time, respectively.[1] Cameron directed the first film to gross over $1 billion, the first two films to gross over $2 billion, and is the only director to have had three films gross over $2 billion.[2][3] In 2010, Time named Cameron one of the 100 most influential people in the world. Cameron is also an environmentalist and runs several sustainability businesses.
+				</biography>
+				<job>Screenwriter</job>
+			</employee>
+			<employee>
+				<name>James Cameron</name>
+				<biography>	
+					James Francis Cameron CC (born August 16, 1954) is a Canadian filmmaker. A major figure in the post-New Hollywood era, Cameron is considered one of the industry's most innovative filmmakers, regularly making use of novel technologies. He first gained recognition for writing and directing The Terminator (1984) and found further success with Aliens (1986), The Abyss (1989), Terminator 2: Judgment Day (1991), and the action comedy True Lies (1994). He wrote and directed Titanic (1997), Avatar (2009) and its sequels, with Titanic earning him Academy Awards for Best Picture, Best Director, and Best Film Editing. A recipient of various other industry accolades, two of his films have been selected for preservation in the National Film Registry by the Library of Congress.
+					Cameron co-founded the production companies Lightstorm Entertainment, Digital Domain, and Earthship Productions. In addition to filmmaking, he is a National Geographic sea tourist and has produced many documentaries on the subject, including Ghosts of the Abyss (2003) and Aliens of the Deep (2005). Cameron has also contributed to underwater filming and remote vehicle technologies and helped create the digital 3D Fusion Camera System. In 2012, Cameron became the first person to do a solo descent to the bottom of the Mariana Trench, the deepest part of the Earth's ocean, in the Deepsea Challenger submersible.
+					Cameron's films have grossed over $8 billion worldwide, making him the second-highest-grossing film director of all time. Three of Cameron's films are amongst the top four highest-grossing films of all time; Avatar (2009), Avatar: The Way of Water (2022) and Titanic (1997) are the highest, third-highest and fourth-highest-grossing films of all time, respectively.[1] Cameron directed the first film to gross over $1 billion, the first two films to gross over $2 billion, and is the only director to have had three films gross over $2 billion.[2][3] In 2010, Time named Cameron one of the 100 most influential people in the world. Cameron is also an environmentalist and runs several sustainability businesses.
+				</biography>
+				<job>Producer</job>
+			</employee>
+			<employee>
+				<name>Jon Landau</name>
+				<biography>Jon Landau (/ˈlændaʊ/) (born July 23, 1960)[1] is an American film producer, known for producing Titanic (1997), a film which won him an Oscar and earned $2.19 billion in gross revenues, as well as Avatar (2009) and Avatar: The Way of Water (2022), which earned $2.9 billion and $2.2 billion respectively. As of 2023, these are three of the four highest-grossing films of all time.</biography>
+				<job>Producer</job>
+			</employee>
+			<employee>
+				<name>James Horner</name>
+				<biography>	
+					James Roy Horner (August 14, 1953 – June 22, 2015) was an American composer of film scores. He worked on over 160 film and television productions between 1978 and 2015, and was the winner of two Academy Awards, among many other accolades. He was known for the integration of choral and electronic elements alongside traditional orchestrations, and for his use of motifs associated with Celtic music.[1][2]
+					Horner won two Academy Awards for James Cameron's Titanic (1997), for which he composed the best-selling orchestral film soundtrack of all time.[3][4] He also wrote the score for the highest-grossing film of all time, Cameron's Avatar.[5] Horner's other Oscar-nominated scores were for Aliens (1986), An American Tail (1986), Field of Dreams (1989), Apollo 13 (1995), Braveheart (1995), A Beautiful Mind (2001), and House of Sand and Fog (2003). Horner's other notable scores include Star Trek II: The Wrath of Khan (1982),[6] Willow (1988), The Land Before Time (1988), Glory (1989), The Rocketeer (1991), Legends of the Fall (1994), Jumanji (1995), The Mask of Zorro (1998), How the Grinch Stole Christmas (2000), Troy (2004), The New World (2005), Apocalypto (2006), and The Karate Kid (2010).
+					Horner collaborated on multiple projects with directors including Don Bluth, James Cameron, Jean-Jacques Annaud, Joe Johnston, Walter Hill, Mel Gibson, Vadim Perelman, Ron Howard, Edward Zwick, Nicholas Meyer, Wolfgang Petersen, Martin Campbell, Phil Nibbelink and Simon Wells; producers including George Lucas, David Kirschner, Lawrence Gordon, Jon Landau, Brian Grazer and Steven Spielberg; and songwriters including Will Jennings, Barry Mann and Cynthia Weil. He won two Academy Awards; Best Original Score for Titanic and Best Original Song for "My Heart Will Go On", six Grammy Awards, two Golden Globes, and was nominated for three BAFTA Awards.
+					Horner, who was an avid pilot, was killed in a single-fatality crash while flying his Short Tucano turboprop aircraft. He was 61 years old.[7] The scores for his final three films, Southpaw (2015), The 33 (2015) and The Magnificent Seven (2016), were all completed and released posthumously.
+				</biography>
+				<job>Composer</job>
+			</employee>
+		</creative_team>
+		<cast>
+			<lead_role>
+				<employee>
+					<name>Leonardo DiCaprio</name>
+					<job>Actor</job>
+					<character>Jack Dawson</character>
+					<character_description> </character_description>
+					<role>Protagonist</role>
+				</employee>
+				<employee>
+					<name>Kate Winslet</name>
+					<job>Actor</job>
+					<character>Rose DeWitt BuKater</character>
+					<character_description> </character_description>
+					<role>Protagonist</role>
+				</employee>
+				<employee>
+					<name>Billy Zane</name>
+					<job>Actor</job>
+					<character>Cadelon Hockley</character>
+					<character_description> </character_description>
+					<role>Antagonist</role>
+				</employee>
+			</lead_role>
+			<support_role>
+				<employee>
+					<name>Kathy Bates</name>
+					<job>Actor</job>
+					<character>Molly Brown</character>
+					<character_description> </character_description>
+					<role>Neutral</role>
+				</employee>
+				<employee>
+					<name>Gloria Stuart</name>
+					<job>Actor</job>
+					<character>Rose DeWitt BuKater</character>
+					<character_description> </character_description>
+					<role>Neutral</role>
+				</employee>
+			</support_role>
+		</cast>
+		<post_production>
+			<employee>
+				<name>Conrad Buff</name>
+				<biography>Conrad Buff IV (born July 8, 1948) is an American film editor with more than 25 film credits since 1985. Buff is known for winning an Academy Award for Best Film Editing and an ACE Eddie Award for Titanic (1997); the awards were shared with his co-editors James Cameron and Richard A. Harris. He won the 2000 Satellite Award for Best Editing for Thirteen Days.</biography>
+				<job>Film Editor</job>
+			</employee>
+			<employee>
+				<name>Richard A. Harris</name>
+				<biography>Richard A. Harris (born February 6, 1934) is an American film editor with a career spanning nearly forty years. He graduated from the School of Cinematic Arts of the University of Southern California in 1956. He is most associated with the films of Michael Ritchie (Downhill Racer, The Candidate, An Almost Perfect Affair) and James Cameron (Terminator 2: Judgment Day, True Lies).</biography>
+				<job>Film Editor</job>
+			</employee>
+			<employee>
+				<name>Christopher Boyes</name>
+				<biography>Christopher Boyes is an American sound engineer. He has won four Academy Awards and has been nominated for another eleven. He has worked on more than 100 films since 1991.</biography>
+				<job>Sound Designer</job>
+			</employee>
+			<marketing_company>
+				<company>
+					<name> </name>
+				</company>
+			</marketing_company>
+			<publicity_company>
+				<company>
+					<name> </name>
+				</company>
+			</publicity_company>
+		</post_production>
+		<release_and_distribution>
+			<distribution_company>
+				<company>
+					<name> </name>
+				</company>
+			</distribution_company>
+			<streaming_services>
+				<company>
+					<name> </name>
+				</company>
+				<company>
+					<name> </name>
+				</company>
+				<company>
+					<name> </name>
+				</company>
+			</streaming_services>
+		</release_and_distribution>
+		<reception>
+			<viewer_rating>4.0</viewer_rating>
+			<IMDb>7.9</IMDb>
+			<rotten_tomatoes>88</rotten_tomatoes>
+			<revenue>
+				<currency>Dollar</currency>
+				<amount>2257000000000</amount>
 			</revenue>
 		</reception>
 	</movie>
