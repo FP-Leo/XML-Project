@@ -187,4 +187,165 @@
 			</revenue>
 		</reception>
 	</movie>
+<movie id="ID-2" title="Green Mile" genre="Drama" release_date="1999-12-10" duration="189" rating="PG">
+		<plot>
+				At a Louisiana assisted-living home in 1999, retiree Paul Edgecomb begins to cry while watching the film Top Hat. His companion Elaine becomes concerned, and Paul explains to her that the film reminded him of events that he witnessed when he was an officer at Cold Mountain Penitentiary's death row, nicknamed "The Green Mile".
+				In 1935, Paul supervised Corrections Officers Brutus "Brutal" Howell, Dean Stanton, Harry Terwilliger, and Percy Wetmore, reporting to Warden Hal Moores. Percy, the nephew of the state governor's wife, demonstrates a severe sadistic streak but flaunts his family connections to avoid being held accountable. He is particularly abusive towards prisoner Eduard "Del" Delacroix, breaking his fingers and killing his pet mouse, Mr. Jingles.
+				Paul is introduced to John Coffey, a physically imposing but mild-mannered black man sentenced to death after being convicted of raping and murdering two young white girls. He joins Del and another condemned convict: Arlen Bitterbuck, the first to be executed. The officers are forced to deal with psychotic new inmate William "Wild Bill" Wharton, who frequently causes trouble by assaulting the officers and racially abusing John, forcing them to restrain him in the block's padded cell on more than one occasion.
+				After John heals Paul's severe bladder infection by touching him, and later resurrects Mr. Jingles, Paul gradually realizes that John possesses a supernatural ability to heal others. Paul doubts whether someone with the power to perform divine miracles is truly guilty of the crime.
+				In exchange for resigning from the penitentiary and accepting a job at an insane asylum, Percy is allowed to oversee Del's execution. At the execution, Percy deliberately avoids soaking the sponge used to conduct electricity to Del's head, leading to Del suffering a gruesome and agonizing death by burning, with John forced to feel Del's pain as well. Paul and the other officers punish Percy by forcing him to spend a night in the padded cell. While Percy is locked away, they drug Wharton and secretly smuggle John out of the prison so that he can use his powers to heal Warden Moores' wife Melinda of a brain tumor, saving her life. After Percy is released from the padded room, the others threaten to report him for his various acts of misconduct if his behavior continues.
+				John uses his powers to "release" Melinda's affliction into Percy's brain, causing Percy to shoot Wharton dead. Soon after, John reveals in a vision to Paul that Wharton was the true culprit of the crimes for which he was wrongfully condemned, releasing his supernatural energy into Paul in the process. Having gone into a catatonic state, Percy is committed to the same insane asylum where he had planned to work after resigning from the prison.
+				After realizing that John is innocent, Paul becomes distraught at the thought of executing him and offers to let him go free. John tells Paul that the execution would be an act of mercy, as he views the world as a cruel place and is in constant pain from the suffering that people inflict upon each other. Mentioning that he has never seen a movie before, John watches Top Hat with the other officers as his last request. As John is taken to be executed, he is mercilessly scorned by the parents of the two girls who still believe him to be guilty. He asks not to have a hood placed over his head as he is afraid of the dark. Paul, Brutal, and the officers watch in great sadness, visibly holding back tears as John is executed.
+				Back in present day, Paul tells Elaine that John's execution was the last that he and Brutal witnessed, as they both subsequently resigned from the prison and took jobs in the juvenile system. Paul reveals to Elaine that Mr. Jingles is still alive, having been blessed with a supernaturally long life thanks to John's healing touch. He also reveals that he is now 108 years old; he was 44 when John was executed. While Elaine sees Paul's long life as another of John's miracles, Paul speculates that he may have been condemned to linger on Earth and outlive all of his loved ones as a divine punishment for John's execution. Paul later attends Elaine's funeral and muses on how much longer he has left to live, saying, "We each owe a death. There are no exceptions. But, oh, God... sometimes, the Green Mile seems so long."
+		</plot>
+		<production>
+			<companies>
+				<company>
+					<name>Castle Rock Entertainment </name>
+				</company>
+				<company>
+					<name>Darkwoods Productions</name>
+				</company>
+			</companies>
+			<budget>
+				<currency>Dollar</currency>
+				<amount>60000000</amount>
+			</budget>
+			<shooting_locations>
+				<country name="United Kingdom">
+					<cities>United States</cities>
+				</country>
+			</shooting_locations>
+		</production>
+		<creative_team>
+			<employee>
+				<name>Frank Darabont</name>
+				<biography>	
+					Frank Árpád Darabont (born Ferenc Árpád Darabont, January 28, 1959) is a French-born American filmmaker. He has been nominated for three Academy Awards and a Golden Globe Award. In his early career, he was primarily a screenwriter for such horror films as A Nightmare on Elm Street 3: Dream Warriors (1987), The Blob (1988) and The Fly II (1989). As a director, he is known for his film adaptations of Stephen King novellas and novels, such as The Shawshank Redemption (1994), The Green Mile (1999), and The Mist (2007).
+					Darabont also developed and executive-produced the first season and first half of the second season of the AMC horror series The Walking Dead (2010–2011).	
+				</biography>
+				<job>Director</job>
+			</employee>
+			<employee>
+				<name>Frank Darabont</name>
+				<biography>Frank Árpád Darabont (born Ferenc Árpád Darabont, January 28, 1959) is a French-born American filmmaker. He has been nominated for three Academy Awards and a Golden Globe Award. In his early career, he was primarily a screenwriter for such horror films as A Nightmare on Elm Street 3: Dream Warriors (1987), The Blob (1988) and The Fly II (1989). As a director, he is known for his film adaptations of Stephen King novellas and novels, such as The Shawshank Redemption (1994), The Green Mile (1999), and The Mist (2007). Darabont also developed and executive-produced the first season and first half of the second season of the AMC horror series The Walking Dead (2010–2011).</biography>
+				<job>Screenwriter</job>
+			</employee>
+			<employee>
+				<name>Frank Darabont</name>
+				<biography>Frank Árpád Darabont (born Ferenc Árpád Darabont, January 28, 1959)[2] is a French-born American filmmaker. He has been nominated for three Academy Awards and a Golden Globe Award. In his early career, he was primarily a screenwriter for such horror films as A Nightmare on Elm Street 3: Dream Warriors (1987), The Blob (1988) and The Fly II (1989). As a director, he is known for his film adaptations of Stephen King novellas and novels, such as The Shawshank Redemption (1994), The Green Mile (1999), and The Mist (2007).Darabont also developed and executive-produced the first season and first half of the second season of the AMC horror series The Walking Dead (2010–2011).</biography>
+				<job>Producer</job>
+			</employee>
+			<employee>
+				<name>David Valdes</name>
+				<biography>David Valdes (born August 12, 1950, in Los Angeles) is an American film producer known for working in the western genre and collaborating with Clint Eastwood. His first production experience was as a guest on a film called Diary of a Mad Housewife, which was shot in his hometown in 1969.</biography>
+				<job>Producer</job>
+			</employee>
+			<employee>
+				<name>Thomas Newman</name>
+				<biography>	
+					Thomas Montgomery Newman (born October 20, 1955) is an American composer and conductor best known for his many film scores. In a career that has spanned over four decades, he has scored numerous films including The Player (1992), The Shawshank Redemption (1994), The Horse Whisperer (1998), American Beauty and The Green Mile (both 1999), In the Bedroom (2001), Road to Perdition and White Oleander (both 2002), Finding Nemo (2003), Lemony Snicket's A Series of Unfortunate Events (2004), Cinderella Man (2005), WALL-E (2008), the James Bond films Skyfall (2012) and Spectre (2015), Finding Dory (2016), 1917 (2019), and Elemental (2023). He also composed the music for the 2003 HBO miniseries Angels in America. Throughout his career, he has collaborated extensively with directors such as Sam Mendes, Andrew Stanton, Frank Darabont, Steven Soderbergh, Jon Avnet, John Madden and John Lee Hancock.
+					Newman has been nominated for fifteen Academy Awards, tying him with fellow composer Alex North for the most nominations without a win. He has also been nominated for four Golden Globes, and has won two BAFTAs, six Grammys and an Emmy Award. Newman was honored with the Richard Kirk award at the 2000 BMI Film and TV Awards. The award is given annually to a composer who has made significant contributions to film and television music.[1] His achievements have contributed to the Newmans being the most nominated Academy Award extended family, with a collective 92 nominations in various music categories.
+				</biography>
+				<job>Composer</job>
+			</employee>
+		</creative_team>
+		<cast>
+			<lead_role>
+				<employee>
+					<name>Tom Hanks</name>
+					<job>Actor</job>
+					<character>Paul Edgecomb</character>
+					<character_description> </character_description>
+					<role>Protagonist</role>
+				</employee>
+				<employee>
+					<name>David Morse</name>
+					<job>Actor</job>
+					<character>Brutus Howell</character>
+					<character_description> </character_description>
+					<role>Protagonist</role>
+				</employee>
+				<employee>
+					<name>Michael Clarke Duncan</name>
+					<job>Actor</job>
+					<character>John Coffey</character>
+					<character_description> </character_description>
+					<role>Protagonist</role>
+				</employee>
+				<employee>
+					<name>Sam Rockwell</name>
+					<job>Actor</job>
+					<character>Wild Bill</character>
+					<character_description> </character_description>
+					<role>Antagonist</role>
+				</employee>
+			</lead_role>
+			<support_role>
+				<employee>
+					<name>Patricia Clarkson</name>
+					<job>Actor</job>
+					<character>Melinda Moores</character>
+					<character_description> </character_description>
+					<role>Neutral</role>
+				</employee>
+				<employee>
+					<name>Bonnie Hunt</name>
+					<job>Actor</job>
+					<character>Jan Engecomb</character>
+					<character_description> </character_description>
+					<role>Neutral</role>
+				</employee>
+			</support_role>
+		</cast>
+		<post_production>
+			<employee>
+				<name>Richard Francis-Bruce</name>
+				<biography>Richard Leslie Francis-Bruce AM (born 10 December 1948) is an Australian film editor who has received several nominations for the Academy Award for Best Film Editing. </biography>
+				<job>Film Editor</job>
+			</employee>
+			<employee>
+				<name>Robert J. Litt</name>
+				<biography> </biography>
+				<job>Sound Designer</job>
+			</employee>
+			<marketing_company>
+				<company>
+					<name> </name>
+				</company>
+			</marketing_company>
+			<publicity_company>
+				<company>
+					<name> </name>
+				</company>
+			</publicity_company>
+		</post_production>
+		<release_and_distribution>
+			<distribution_company>
+				<company>
+					<name> </name>
+				</company>
+			</distribution_company>
+			<streaming_services>
+				<company>
+					<name> </name>
+				</company>
+				<company>
+					<name> </name>
+				</company>
+				<company>
+					<name> </name>
+				</company>
+			</streaming_services>
+		</release_and_distribution>
+		<reception>
+			<viewer_rating>4.0</viewer_rating>
+			<IMDb>8.6</IMDb>
+			<rotten_tomatoes>79</rotten_tomatoes>
+			<revenue>
+				<currency>Dollar</currency>
+				<amount>286800000</amount>
+			</revenue>
+		</reception>
+	</movie>
 </movies>
