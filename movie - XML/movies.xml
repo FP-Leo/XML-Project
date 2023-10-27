@@ -1424,4 +1424,154 @@
 			</revenue>
 		</reception>
 	</movie>
+	<movie id="ID-10" title="The Notebook" genre="Drama" release_date="2004-05-20" duration="124" rating="PG">
+		<plot>
+				The Notebook is a 2004 American romantic drama film directed by Nick Cassavetes, from a screenplay by Jeremy Leven and Jan Sardi, and based on the 1996 novel of the same name by Nicholas Sparks. The film stars Ryan Gosling and Rachel McAdams as a young couple who fall in love in the 1940s. Their story is read from a notebook in the present day by an elderly man, telling the tale to a fellow nursing home resident.
+				The Notebook had its world premiere at the Seattle International Film Festival on May 20, 2004, and was theatrically released in the United States on June 25, 2004. Despite generally mixed reviews from critics, Gosling and McAdams were singled out for praise for their performances. The film was a sleeper hit at the box office, grossing $117 million against its $29 million budget, and has become a cult classic in the years since its release. On November 11, 2012, an extended version premiered on ABC Family with deleted scenes added back into the original storyline.
+				The film earned several accolades, including the MTV Movie Award for Best Kiss for Gosling and McAdams at the 2005 MTV Movie Awards. At the 11th Screen Actors Guild Awards, James Garner was nominated for Outstanding Performance by a Male Actor in a Supporting Role and Gena Rowlands won Best Supporting Actress – Drama at the 9th Golden Satellite Awards.
+		</plot>
+		<production>
+			<companies>
+				<company>
+					<name>Gran Via</name>
+				</company>
+			</companies>
+			<budget>
+				<currency>Dollar</currency>
+				<amount>29000000</amount>
+			</budget>
+			<shooting_locations>
+				<country name="United Kingdom">
+					<cities>United States</cities>
+				</country>
+			</shooting_locations>
+		</production>
+		<creative_team>
+			<employee>
+				<name>Nick Cassavetes</name>
+				<biography>	
+					Nicholas David Rowland Cassavetes (born May 21, 1959) is an American actor, director, and writer. He has directed such films as She's So Lovely (1997), John Q. (2002), The Notebook (2004), Alpha Dog (2006), and My Sister's Keeper (2009). His acting credits include an uncredited role in Husbands (1970)—which was directed by his father, John Cassavetes—as well as roles in the films The Wraith (1986), Face/Off (1997), and Blow (2001).
+				</biography>
+				<job>Director</job>
+			</employee>
+			<employee>
+				<name>Jeremy Leven</name>
+				<biography>	
+					Jeremy Leven (born August 16, 1941) is an American screenwriter, director, producer, and novelist. Born in South Bend, Indiana, Leven lives in Woodbridge, Connecticut, Paris, and New York City.
+				</biography>
+				<job>Screenwriter</job>
+			</employee>
+			<employee>
+				<name>Basil Iwanyk</name>
+				<biography>	
+					Basil William Iwanyk (born January 4, 1970) is an American film producer. He is the founder of Thunder Road Films and most known for Sicario, The Town, Greenland and the John Wick franchise. His films have earned more than $2 billion internationally as of 2018. He is of Ukrainian descent.
+					After starting out working for Warner Bros in the 1990s, Basil founded his own company, Thunder Road, in 2000. The company has a stellar reputation within the industry and a remarkable track record of critical and commercial success.</biography>
+				<job>Producer</job>
+			</employee>
+			<employee>
+				<name>Aaron Zigman</name>
+				<biography>	
+					Aaron Zigman (born January 6, 1963) is a classically-trained American composer, producer, arranger, songwriter, and musician who has scored music for films including The Notebook, The Company Men, Bridge to Terabithia, John Q., The Proposal, Flicka, For Colored Girls, Flash of Genius, Sex & the City, Alpha Dog, and Escape from Planet Earth. He has also written, arranged and produced over 50 hit albums, and co-written songs with legendary and contemporary artists including Quincy Jones, Christina Aguilera, Phil Collins, Was (Not Was), John Legend, Dionne Warwick, Ray Charles, Natalie Cole, Aretha Franklin, Tina Turner, and Seal.
+				</biography>
+				<job>Composer</job>
+			</employee>
+		</creative_team>
+		<cast>
+			<lead_role>
+				<employee>
+					<name>Ryan Gosling</name>
+					<job>Actor</job>
+					<character>Noah Calhoun</character>
+					<character_description> </character_description>
+					<role>Protagonist</role>
+				</employee>
+				<employee>
+					<name>Rachel McAdams</name>
+					<job>Actor</job>
+					<character>Allie Hamilton</character>
+					<character_description> </character_description>
+					<role>Protagonist</role>
+				</employee>
+				<employee>
+					<name>James Garner</name>
+					<job>Actor</job>
+					<character>Noah Calhoun</character>
+					<character_description> </character_description>
+					<role>Protagonist</role>
+				<employee>
+					<name>Gena Rowlands</name>
+					<job>Actor</job>
+					<character>Allie Hamilton</character>
+					<character_description> </character_description>
+					<role>Protagonist</role>
+				</employee>
+				</employee>
+			</lead_role>
+			<support_role>
+				<employee>
+					<name>James Marsden</name>
+					<job>Actor</job>
+					<character>Lon Hammond</character>
+					<character_description> </character_description>
+					<role>Neutral</role>
+				</employee>
+				<employee>
+					<name>Jamie Anne Allmank</name>
+					<job>Actor</job>
+					<character>Martha Shaw</character>
+					<character_description> </character_description>
+					<role>Neutral</role>
+				</employee>
+			</support_role>
+		</cast>
+		<post_production>
+			<employee>
+				<name>Justine Halliday</name>
+				<biography></biography>
+				<job>Film Editor</job>
+			</employee>
+			<employee>
+				<name>Claude Letessier</name>
+				<biography>Letessier studied psycho-acoustics and political economy (PhD) before starting what would become the most important music production and sound design company in Europe: Vol de Nuit. In 1996, upon his invitation, he joined long time friend Hans Zimmer, to create a sound design division at Media Ventures in Santa Monica and collaborate with Hans on numerous major projects. Working with Terrence Malick on The Thin Red Line (1998) as a sound designer and an ethnomusicologist (Malick and Letessier produced a CD of the Solomon Islands Melanesian choirs: The Blessed Islands) and _Endurance (1998)_ certainly was the highlight of his career. Letessier has art directed soundscapes, created and composed sounds and sound design for some of the most prestigious and creative directors: Steven Spielberg, Marc Pellington, Tarsem, Wong-Kar Wai, Michael Bay, Wim Wenders, Terrence Malick to name a few.</biography>
+				<job>Sound Designer</job>
+			</employee>
+			<marketing_company>
+				<company>
+					<name> </name>
+				</company>
+			</marketing_company>
+			<publicity_company>
+				<company>
+					<name> </name>
+				</company>
+			</publicity_company>
+		</post_production>
+		<release_and_distribution>
+			<distribution_company>
+				<company>
+					<name> </name>
+				</company>
+			</distribution_company>
+			<streaming_services>
+				<company>
+					<name> </name>
+				</company>
+				<company>
+					<name> </name>
+				</company>
+				<company>
+					<name> </name>
+				</company>
+			</streaming_services>
+		</release_and_distribution>
+		<reception>
+			<viewer_rating>3</viewer_rating>
+			<IMDb>7.8</IMDb>
+			<rotten_tomatoes>54</rotten_tomatoes>
+			<revenue>
+				<currency>Dollar</currency>
+				<amount>117800000</amount>
+			</revenue>
+		</reception>
+	</movie>
 </movies>
