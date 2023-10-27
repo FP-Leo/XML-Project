@@ -2,7 +2,7 @@
 <!-- Movies tag represents a list of movies -->
 <movies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		xsi:noNamespaceSchemaLocation="moviesSchema.xsd">
-	<movie id="ID-1" title="Harry Potter And The Philosopher Stone" genre="Fantasy" release_date="2002-02-01" duration="152" rating="PG">
+	<movie id="ID-1" title="Harry Potter And The Philosopher Stone" genre="Fantasy" release_date="2001-11-04" duration="152" rating="PG">
 		<plot>	
 				Late one night, Albus Dumbledore and Minerva McGonagall, professors at Hogwarts School of Witchcraft and Wizardry, along with groundskeeper Rubeus Hagrid, deliver an orphaned infant wizard named Harry Potter to his Muggle aunt and uncle, Petunia and Vernon Dursley, his only living relatives.
 				Ten years later, just before Harry's eleventh birthday, owls begin delivering letters addressed to him. When the abusive Dursleys adamantly refuse to allow Harry to open any and flee to an island hut, Hagrid arrives to personally deliver Harry's letter of acceptance to Hogwarts. Hagrid also reveals that Harry's parents, James and Lily, were killed by a dark wizard named Lord Voldemort. The killing curse that Voldemort had cast towards Harry rebounded, destroying Voldemort's body and giving Harry his lightning-bolt scar. Hagrid then takes Harry to Diagon Alley for school supplies and gives him a pet snowy owl whom he names Hedwig. Harry buys a wand that is connected to Voldemort's own wand.
@@ -187,7 +187,7 @@
 			</revenue>
 		</reception>
 	</movie>
-	<movie id="ID-2" title="Green Mile" genre="Drama" release_date="1999-12-10" duration="189" rating="PG">
+	<movie id="ID-2" title="Green Mile" genre="Drama" release_date="1999-12-10" duration="189" rating="PG-13">
 		<plot>
 				At a Louisiana assisted-living home in 1999, retiree Paul Edgecomb begins to cry while watching the film Top Hat. His companion Elaine becomes concerned, and Paul explains to her that the film reminded him of events that he witnessed when he was an officer at Cold Mountain Penitentiary's death row, nicknamed "The Green Mile".
 				In 1935, Paul supervised Corrections Officers Brutus "Brutal" Howell, Dean Stanton, Harry Terwilliger, and Percy Wetmore, reporting to Warden Hal Moores. Percy, the nephew of the state governor's wife, demonstrates a severe sadistic streak but flaunts his family connections to avoid being held accountable. He is particularly abusive towards prisoner Eduard "Del" Delacroix, breaking his fingers and killing his pet mouse, Mr. Jingles.
@@ -221,19 +221,19 @@
 			<employee>
 				<name>Frank Darabont</name>
 				<biography>	
-					Frank Árpád Darabont (born Ferenc Árpád Darabont, January 28, 1959) is a French-born American filmmaker. He has been nominated for three Academy Awards and a Golden Globe Award. In his early career, he was primarily a screenwriter for such horror films as A Nightmare on Elm Street 3: Dream Warriors (1987), The Blob (1988) and The Fly II (1989). As a director, he is known for his film adaptations of Stephen King novellas and novels, such as The Shawshank Redemption (1994), The Green Mile (1999), and The Mist (2007).
+					Frank Arpad Darabont (born Ferenc Árpád Darabont, January 28, 1959) is a French-born American filmmaker. He has been nominated for three Academy Awards and a Golden Globe Award. In his early career, he was primarily a screenwriter for such horror films as A Nightmare on Elm Street 3: Dream Warriors (1987), The Blob (1988) and The Fly II (1989). As a director, he is known for his film adaptations of Stephen King novellas and novels, such as The Shawshank Redemption (1994), The Green Mile (1999), and The Mist (2007).
 					Darabont also developed and executive-produced the first season and first half of the second season of the AMC horror series The Walking Dead (2010–2011).	
 				</biography>
 				<job>Director</job>
 			</employee>
 			<employee>
 				<name>Frank Darabont</name>
-				<biography>Frank Árpád Darabont (born Ferenc Árpád Darabont, January 28, 1959) is a French-born American filmmaker. He has been nominated for three Academy Awards and a Golden Globe Award. In his early career, he was primarily a screenwriter for such horror films as A Nightmare on Elm Street 3: Dream Warriors (1987), The Blob (1988) and The Fly II (1989). As a director, he is known for his film adaptations of Stephen King novellas and novels, such as The Shawshank Redemption (1994), The Green Mile (1999), and The Mist (2007). Darabont also developed and executive-produced the first season and first half of the second season of the AMC horror series The Walking Dead (2010–2011).</biography>
+				<biography>Frank Arpad Darabont (born Ferenc Árpád Darabont, January 28, 1959) is a French-born American filmmaker. He has been nominated for three Academy Awards and a Golden Globe Award. In his early career, he was primarily a screenwriter for such horror films as A Nightmare on Elm Street 3: Dream Warriors (1987), The Blob (1988) and The Fly II (1989). As a director, he is known for his film adaptations of Stephen King novellas and novels, such as The Shawshank Redemption (1994), The Green Mile (1999), and The Mist (2007). Darabont also developed and executive-produced the first season and first half of the second season of the AMC horror series The Walking Dead (2010–2011).</biography>
 				<job>Screenwriter</job>
 			</employee>
 			<employee>
 				<name>Frank Darabont</name>
-				<biography>Frank Árpád Darabont (born Ferenc Árpád Darabont, January 28, 1959)[2] is a French-born American filmmaker. He has been nominated for three Academy Awards and a Golden Globe Award. In his early career, he was primarily a screenwriter for such horror films as A Nightmare on Elm Street 3: Dream Warriors (1987), The Blob (1988) and The Fly II (1989). As a director, he is known for his film adaptations of Stephen King novellas and novels, such as The Shawshank Redemption (1994), The Green Mile (1999), and The Mist (2007).Darabont also developed and executive-produced the first season and first half of the second season of the AMC horror series The Walking Dead (2010–2011).</biography>
+				<biography>Frank Arpad Darabont (born Ferenc Árpád Darabont, January 28, 1959) is a French-born American filmmaker. He has been nominated for three Academy Awards and a Golden Globe Award. In his early career, he was primarily a screenwriter for such horror films as A Nightmare on Elm Street 3: Dream Warriors (1987), The Blob (1988) and The Fly II (1989). As a director, he is known for his film adaptations of Stephen King novellas and novels, such as The Shawshank Redemption (1994), The Green Mile (1999), and The Mist (2007).Darabont also developed and executive-produced the first season and first half of the second season of the AMC horror series The Walking Dead (2010–2011).</biography>
 				<job>Producer</job>
 			</employee>
 			<employee>
@@ -245,7 +245,7 @@
 				<name>Thomas Newman</name>
 				<biography>	
 					Thomas Montgomery Newman (born October 20, 1955) is an American composer and conductor best known for his many film scores. In a career that has spanned over four decades, he has scored numerous films including The Player (1992), The Shawshank Redemption (1994), The Horse Whisperer (1998), American Beauty and The Green Mile (both 1999), In the Bedroom (2001), Road to Perdition and White Oleander (both 2002), Finding Nemo (2003), Lemony Snicket's A Series of Unfortunate Events (2004), Cinderella Man (2005), WALL-E (2008), the James Bond films Skyfall (2012) and Spectre (2015), Finding Dory (2016), 1917 (2019), and Elemental (2023). He also composed the music for the 2003 HBO miniseries Angels in America. Throughout his career, he has collaborated extensively with directors such as Sam Mendes, Andrew Stanton, Frank Darabont, Steven Soderbergh, Jon Avnet, John Madden and John Lee Hancock.
-					Newman has been nominated for fifteen Academy Awards, tying him with fellow composer Alex North for the most nominations without a win. He has also been nominated for four Golden Globes, and has won two BAFTAs, six Grammys and an Emmy Award. Newman was honored with the Richard Kirk award at the 2000 BMI Film and TV Awards. The award is given annually to a composer who has made significant contributions to film and television music.[1] His achievements have contributed to the Newmans being the most nominated Academy Award extended family, with a collective 92 nominations in various music categories.
+					Newman has been nominated for fifteen Academy Awards, tying him with fellow composer Alex North for the most nominations without a win. He has also been nominated for four Golden Globes, and has won two BAFTAs, six Grammys and an Emmy Award. Newman was honored with the Richard Kirk award at the 2000 BMI Film and TV Awards. The award is given annually to a composer who has made significant contributions to film and television music. His achievements have contributed to the Newmans being the most nominated Academy Award extended family, with a collective 92 nominations in various music categories.
 				</biography>
 				<job>Composer</job>
 			</employee>
@@ -256,28 +256,28 @@
 					<name>Tom Hanks</name>
 					<job>Actor</job>
 					<character>Paul Edgecomb</character>
-					<character_description> </character_description>
+					<character_description>Paul Edgecomb is the commanding officer of the death row cellblock at Cold Mountain Penitentiary in Louisiana in 1932 (novel) or 1935 (movie adaptation). He is married to Jan Edgecomb and is a father and a decent man. Though he doesn't care for his position, the Depression dictates that he make the best of an unpleasant task. He watches out for his fellow guards and does what he can for the condemned men. He runs a quiet and neat operation. He befriends John Coffey. When he realizes that John has the ability to cure people he has John cure Melinda Moores, Warden Hal Moores' wife. He is unable to stop John's execution though, which causes him great sadness. He lives in excess of 100 years due to the fact that John passes on a bit of his grace to him when curing Paul of a bladder infection. Paul speculates that it's a curse from God for allowing one of God's chosen to die in such a terrible manner.</character_description>
 					<role>Protagonist</role>
 				</employee>
 				<employee>
 					<name>David Morse</name>
 					<job>Actor</job>
 					<character>Brutus Howell</character>
-					<character_description> </character_description>
+					<character_description>Brutus Howell is a character in the novel The Green Mile. He is a guard at Cold Mountain Penitentiary on death row and the second in command there. He is loyal to Paul Edgecomb and hates Percy Wetmore as much as Paul.  Despite his nickname and his size, Brutus rarely hurts the inmates and is rather soft-hearted, although his temper is rather short.However, Brutus cannot put up with disrespect and is furious when Percy mistreats the inmates. This is shown a few times throughout the movie, such as when Percy degrades Bitterbuck's body, when he says that the Green Mile is just "a bucket of piss to drown rats in" (thus referring to the inmates as "rats"), and when Percy botches Del's execution. After Percy does the latter, Brutal loses his temper and punches Percy, but Paul holds him back. He was one of the guards who attends John coffey's execution. In the book, he died 25 years later, 1960, of a sudden heart-attack while eating a fish sandwich and watching wrestling T.V.</character_description>
 					<role>Protagonist</role>
 				</employee>
 				<employee>
 					<name>Michael Clarke Duncan</name>
 					<job>Actor</job>
 					<character>John Coffey</character>
-					<character_description> </character_description>
+					<character_description>John Coffey is a supporting character of the Stephen King multiverse, serving as the deuteragonist of the novel The Green Mile and its film adaptation of the same name.He was an innocent inmate placed on death row at Cold Mountain Penitentiary for a crime he never committed.</character_description>
 					<role>Protagonist</role>
 				</employee>
 				<employee>
 					<name>Sam Rockwell</name>
 					<job>Actor</job>
 					<character>Wild Bill</character>
-					<character_description> </character_description>
+					<character_description>William "Wild Bill" Wharton is the main antagonist of the novel The Green Mile by Stephen King and its 1999 film adaptation. He is a wild-acting, dangerous multiple-murderer who is determined to make as much trouble as he can before he is executed. He is also responsible for killing a family, raping two kids, and framing John Coffey for it. He was also the arch-nemesis of John Coffey.He was portrayed by Sam Rockwell, who also portrayed Eric Knox in Charlie's Angels, Zaphod Beeblebrox in The Hitchhiker's Guide to the Galaxy, Justin Hammer in the Marvel Cinematic Universe, Billy Bickle in Seven Psychopaths, Randy Borland in Law & Order, Mortimer Ramsey in Dishonored 2, Jason Dixon in Three Billboards Outside Ebbing, Missouri and Mr. Wolf in The Bad Guys.</character_description>
 					<role>Antagonist</role>
 				</employee>
 			</lead_role>
@@ -286,14 +286,14 @@
 					<name>Patricia Clarkson</name>
 					<job>Actor</job>
 					<character>Melinda Moores</character>
-					<character_description> </character_description>
+					<character_description>Melinda Moore is the wife of Cold Mountain Penitentiary warden Hal Moores. She has an end stage Cancer and is in a great deal of pain. Paul Edgecomb arranges, that John Coffey goes to her so that he can cure her, which he does.She gives John her St. Christopher cross in gratitude for what he did.</character_description>
 					<role>Neutral</role>
 				</employee>
 				<employee>
 					<name>Bonnie Hunt</name>
 					<job>Actor</job>
 					<character>Jan Engecomb</character>
-					<character_description> </character_description>
+					<character_description>She is the wife of Paul Edgecomb. They have been married for many years and their children are grown and moved out when the story begins. She and Paul have a good marriage and they are very tight. Sadly, she dies before Paul.</character_description>
 					<role>Neutral</role>
 				</employee>
 			</support_role>
@@ -306,37 +306,24 @@
 			</employee>
 			<employee>
 				<name>Robert J. Litt</name>
-				<biography> </biography>
+				<biography>Litt is an American sound engineer. He was nominated for three Academy Awards in the category Best Sound. He worked on over 160 films between 1964 and 2000.</biography>
 				<job>Sound Designer</job>
 			</employee>
-			<marketing_company>
-				<company>
-					<name> </name>
-				</company>
-			</marketing_company>
 			<publicity_company>
 				<company>
-					<name> </name>
+					<name>Paulette Osorio</name>
 				</company>
 			</publicity_company>
 		</post_production>
 		<release_and_distribution>
 			<distribution_company>
 				<company>
-					<name> </name>
+					<name>Warner Bros.</name>
+				</company>
+				<company>
+					<name>Universal Pictures</name>
 				</company>
 			</distribution_company>
-			<streaming_services>
-				<company>
-					<name> </name>
-				</company>
-				<company>
-					<name> </name>
-				</company>
-				<company>
-					<name> </name>
-				</company>
-			</streaming_services>
 		</release_and_distribution>
 		<reception>
 			<viewer_rating>4.0</viewer_rating>
@@ -348,7 +335,7 @@
 			</revenue>
 		</reception>
 	</movie>
-	<movie id="ID-3" title="Titanic" genre="Drama" release_date="1997-11-01" duration="195" rating="PG">
+	<movie id="ID-3" title="Titanic" genre="Drama" release_date="1997-11-01" duration="195" rating="G">
 		<plot>
 				In 1996, aboard the research vessel Akademik Mstislav Keldysh, Brock Lovett and his team search the wreck of RMS Titanic. They recover a safe they hope contains a necklace with a large diamond known as the Heart of the Ocean. Instead, they find only a drawing of a young nude woman wearing the necklace. The sketch is dated April 14, 1912, the same day the Titanic struck the iceberg that caused it to sink. After viewing a television news story about the discovery, centenarian Rose Dawson Calvert contacts Lovett, identifying herself as the woman in the drawing. Hoping she can help locate the necklace, Lovett brings Rose aboard Keldysh, where she recounts her experiences as a Titanic passenger.
 				In 1912 Southampton, 17-year-old Rose DeWitt Bukater, her wealthy fiancé Caledon "Cal" Hockley and Rose's widowed mother Ruth board the Titanic. Ruth emphasizes that Rose's marrying Cal will resolve the family's financial problems and maintain their upper-class status. Meanwhile, Jack Dawson, a poor young artist, wins a third-class Titanic ticket in a poker game. After setting sail, Rose, distraught over her loveless engagement, climbs over the stern railing, intending to commit suicide. Jack coaxes her back onto the deck and they develop a friendship. Jack soon admits that he has feelings for Rose. When Cal and Ruth object, Rose rejects Jack's attentions, but returns to him after realizing she has fallen in love.
@@ -385,7 +372,7 @@
 				<biography>	
 					James Francis Cameron CC (born August 16, 1954) is a Canadian filmmaker. A major figure in the post-New Hollywood era, Cameron is considered one of the industry's most innovative filmmakers, regularly making use of novel technologies. He first gained recognition for writing and directing The Terminator (1984) and found further success with Aliens (1986), The Abyss (1989), Terminator 2: Judgment Day (1991), and the action comedy True Lies (1994). He wrote and directed Titanic (1997), Avatar (2009) and its sequels, with Titanic earning him Academy Awards for Best Picture, Best Director, and Best Film Editing. A recipient of various other industry accolades, two of his films have been selected for preservation in the National Film Registry by the Library of Congress.
 					Cameron co-founded the production companies Lightstorm Entertainment, Digital Domain, and Earthship Productions. In addition to filmmaking, he is a National Geographic sea tourist and has produced many documentaries on the subject, including Ghosts of the Abyss (2003) and Aliens of the Deep (2005). Cameron has also contributed to underwater filming and remote vehicle technologies and helped create the digital 3D Fusion Camera System. In 2012, Cameron became the first person to do a solo descent to the bottom of the Mariana Trench, the deepest part of the Earth's ocean, in the Deepsea Challenger submersible.
-					Cameron's films have grossed over $8 billion worldwide, making him the second-highest-grossing film director of all time. Three of Cameron's films are amongst the top four highest-grossing films of all time; Avatar (2009), Avatar: The Way of Water (2022) and Titanic (1997) are the highest, third-highest and fourth-highest-grossing films of all time, respectively.[1] Cameron directed the first film to gross over $1 billion, the first two films to gross over $2 billion, and is the only director to have had three films gross over $2 billion.[2][3] In 2010, Time named Cameron one of the 100 most influential people in the world. Cameron is also an environmentalist and runs several sustainability businesses.
+					Cameron's films have grossed over $8 billion worldwide, making him the second-highest-grossing film director of all time. Three of Cameron's films are amongst the top four highest-grossing films of all time; Avatar (2009), Avatar: The Way of Water (2022) and Titanic (1997) are the highest, third-highest and fourth-highest-grossing films of all time, respectively. Cameron directed the first film to gross over $1 billion, the first two films to gross over $2 billion, and is the only director to have had three films gross over $2 billion. In 2010, Time named Cameron one of the 100 most influential people in the world. Cameron is also an environmentalist and runs several sustainability businesses.
 				</biography>
 				<job>Director</job>
 			</employee>
@@ -394,7 +381,7 @@
 				<biography>	
 					James Francis Cameron CC (born August 16, 1954) is a Canadian filmmaker. A major figure in the post-New Hollywood era, Cameron is considered one of the industry's most innovative filmmakers, regularly making use of novel technologies. He first gained recognition for writing and directing The Terminator (1984) and found further success with Aliens (1986), The Abyss (1989), Terminator 2: Judgment Day (1991), and the action comedy True Lies (1994). He wrote and directed Titanic (1997), Avatar (2009) and its sequels, with Titanic earning him Academy Awards for Best Picture, Best Director, and Best Film Editing. A recipient of various other industry accolades, two of his films have been selected for preservation in the National Film Registry by the Library of Congress.
 					Cameron co-founded the production companies Lightstorm Entertainment, Digital Domain, and Earthship Productions. In addition to filmmaking, he is a National Geographic sea tourist and has produced many documentaries on the subject, including Ghosts of the Abyss (2003) and Aliens of the Deep (2005). Cameron has also contributed to underwater filming and remote vehicle technologies and helped create the digital 3D Fusion Camera System. In 2012, Cameron became the first person to do a solo descent to the bottom of the Mariana Trench, the deepest part of the Earth's ocean, in the Deepsea Challenger submersible.
-					Cameron's films have grossed over $8 billion worldwide, making him the second-highest-grossing film director of all time. Three of Cameron's films are amongst the top four highest-grossing films of all time; Avatar (2009), Avatar: The Way of Water (2022) and Titanic (1997) are the highest, third-highest and fourth-highest-grossing films of all time, respectively.[1] Cameron directed the first film to gross over $1 billion, the first two films to gross over $2 billion, and is the only director to have had three films gross over $2 billion.[2][3] In 2010, Time named Cameron one of the 100 most influential people in the world. Cameron is also an environmentalist and runs several sustainability businesses.
+					Cameron's films have grossed over $8 billion worldwide, making him the second-highest-grossing film director of all time. Three of Cameron's films are amongst the top four highest-grossing films of all time; Avatar (2009), Avatar: The Way of Water (2022) and Titanic (1997) are the highest, third-highest and fourth-highest-grossing films of all time, respectively. Cameron directed the first film to gross over $1 billion, the first two films to gross over $2 billion, and is the only director to have had three films gross over $2 billion. In 2010, Time named Cameron one of the 100 most influential people in the world. Cameron is also an environmentalist and runs several sustainability businesses.
 				</biography>
 				<job>Screenwriter</job>
 			</employee>
@@ -403,22 +390,22 @@
 				<biography>	
 					James Francis Cameron CC (born August 16, 1954) is a Canadian filmmaker. A major figure in the post-New Hollywood era, Cameron is considered one of the industry's most innovative filmmakers, regularly making use of novel technologies. He first gained recognition for writing and directing The Terminator (1984) and found further success with Aliens (1986), The Abyss (1989), Terminator 2: Judgment Day (1991), and the action comedy True Lies (1994). He wrote and directed Titanic (1997), Avatar (2009) and its sequels, with Titanic earning him Academy Awards for Best Picture, Best Director, and Best Film Editing. A recipient of various other industry accolades, two of his films have been selected for preservation in the National Film Registry by the Library of Congress.
 					Cameron co-founded the production companies Lightstorm Entertainment, Digital Domain, and Earthship Productions. In addition to filmmaking, he is a National Geographic sea tourist and has produced many documentaries on the subject, including Ghosts of the Abyss (2003) and Aliens of the Deep (2005). Cameron has also contributed to underwater filming and remote vehicle technologies and helped create the digital 3D Fusion Camera System. In 2012, Cameron became the first person to do a solo descent to the bottom of the Mariana Trench, the deepest part of the Earth's ocean, in the Deepsea Challenger submersible.
-					Cameron's films have grossed over $8 billion worldwide, making him the second-highest-grossing film director of all time. Three of Cameron's films are amongst the top four highest-grossing films of all time; Avatar (2009), Avatar: The Way of Water (2022) and Titanic (1997) are the highest, third-highest and fourth-highest-grossing films of all time, respectively.[1] Cameron directed the first film to gross over $1 billion, the first two films to gross over $2 billion, and is the only director to have had three films gross over $2 billion.[2][3] In 2010, Time named Cameron one of the 100 most influential people in the world. Cameron is also an environmentalist and runs several sustainability businesses.
+					Cameron's films have grossed over $8 billion worldwide, making him the second-highest-grossing film director of all time. Three of Cameron's films are amongst the top four highest-grossing films of all time; Avatar (2009), Avatar: The Way of Water (2022) and Titanic (1997) are the highest, third-highest and fourth-highest-grossing films of all time, respectively. Cameron directed the first film to gross over $1 billion, the first two films to gross over $2 billion, and is the only director to have had three films gross over $2 billion. In 2010, Time named Cameron one of the 100 most influential people in the world. Cameron is also an environmentalist and runs several sustainability businesses.
 				</biography>
 				<job>Producer</job>
 			</employee>
 			<employee>
 				<name>Jon Landau</name>
-				<biography>Jon Landau (/ˈlændaʊ/) (born July 23, 1960)[1] is an American film producer, known for producing Titanic (1997), a film which won him an Oscar and earned $2.19 billion in gross revenues, as well as Avatar (2009) and Avatar: The Way of Water (2022), which earned $2.9 billion and $2.2 billion respectively. As of 2023, these are three of the four highest-grossing films of all time.</biography>
+				<biography>Jon Landau (born July 23, 1960) is an American film producer, known for producing Titanic (1997), a film which won him an Oscar and earned $2.19 billion in gross revenues, as well as Avatar (2009) and Avatar: The Way of Water (2022), which earned $2.9 billion and $2.2 billion respectively. As of 2023, these are three of the four highest-grossing films of all time.</biography>
 				<job>Producer</job>
 			</employee>
 			<employee>
 				<name>James Horner</name>
 				<biography>	
-					James Roy Horner (August 14, 1953 – June 22, 2015) was an American composer of film scores. He worked on over 160 film and television productions between 1978 and 2015, and was the winner of two Academy Awards, among many other accolades. He was known for the integration of choral and electronic elements alongside traditional orchestrations, and for his use of motifs associated with Celtic music.[1][2]
-					Horner won two Academy Awards for James Cameron's Titanic (1997), for which he composed the best-selling orchestral film soundtrack of all time.[3][4] He also wrote the score for the highest-grossing film of all time, Cameron's Avatar.[5] Horner's other Oscar-nominated scores were for Aliens (1986), An American Tail (1986), Field of Dreams (1989), Apollo 13 (1995), Braveheart (1995), A Beautiful Mind (2001), and House of Sand and Fog (2003). Horner's other notable scores include Star Trek II: The Wrath of Khan (1982),[6] Willow (1988), The Land Before Time (1988), Glory (1989), The Rocketeer (1991), Legends of the Fall (1994), Jumanji (1995), The Mask of Zorro (1998), How the Grinch Stole Christmas (2000), Troy (2004), The New World (2005), Apocalypto (2006), and The Karate Kid (2010).
+					James Roy Horner (August 14, 1953 – June 22, 2015) was an American composer of film scores. He worked on over 160 film and television productions between 1978 and 2015, and was the winner of two Academy Awards, among many other accolades. He was known for the integration of choral and electronic elements alongside traditional orchestrations, and for his use of motifs associated with Celtic music.
+					Horner won two Academy Awards for James Cameron's Titanic (1997), for which he composed the best-selling orchestral film soundtrack of all time. He also wrote the score for the highest-grossing film of all time, Cameron's Avatar. Horner's other Oscar-nominated scores were for Aliens (1986), An American Tail (1986), Field of Dreams (1989), Apollo 13 (1995), Braveheart (1995), A Beautiful Mind (2001), and House of Sand and Fog (2003). Horner's other notable scores include Star Trek II: The Wrath of Khan (1982), Willow (1988), The Land Before Time (1988), Glory (1989), The Rocketeer (1991), Legends of the Fall (1994), Jumanji (1995), The Mask of Zorro (1998), How the Grinch Stole Christmas (2000), Troy (2004), The New World (2005), Apocalypto (2006), and The Karate Kid (2010).
 					Horner collaborated on multiple projects with directors including Don Bluth, James Cameron, Jean-Jacques Annaud, Joe Johnston, Walter Hill, Mel Gibson, Vadim Perelman, Ron Howard, Edward Zwick, Nicholas Meyer, Wolfgang Petersen, Martin Campbell, Phil Nibbelink and Simon Wells; producers including George Lucas, David Kirschner, Lawrence Gordon, Jon Landau, Brian Grazer and Steven Spielberg; and songwriters including Will Jennings, Barry Mann and Cynthia Weil. He won two Academy Awards; Best Original Score for Titanic and Best Original Song for "My Heart Will Go On", six Grammy Awards, two Golden Globes, and was nominated for three BAFTA Awards.
-					Horner, who was an avid pilot, was killed in a single-fatality crash while flying his Short Tucano turboprop aircraft. He was 61 years old.[7] The scores for his final three films, Southpaw (2015), The 33 (2015) and The Magnificent Seven (2016), were all completed and released posthumously.
+					Horner, who was an avid pilot, was killed in a single-fatality crash while flying his Short Tucano turboprop aircraft. He was 61 years old. The scores for his final three films, Southpaw (2015), The 33 (2015) and The Magnificent Seven (2016), were all completed and released posthumously.
 				</biography>
 				<job>Composer</job>
 			</employee>
@@ -429,21 +416,21 @@
 					<name>Leonardo DiCaprio</name>
 					<job>Actor</job>
 					<character>Jack Dawson</character>
-					<character_description> </character_description>
+					<character_description>Jack Dawson is a 20-year old man who won his and Fabrizio de Rossi's third-class tickets on the Titanic in a lucky hand of poker with Olaf and Sven. He has traveled the world since he was 15 and has been to various places such as Paris. He is also a very good artist who drew many paintings, especially of people. Some of these include nude women, in perticular French ladies. Jack later tells Rose that girls in Paris are willing to take their clothes off.</character_description>
 					<role>Protagonist</role>
 				</employee>
 				<employee>
 					<name>Kate Winslet</name>
 					<job>Actor</job>
 					<character>Rose DeWitt BuKater</character>
-					<character_description> </character_description>
+					<character_description>Rose Dawson Calvert (née DeWitt-Bukater, born 1895) was an American socialite and later actress. She was born in Philadelphia in 1895, but her exact birthdate is unknown.In 1912 she was returning to America aboard the RMS Titanic, with her aristocratic fiancé Caledon Hockley. However, during the voyage she and third-class passenger Jack Dawson fell in love.The voyage came to an abrupt end when the ship struck ice and sank. Rose survived the ship's sinking, but Jack did not.She later married a man named Calvert, and had at least three children.</character_description>
 					<role>Protagonist</role>
 				</employee>
 				<employee>
 					<name>Billy Zane</name>
 					<job>Actor</job>
 					<character>Cadelon Hockley</character>
-					<character_description> </character_description>
+					<character_description>Caledon Nathan Hockley, often shortened to Cal was an American industrialist and the heir to a Pittsburgh steel fortune.In 1912 he was a first-class passenger aboard the RMS Titanic, accompanying his 17-year-old fiancée Rose DeWitt Bukater. However, during the voyage Rose and third-class passenger Jack Dawson fell in love.The ship struck an iceberg and sank a few days before the date of its intended arrival in New York City. Hockley survived the sinking by cheating his way onto a lifeboat, pretending a deserted child was his own. He lost contact with Rose, mistakenly believing she had died in the sinking.He was later driven to suicide after being bankrupted by the financial crash of 1929.</character_description>
 					<role>Antagonist</role>
 				</employee>
 			</lead_role>
@@ -452,14 +439,12 @@
 					<name>Kathy Bates</name>
 					<job>Actor</job>
 					<character>Molly Brown</character>
-					<character_description> </character_description>
 					<role>Neutral</role>
 				</employee>
 				<employee>
 					<name>Gloria Stuart</name>
 					<job>Actor</job>
 					<character>Rose DeWitt BuKater</character>
-					<character_description> </character_description>
 					<role>Neutral</role>
 				</employee>
 			</support_role>
@@ -482,32 +467,21 @@
 			</employee>
 			<marketing_company>
 				<company>
-					<name> </name>
+					<name>Greg Ferris</name>
 				</company>
 			</marketing_company>
 			<publicity_company>
 				<company>
-					<name> </name>
+					<name>Eileen Peterson</name>
 				</company>
 			</publicity_company>
 		</post_production>
 		<release_and_distribution>
 			<distribution_company>
 				<company>
-					<name> </name>
+					<name>Tyler Atkinson</name>
 				</company>
 			</distribution_company>
-			<streaming_services>
-				<company>
-					<name> </name>
-				</company>
-				<company>
-					<name> </name>
-				</company>
-				<company>
-					<name> </name>
-				</company>
-			</streaming_services>
 		</release_and_distribution>
 		<reception>
 			<viewer_rating>4.0</viewer_rating>
@@ -519,7 +493,7 @@
 			</revenue>
 		</reception>
 	</movie>
-	<movie id="ID-4" title="The Lord of the Rings" genre="Fantastic" release_date="1997-11-01" duration="195" rating="PG">
+	<movie id="ID-4" title="The Lord of the Rings: The Fellowship of the Ring" genre="Fantastic" release_date="1997-11-01" duration="195" rating="PG-13">
 		<plot>
 				In the Second Age of Middle-earth, the lords of Elves, Dwarves, and Men are given Rings of Power. Unbeknownst to them, the Dark Lord Sauron forges the One Ring in 			Mount Doom, instilling into it a great part of his power, to dominate the other Rings and conquer Middle-earth. A final alliance of Men and Elves battles Sauron's 			forces in Mordor. Isildur of Gondor severs Sauron's finger and the Ring with it, thereby vanquishing Sauron and returning him to spirit form. With Sauron's first 			defeat, the Third Age of Middle-earth begins. The Ring's influence corrupts Isildur, who takes it for himself and is later killed by Orcs. The Ring is lost in a 			river for 2,500 years until it is found by Gollum, who owns it for over four and a half centuries. The ring abandons Gollum and it is subsequently found by a hobbit 			named Bilbo Baggins, who is unaware of its history.
 				Sixty years later, Bilbo celebrates his 111th birthday in the Shire, reuniting with his old friend, the wizard Gandalf the Grey. Bilbo departs the Shire for one 			last adventure, and he leaves his inheritance, including the Ring, to his nephew Frodo. Gandalf investigates the Ring, discovers its true nature, and learns that 			Gollum was captured and brutally tortured by Sauron's Orcs, revealing two words during his interrogation: "Shire" and "Baggins." Gandalf returns and warns Frodo to 			leave the Shire. As Frodo departs with his friend, gardener Samwise Gamgee, Gandalf rides to Isengard to meet with the wizard Saruman, but discovers his betrayal 			and alliance with Sauron, who has dispatched his nine undead Nazgûl servants to find Frodo.
@@ -551,17 +525,17 @@
 			<employee>
 				<name>Peter Jackson</name>
 				<biography>	
-					Sir Peter Robert Jackson ONZ KNZM (born 31 October 1961) is a New Zealand film director, screenwriter and producer. He is best known as the 						director, writer and producer of the Lord of the Rings trilogy (2001–2003) and the Hobbit trilogy (2012–2014), both of which are adapted from the 					novels of the same name by J. R. R. Tolkien. Other notable films include the critically lauded drama Heavenly Creatures (1994), the horror comedy 					The Frighteners (1996), the epic monster remake film King Kong (2005), the World War I documentary film They Shall Not Grow Old (2018) and the 						documentary The Beatles: Get Back (2021). He is the fourth-highest-grossing film director of all-time, his films having made over $6.5 billion 						worldwide.
-					Jackson began his career with the "splatstick" horror comedy Bad Taste (1987) and the black comedy Meet the Feebles (1989) before filming the zombie 					comedy Braindead (1992). He shared a nomination for Academy Award for Best Original Screenplay with his partner Fran Walsh[2] for Heavenly 						Creatures, which brought him to mainstream prominence in the film industry. Jackson has been awarded three Academy Awards for The Lord of the Rings: 					The Return of the King (2003), including Best Picture, Best Director, and Best Adapted Screenplay, His other awards include three BAFTAs, a Golden 					Globe, two Primetime Emmy Awards and four Saturn Awards among others.
-					His production company is WingNut Films, and his most regular collaborators are co-writers and producers Walsh and Philippa Boyens. Jackson was made 					a Companion of the New Zealand Order of Merit in 2002. He was later knighted (as a Knight Companion of the order) by Sir Anand Satyanand, the 						Governor-General of New Zealand, at a ceremony in Wellington in April 2010. In December 2014, Jackson was awarded a star on the Hollywood Walk of 					Fame.
+					Sir Peter Robert Jackson ONZ KNZM (born 31 October 1961) is a New Zealand film director, screenwriter and producer. He is best known as the director, writer and producer of the Lord of the Rings trilogy (2001–2003) and the Hobbit trilogy (2012–2014), both of which are adapted from the novels of the same name by J. R. R. Tolkien. Other notable films include the critically lauded drama Heavenly Creatures (1994), the horror comedy 					The Frighteners (1996), the epic monster remake film King Kong (2005), the World War I documentary film They Shall Not Grow Old (2018) and the 						documentary The Beatles: Get Back (2021). He is the fourth-highest-grossing film director of all-time, his films having made over $6.5 billion 						worldwide.
+					Jackson began his career with the "splatstick" horror comedy Bad Taste (1987) and the black comedy Meet the Feebles (1989) before filming the zombie comedy Braindead (1992). He shared a nomination for Academy Award for Best Original Screenplay with his partner Fran Walsh for Heavenly Creatures, which brought him to mainstream prominence in the film industry. Jackson has been awarded three Academy Awards for The Lord of the Rings: 					The Return of the King (2003), including Best Picture, Best Director, and Best Adapted Screenplay, His other awards include three BAFTAs, a Golden 					Globe, two Primetime Emmy Awards and four Saturn Awards among others.
+					His production company is WingNut Films, and his most regular collaborators are co-writers and producers Walsh and Philippa Boyens. Jackson was made a Companion of the New Zealand Order of Merit in 2002. He was later knighted (as a Knight Companion of the order) by Sir Anand Satyanand, theGovernor-General of New Zealand, at a ceremony in Wellington in April 2010. In December 2014, Jackson was awarded a star on the Hollywood Walk of 					Fame.
 				</biography>
 				<job>Director</job>
 			</employee>
 			<employee>
 				<name>Fran Walsh</name>
 				<biography>	
-					Dame Frances Rosemary Walsh DNZM (born 10 January 1959)[1] is a New Zealand screenwriter and film producer.
-					The partner of filmmaker Peter Jackson, Walsh has contributed to all of their films since 1989: as co-writer since Meet the Feebles, and as producer 					since The Lord of the Rings Trilogy. She has won three Academy Awards for the final film of the trilogy, The Lord of the Rings: The Return of the 					King.
+					Dame Frances Rosemary Walsh DNZM (born 10 January 1959) is a New Zealand screenwriter and film producer.
+					The partner of filmmaker Peter Jackson, Walsh has contributed to all of their films since 1989: as co-writer since Meet the Feebles, and as producer since The Lord of the Rings Trilogy. She has won three Academy Awards for the final film of the trilogy, The Lord of the Rings: The Return of the King.
 				</biography>
 				<job>Screenwriter</job>
 			</employee>
@@ -581,7 +555,7 @@
 			</employee>
 			<employee>
 				<name>Peter Jackson</name>
-				<biography>Sir Peter Robert Jackson ONZ KNZM (born 31 October 1961) is a New Zealand film director, screenwriter and producer. He is best known as the director, writer and producer of the Lord of the Rings trilogy (2001–2003) and the Hobbit trilogy (2012–2014), both of which are adapted from the novels of the same name by J. R. R. Tolkien. Other notable films include the critically lauded drama Heavenly Creatures (1994), the horror comedy The Frighteners (1996), the epic monster remake film King Kong (2005), the World War I documentary film They Shall Not Grow Old (2018) and the documentary The Beatles: Get Back (2021). He is the fourth-highest-grossing film director of all-time, his films having made over $6.5 billion worldwide Jackson began his career with the "splatstick" horror comedy Bad Taste (1987) and the black comedy Meet the Feebles (1989) before filming the zombie comedy Braindead (1992). He shared a nomination for Academy Award for Best Original Screenplay with his partner Fran Walsh[2] for Heavenly 	Creatures, which brought him to mainstream prominence in the film industry. Jackson has been awarded three Academy Awards for The Lord of the Rings: The Return of the King (2003), including Best Picture, Best Director, and Best Adapted Screenplay, His other awards include three BAFTAs, a Golden Globe, two Primetime Emmy Awards and four Saturn Awards among others.
+				<biography>Sir Peter Robert Jackson ONZ KNZM (born 31 October 1961) is a New Zealand film director, screenwriter and producer. He is best known as the director, writer and producer of the Lord of the Rings trilogy (2001–2003) and the Hobbit trilogy (2012–2014), both of which are adapted from the novels of the same name by J. R. R. Tolkien. Other notable films include the critically lauded drama Heavenly Creatures (1994), the horror comedy The Frighteners (1996), the epic monster remake film King Kong (2005), the World War I documentary film They Shall Not Grow Old (2018) and the documentary The Beatles: Get Back (2021). He is the fourth-highest-grossing film director of all-time, his films having made over $6.5 billion worldwide Jackson began his career with the "splatstick" horror comedy Bad Taste (1987) and the black comedy Meet the Feebles (1989) before filming the zombie comedy Braindead (1992). He shared a nomination for Academy Award for Best Original Screenplay with his partner Fran Walsh for Heavenly 	Creatures, which brought him to mainstream prominence in the film industry. Jackson has been awarded three Academy Awards for The Lord of the Rings: The Return of the King (2003), including Best Picture, Best Director, and Best Adapted Screenplay, His other awards include three BAFTAs, a Golden Globe, two Primetime Emmy Awards and four Saturn Awards among others.
 					His production company is WingNut Films, and his most regular collaborators are co-writers and producers Walsh and Philippa Boyens. Jackson was made a Companion of the New Zealand Order of Merit in 2002. He was later knighted (as a Knight Companion of the order) by Sir Anand Satyanand, the Governor-General of New Zealand, at a ceremony in Wellington in April 2010. In December 2014, Jackson was awarded a star on the Hollywood Walk of 					Fame.</biography>
 				<job>Producer</job>
 			</employee>
@@ -599,20 +573,20 @@
 					<name>Elijah Wood</name>
 					<job>Actor</job>
 					<character>Frodo Baggings</character>
-					<character_description> </character_description>
+					<character_description>Frodo Baggins is a fictional character in J. R. R. Tolkien's writings, and one of the protagonists in The Lord of the Rings. Frodo is a hobbit of the Shire who inherits the One Ring from his cousin Bilbo Baggins, described familiarly as "uncle", and undertakes the quest to destroy it in the fires of Mount Doom in Mordor. He is mentioned in Tolkien's posthumously published works, The Silmarillion and Unfinished Tales.Frodo is repeatedly wounded during the quest, and becomes increasingly burdened by the Ring as it nears Mordor. He changes, too, growing in understanding and compassion, and avoiding violence. On his return to the Shire, he is unable to settle back into ordinary life; two years after the Ring's destruction, he is allowed to take ship to the earthly paradise of Valinor.Frodo's name comes from the Old English name Fróda, meaning "wise by experience". Commentators have written that he combines courage, selflessness, and fidelity, and that as a good[1] character, he seems unexciting but grows through his quest, an unheroic person who reaches heroic stature.</character_description>
 					<role>Protagonist</role>
 				</employee>
 				<employee>
 					<name>Ian McKellen</name>
 					<job>Actor</job>
 					<character>Gandalf</character>
-					<character_description> </character_description>
+					<character_description>As a wizard and the bearer of one of the Three Rings, Gandalf has great power, but works mostly by encouraging and persuading. He sets out as Gandalf the Grey, possessing great knowledge and travelling continually. Gandalf is focused on the mission to counter the Dark Lord Sauron by destroying the One Ring. He is associated with fire; his ring of power is Narya, the Ring of Fire. As such, he delights in fireworks to entertain the hobbits of the Shire, while in great need he uses fire as a weapon. As one of the Maiar, he is an immortal spirit from Valinor, but his physical body can be killed.In The Hobbit, Gandalf assists the 13 dwarves and the hobbit Bilbo Baggins with their quest to retake the Lonely Mountain from Smaug the dragon, but leaves them to urge the White Council to expel Sauron from his fortress of Dol Guldur. In the course of the quest, Bilbo finds a magical ring. The expulsion succeeds, but in The Lord of the Rings, Gandalf reveals that Sauron's retreat was only a feint, as he soon reappeared in Mordor. Gandalf further explains that, after years of investigation, he is sure that Bilbo's ring is the One Ring that Sauron needs to dominate the whole of Middle-earth. The Council of Elrond creates the Fellowship of the Ring, with Gandalf as its leader, to defeat Sauron by destroying the Ring. He takes them south through the Misty Mountains, but is killed fighting a Balrog, an evil spirit-being, in the underground realm of Moria. After he dies, he is sent back to Middle-earth to complete his mission as Gandalf the White. He reappears to three of the Fellowship and helps to counter the enemy in Rohan, then in Gondor, and finally at the Black Gate of Mordor, in each case largely by offering guidance. When victory is complete, he crowns Aragorn as King before leaving Middle-earth for ever to return to Valinor.</character_description>
 					<role>Protagonist</role>
 				</employee>
 			</lead_role>
 			<support_role>
 				<employee>
-					<name></name>
+					<name>Dominic Monaghan</name>
 					<job>Actor</job>
 					<character></character>
 					<character_description> </character_description>
@@ -621,8 +595,8 @@
 				<employee>
 					<name></name>
 					<job>Actor</job>
-					<character></character>
-					<character_description> </character_description>
+					<character>Meriadoc Brandybuck</character>
+					<character_description>Meriadoc Brandybuck romane J. R. R. Tolkieni The Lord of the Rings de yew karaktero. Meriadoc Brandybuck, hem yew hobbito hem zi embaze wayire iştanan Frodo Bagginso. Dewre Hireyıne de, Shire de ameyo riye dınya. Dewre Çeharıne de merdo.</character_description>
 					<role>Neutral</role>
 				</employee>
 			</support_role>
@@ -638,34 +612,18 @@
 				<biography>Michael Semanick (born 1963) is an American sound engineer, credited as a sound re-recording mixer. He has won two Academy Awards for Best Sound and has been nominated for nine more in the same category. He has worked on more than 110 films since 1987.</biography>
 				<job>Sound Designer</job>
 			</employee>
-			<marketing_company>
-				<company>
-					<name> </name>
-				</company>
-			</marketing_company>
 			<publicity_company>
 				<company>
-					<name> </name>
+					<name>Dennis Davidson</name>
 				</company>
 			</publicity_company>
 		</post_production>
 		<release_and_distribution>
 			<distribution_company>
 				<company>
-					<name> </name>
+					<name>New Line Cinema</name>
 				</company>
 			</distribution_company>
-			<streaming_services>
-				<company>
-					<name> </name>
-				</company>
-				<company>
-					<name> </name>
-				</company>
-				<company>
-					<name> </name>
-				</company>
-			</streaming_services>
 		</release_and_distribution>
 		<reception>
 			<viewer_rating>5.0</viewer_rating>
@@ -677,9 +635,9 @@
 			</revenue>
 		</reception>
 	</movie>
-	<movie id="ID-5" title="John Wick" genre="Action" release_date="2014-10-24" duration="101" rating="PG">
+	<movie id="ID-5" title="John Wick" genre="Action" release_date="2014-10-24" duration="101" rating="PG-13">
 		<plot>
-				In New York City, John Wick is grieving the death of his wife Helen, who had arranged for him to receive a beagle puppy to help cope with his loss. A few days later, a group of Russian gangsters, led by Iosef Tarasov, accost John at a gas station and fail to intimidate him into selling them his 1969 Boss 429 Mustang.[b] That night, they break into John's home, assault him, kill the puppy, and steal the car. Iosef takes the Mustang to a chop shop to remove its identifying details, but the shop owner, Aurelio, recognizes it and refuses service. Aurelio informs John that Iosef is the son of Viggo Tarasov, the boss of New York City's Russian mafia.
+				In New York City, John Wick is grieving the death of his wife Helen, who had arranged for him to receive a beagle puppy to help cope with his loss. A few days later, a group of Russian gangsters, led by Iosef Tarasov, accost John at a gas station and fail to intimidate him into selling them his 1969 Boss 429 Mustang. That night, they break into John's home, assault him, kill the puppy, and steal the car. Iosef takes the Mustang to a chop shop to remove its identifying details, but the shop owner, Aurelio, recognizes it and refuses service. Aurelio informs John that Iosef is the son of Viggo Tarasov, the boss of New York City's Russian mafia.
 				Upon learning of his son's actions, Viggo berates Iosef for incurring John's wrath. He reveals John was once a hitman in his employ, and was renowned and feared in the criminal underworld as the Baba Yaga, a ruthless, relentless "man of focus, commitment, and sheer will". After John fell in love with Helen, a civilian, Viggo gave him a seemingly impossible task to earn his freedom; he succeeded.
 				John recovers a concealed stash from his former career that includes weapons and gold coins. He refuses Viggo's attempt to make amends for his son's actions and kills the hit squad subsequently sent to his home. Viggo puts a $2 million bounty on John and enlists his former mentor, Marcus, to kill him. John lodges at the Continental, a luxurious hotel that serves as neutral ground for the underworld and where conducting criminal business is forbidden. Winston, the hotel's owner and John's old friend, informs him that Iosef is at a nightclub called Red Circle. John infiltrates Red Circle and confronts Iosef, but he is attacked by Viggo's henchman Kirill and forced to retreat to the Continental for medical attention.
 				As John rests, a hitwoman, Ms. Perkins, sneaks into his room. Marcus sees Perkins from an adjacent building and fires a warning shot to alert John, who wakes up and subdues her. Perkins reveals Viggo has doubled the bounty for her to kill John in the hotel and has concealed a high-value stash in a church. John hires another hitman, Harry, to secure Perkins but she kills Harry and escapes.
@@ -715,7 +673,7 @@
 			<employee>
 				<name>Chad Stahelski</name>
 				<biography>	
-					Chad Stahelski (born September 20, 1968) is an American stuntman and film director. He directed the 2014 film John Wick and its three sequels.[1] He has worked as a stuntman, stunt coordinator and second unit director on several films.
+					Chad Stahelski (born September 20, 1968) is an American stuntman and film director. He directed the 2014 film John Wick and its three sequels. He has worked as a stuntman, stunt coordinator and second unit director on several films.
 				</biography>
 				<job>Director</job>
 			</employee>
@@ -729,13 +687,13 @@
 			<employee>
 				<name>Basil Iwanyk</name>
 				<biography>	
-					Basil William Iwanyk (born January 4, 1970) is an American film producer. He is the founder of Thunder Road Films and most known for Sicario, The Town, Greenland and the John Wick franchise. His films have earned more than $2 billion internationally as of 2018. He is of Ukrainian descent.
-					After starting out working for Warner Bros in the 1990s, Basil founded his own company, Thunder Road, in 2000. The company has a stellar reputation within the industry and a remarkable track record of critical and commercial success.</biography>
+					Basil William Iwanyk (born January 4, 1970) is an American film producer. He is the founder of Thunder Road Films and most known for Sicario, The Town, Greenland and the John Wick franchise. His films have earned more than $2 billion internationally as of 2018. He is of Ukrainian descent.After starting out working for Warner Bros in the 1990s, Basil founded his own company, Thunder Road, in 2000. The company has a stellar reputation within the industry and a remarkable track record of critical and commercial success.</biography>
 				<job>Producer</job>
 			</employee>
 			<employee>
 				<name>David Leitch</name>
-				<biography>David Leitch (born November 16, 1975)[1] is an American filmmaker, actor, stunt performer and stunt coordinator who made his directorial debut on the 2014 action film John Wick with Chad Stahelski, though only Stahelski was credited.[3] Leitch then directed the 2017 thriller film Atomic Blonde, starring Charlize Theron, and 2018's Deadpool 2, the sequel to the 2016 film. In 2019, he directed Hobbs & Shaw, a spin-off of the Fast & Furious franchise, and in 2022 directed Bullet Train, starring Brad Pitt.</biography>
+				<biography>
+					David Leitch (born November 16, 1975) is an American filmmaker, actor, stunt performer and stunt coordinator who made his directorial debut on the 2014 action film John Wick with Chad Stahelski, though only Stahelski was credited. Leitch then directed the 2017 thriller film Atomic Blonde, starring Charlize Theron, and 2018's Deadpool 2, the sequel to the 2016 film. In 2019, he directed Hobbs & Shaw, a spin-off of the Fast & Furious franchise, and in 2022 directed Bullet Train, starring Brad Pitt.</biography>
 				<job>Producer</job>			
 				</employee>
 			<employee>
@@ -752,21 +710,21 @@
 					<name>Keanu Reeves</name>
 					<job>Actor</job>
 					<character>John Wick</character>
-					<character_description> </character_description>
+					<character_description>John Wick is a fictional character created by American screenwriter Derek Kolstad and portrayed by Canadian actor Keanu Reeves. He is the titular protagonist of the American media franchise John Wick. In the franchise's film series, he is introduced as a legendary Belarusian-American ex-hitman who left the criminal underworld after falling in love with and marrying a woman named Helen. While suffering from a terminal illness, Helen made arrangements for a puppy to be delivered to John in order to serve as his companion after her death. Days after her funeral, a Russian-American mobster — the son of John's former mafia boss — takes an interest in John's car after seeing it a gas station and is angered when John refuses to sell it to him. That night, he leads a group and breaks into John's house, assaulting him and killing his puppy before stealing his car. The attack sets John on a path of revenge, returning him to the violent lifestyle that he had left behind and eventually bringing him into conflict with the international organization of assassins of which he was once a part.</character_description>
 					<role>Protagonist</role>
 				</employee>
 				<employee>
 					<name>Michael Nyqvist</name>
 					<job>Actor</job>
 					<character>Viggo Tarasov</character>
-					<character_description> </character_description>
+					<character_description>Viggo Tarasov inherited the leadership of the Tarasov Mob after his father died. It is mentioned that he always had a rivalry with another 'gang.' While Viggo was in a bar, he saw John Wick kill three people with a pencil. This sparked the light in Viggo's eyes; he saw John's potential and hired him to be part of the mob. Later, John asked to leave so he could marry Helen. Unwilling to let his best and most capable henchman leave his service, Viggo gave him an 'impossible task', implied to eliminate notable members of rival mobs. However, with the help of Italian crime lord Santino D'Antonio, John succeeded and Viggo had no choice but to let him retire. The assassin's "impossible task" enabled the Tarasov Mob to rise to power in New York.</character_description>
 					<role>Antagonist</role>
 				</employee>
 				<employee>
 					<name>Alfie Allen</name>
 					<job>Actor</job>
 					<character>Iosef Tarasov</character>
-					<character_description> </character_description>
+					<character_description>Iosef was the only known child of the Russian crime lord Viggo Tarasov, and was involved with his father's crime organization. At some point, he got involved in a fiasco in Atlantic City.</character_description>
 					<role>Antagonist</role>
 				</employee>
 			</lead_role>
@@ -775,14 +733,14 @@
 					<name>Ian McShane</name>
 					<job>Actor</job>
 					<character>Winston</character>
-					<character_description> </character_description>
+					<character_description>Winston Scott is the current owner and manager of the New York Continental Hotel, an establishment that functions as a neutral territory and safe zone for criminals and hired killers. No business is allowed to be conducted on Continental grounds, and those who violate this important rule are given severe penalties: which are often ordered and overseen by Winston himself. Although he is a close friend and ally of John Wick, he is still a high-ranking and powerful member of the Continental, and does what he has to do to those who break its rules.</character_description>
 					<role>Neutral</role>
 				</employee>
 				<employee>
 					<name>Lance Reddick</name>
 					<job>Actor</job>
 					<character>Charon</character>
-					<character_description> </character_description>
+					<character_description>Charon was the concierge of the Continental Hotel in New York City, employed by Winston Scott as his right-hand man. Charon often interacted with John Wick in his position as the concierge of the hotel, offering John various services, such as taking care of his dog. As concierge of the New York Continental, Charon is both the face of the hotel and the guard at its gates.</character_description>
 					<role>Neutral</role>
 				</employee>
 			</support_role>
@@ -798,34 +756,18 @@
 				<biography>Evan J Haley received his first taste with audio in 2003 while attending a concert at a local venue. The band was popular, but unsigned, and seemed to need some assistance. You can say that's when his future career in audio took flight. From that day on, Captive8 entrusted him with duties of loading in, loading out, setup, tear-down, trouble shooting all problems, personal musician technician, P.A. equipment setup, microphone placement, and running sound for F.O.H, and Monitor land. Evan always had a good ear, and was able to distinguish what sounded evenly mixed. The band was always very happy, and impressed with his work. Live sound felt as if it was second nature for Evan and he decided to apply for an intern position at the same venue he watched Captive8 perform. Evan worked at the venue every weekend for the next year learning as much as he possibly could about sound. While he worked at the club, Evan had the opportunity to run Monitor Land for all the local, and national acts that performed. While interning at the club he enrolled for school to future his education in all aspects of audio. Evan often found myself in the Pro Tools mixing and recording labs learning as much as he could about multitrack recorders, hardware and software DAW's. He continued to explore the realm of software DAW's discovering how addicting it was to record and mix sessions in Pro Tools. As his eagerness for audio continued, Evan switch his focus from music to motion picture. He set his focus to work with film as a Sound Editor/Sound Designer, and Mixer. Evan live's in Los Angeles, CA living out his dream working on a variety of different projects always striving, and pushing himself to get to the next step in his career.</biography>
 				<job>Sound Designer</job>
 			</employee>
-			<marketing_company>
-				<company>
-					<name> </name>
-				</company>
-			</marketing_company>
 			<publicity_company>
 				<company>
-					<name> </name>
+					<name>Peter J. Silbermann</name>
 				</company>
 			</publicity_company>
 		</post_production>
 		<release_and_distribution>
 			<distribution_company>
 				<company>
-					<name> </name>
+					<name>	Summit Entertainment</name>
 				</company>
 			</distribution_company>
-			<streaming_services>
-				<company>
-					<name> </name>
-				</company>
-				<company>
-					<name> </name>
-				</company>
-				<company>
-					<name> </name>
-				</company>
-			</streaming_services>
 		</release_and_distribution>
 		<reception>
 			<viewer_rating>4</viewer_rating>
@@ -837,10 +779,10 @@
 			</revenue>
 		</reception>
 	</movie>
-	<movie id="ID-6" title="Pirates of the Caribbean: The Curse of the Black Pearl" genre="Action" release_date="2003-06-28" duration="143" rating="PG">
+	<movie id="ID-6" title="Pirates of the Caribbean: The Curse of the Black Pearl" genre="Action" release_date="2003-06-28" duration="143" rating="PG-13">
 		<plot>
 				In 1720, Governor Weatherby Swann and his daughter, Elizabeth, sail aboard the HMS Dauntless. Lieutenant Norrington's crew recovers a shipwrecked survivor, Will Turner. Elizabeth takes a gold medallion from around Will's neck before seeing a ship with black sails. Eight years later in Port Royal, Jamaica, Norrington is promoted to commodore and proposes to Elizabeth at Fort Charles. Elizabeth's corset makes her faint and fall into the water below, causing the medallion to emit a pulse. Captain Jack Sparrow, who initially arrived to "commandeer" a ship, rescues Elizabeth before escaping Commodore Norrington, who identifies Jack with his pirate brand. Will, now a blacksmith, meets Jack and fights long enough for Sparrow to be imprisoned.
-				That night, Port Royal is attacked by the Black Pearl, the ship Elizabeth Swann saw years earlier, searching for the medallion. Invoking parley, Elizabeth is taken aboard to meet Captain Barbossa. Although she gave her name as "Elizabeth Turner" to conceal her identity as the governor's daughter, Barbossa takes Elizabeth with them. Barbossa explains that the medallion is one of 882 Aztec gold pieces in a stone chest used to bribe Cortés to stop his slaughter, but because of Cortés's greed, the heathen gods placed a curse on the gold. Barbossa's crew found the treasure at Isla de Muerta, but after spending it, they feel and taste nothing, and turn into immortal undead skeletons in the moonlight. To lift the curse, Barbossa's crew must return all the gold with their blood. Having discovered that "Bootstrap Bill" Turner sent a piece to his child, Barbossa sent Bootstrap to the bottom of the ocean.[b] Assuming Elizabeth is Bootstrap's child, Barbossa intends to use her blood instead.
+				That night, Port Royal is attacked by the Black Pearl, the ship Elizabeth Swann saw years earlier, searching for the medallion. Invoking parley, Elizabeth is taken aboard to meet Captain Barbossa. Although she gave her name as "Elizabeth Turner" to conceal her identity as the governor's daughter, Barbossa takes Elizabeth with them. Barbossa explains that the medallion is one of 882 Aztec gold pieces in a stone chest used to bribe Cortés to stop his slaughter, but because of Cortés's greed, the heathen gods placed a curse on the gold. Barbossa's crew found the treasure at Isla de Muerta, but after spending it, they feel and taste nothing, and turn into immortal undead skeletons in the moonlight. To lift the curse, Barbossa's crew must return all the gold with their blood. Having discovered that "Bootstrap Bill" Turner sent a piece to his child, Barbossa sent Bootstrap to the bottom of the ocean. Assuming Elizabeth is Bootstrap's child, Barbossa intends to use her blood instead.
 				To save Elizabeth, Will frees Jack, who learns that Turner is the son of Bootstrap Bill. They distract Norrington with a staged attempt to steal the Dauntless, allowing them to commandeer the HMS Interceptor, then head to Tortuga to find Joshamee Gibbs and recruit a crew. Will learns from Gibbs that Sparrow was captain of the Black Pearl before Barbossa organized a mutiny and marooned him on an island. Arriving at Isla de Muerta, Jack and Will sneak into the treasure grotto, where Barbossa fails to lift the curse with Elizabeth's "Turner" blood. Will and Elizabeth escape with the medallion on the Interceptor, while Sparrow is captured by Barbossa and locked in the brig aboard the Pearl. A battle ensues between the Pearl and the Interceptor, with the crew captured and the ship destroyed. Having realized it is his blood Barbossa needs, Will surrenders himself to ensure Elizabeth's freedom. Barbossa agrees but maroons Jack and Elizabeth. The next morning, Elizabeth makes a smoke signal, then Jack and Elizabeth are rescued aboard the Dauntless. Elizabeth accepts Norrington's marriage proposal on the condition to rescue Will from Barbossa.
 				That night, Jack and Norrington make a plan to ambush the pirates at Isla de Muerta, but Norrington plans to ambush the pirates himself and Sparrow convinces Barbossa to not lift the curse until after they've killed Norrington's men. Having anticipated the battle to come, Jack secretly palms a coin for himself to become immortal, then frees Will and duels Barbossa in the cave. As Norrington's crew battle skeletons aboard the Dauntless, Elizabeth sneaks off to free Jack's crew, who flee on the Pearl, leaving Swann to save Will and Jack by herself. After Elizabeth helps defeat some of Barbossa's crewmen, Sparrow shoots Barbossa just as Will returns both remaining coins with their blood into the chest, lifting the curse. Now mortal, Barbossa dies from Sparrow's gunshot, and the rest of Barbossa's crew are killed or surrendered.
 				At Port Royal, Will declares his love for Elizabeth, before rescuing Jack, who was about to be hanged. After a scuffle, Jack and Will are surrounded. Elizabeth stands by their side, choosing Turner over Norrington, who stands down. Sparrow falls into the water, then is rescued by the Black Pearl and her new crew. Norrington decides to give Sparrow "one day's head start" before pursuit. Governor Swann gives his blessings to Will and Elizabeth, while Jack Sparrow is made captain of the Pearl and sails off to the horizon.
@@ -885,8 +827,8 @@
 				<name>Jerry Bruckheimer</name>
 				<biography>	
 					Jerome Leon Bruckheimer (born September 21, 1943) is an American film and television producer. He has been active in the genres of action, drama, comedy, fantasy, and science fiction.
-					Bruckheimer has produced films like Flashdance, Top Gun, The Rock, Crimson Tide, Con Air, Armageddon, Enemy of the State, Black Hawk Down, Pearl Harbor, Kangaroo Jack, as well as the Beverly Hills Cop, Bad Boys, Pirates of the Caribbean, and National Treasure franchises. Many of his films have been co-produced by Paramount and Disney, while many of his television series have been co-produced by Warner Bros. and CBS Studios. In July 2003, Bruckheimer was honored by Variety as the first producer in Hollywood history to produce the top two highest-grossing films of a single weekend: Pirates of the Caribbean: The Curse of the Black Pearl and Bad Boys II.[2] In 2023, Top Gun: Maverick earned him a nomination for the Academy Award for Best Picture.
-					His best known television series are CSI: Crime Scene Investigation, CSI: Miami, CSI: NY, CSI: Cyber, Without a Trace, Cold Case, Lucifer, and the American version of The Amazing Race. For the lattermost, he won ten Primetime Emmy Awards. At one point, three of his TV series ranked among the top 10 in the U.S. ratings—a unique feat in television.[3]
+					Bruckheimer has produced films like Flashdance, Top Gun, The Rock, Crimson Tide, Con Air, Armageddon, Enemy of the State, Black Hawk Down, Pearl Harbor, Kangaroo Jack, as well as the Beverly Hills Cop, Bad Boys, Pirates of the Caribbean, and National Treasure franchises. Many of his films have been co-produced by Paramount and Disney, while many of his television series have been co-produced by Warner Bros. and CBS Studios. In July 2003, Bruckheimer was honored by Variety as the first producer in Hollywood history to produce the top two highest-grossing films of a single weekend: Pirates of the Caribbean: The Curse of the Black Pearl and Bad Boys II. In 2023, Top Gun: Maverick earned him a nomination for the Academy Award for Best Picture.
+					His best known television series are CSI: Crime Scene Investigation, CSI: Miami, CSI: NY, CSI: Cyber, Without a Trace, Cold Case, Lucifer, and the American version of The Amazing Race. For the lattermost, he won ten Primetime Emmy Awards. At one point, three of his TV series ranked among the top 10 in the U.S. ratings—a unique feat in television.
 					Bruckheimer is also the co-founder and co-majority owner (along with David Bonderman) of the Seattle Kraken, the 2021 expansion team of the National Hockey League.</biography>
 				<job>Producer</job>
 			</employee>
@@ -904,21 +846,21 @@
 					<name>Johnny Depp</name>
 					<job>Actor</job>
 					<character>Jack Sparrow</character>
-					<character_description> </character_description>
+					<character_description>Captain Jack Sparrow is a fictional character and the main protagonist of the Pirates of the Caribbean film series and franchise. An early iteration of Sparrow was created by screenwriters Ted Elliott and Terry Rossio, but the final version of the character was created by actor Johnny Depp, who also portrayed him.[1][2][3]The characterization of Sparrow is based on a combination of The Rolling Stones' guitarist Keith Richards and Looney Tunes cartoons, specifically the characters Bugs Bunny and Pepé Le Pew. He first appears in the 2003 film Pirates of the Caribbean: The Curse of the Black Pearl. He later appears in the sequels Dead Man's Chest (2006), At World's End (2007), On Stranger Tides (2011), and Dead Men Tell No Tales (2017).In the films, Sparrow is one of the nine pirate lords in the Brethren Court, the Pirate Lords of the Seven Seas. He can be treacherous and survives mostly by using wit and negotiation rather than by force, opting to flee most dangerous situations and to fight only when necessary.Sparrow is introduced seeking to regain his ship, the Black Pearl, from his mutinous first mate Hector Barbossa. After succeeding, he attempts to escape his blood debt to the legendary Davy Jones while fighting the East India Trading Company. Later, when searching for the Fountain of Youth, he is abducted and taken upon Blackbeard's Queen Anne's Revenge and is forced to lead him to the Fountain while the Black Pearl is trapped in a bottle. In a later adventure, when the ghost spanish Captain Armando Salazar comes after him, he searches for the Trident of Poseidon while also seeking to restore the Pearl to its original form.The Pirates of the Caribbean series was inspired by the Disney theme park ride of the same name, and when the ride was revamped in 2006, the character of Captain Jack Sparrow was added to it. He headlined the Legend of Captain Jack Sparrow attraction at Disney's Hollywood Studios, and is the subject of spin-off novels, including a children's book series, Pirates of the Caribbean: Jack Sparrow, which chronicles his childhood years.</character_description>
 					<role>Protagonist</role>
 				</employee>
 				<employee>
 					<name>Ian McShane</name>
 					<job>Actor</job>
 					<character>Edward Teach</character>
-					<character_description> </character_description>
+					<character_description>Blackbeard (d. 1718), otherwise known as Edward Teach (probably an assumed name), was an infamous English pirate who operated in the Caribbean and Atlantic during a surprisingly short career lasting just 15 months. With his long black beard tied with ribbons, lighted fuses under his hat, and bristling with pistols, Blackbeard’s name, reputation, and appearance were all calculated to freeze his victims with dreadful terror.Thanks largely to a wildly exaggerated and mostly fictional portrait by the author Charles Johnson/Daniel Defoe (1660-1731), Blackbeard became the most colourful of all the pirates of the so-called Golden Age of Piracy. He is portrayed as a man with no morals or scruples, either towards his innocent victims or his own crews, and as a pirate who got his just deserts when he was killed in action against the Royal Navy, but then only after being struck down by five pistol shots and 20 sword cuts.</character_description>
 					<role>Antagonist</role>
 				</employee>
 				<employee>
 					<name>Geoffrey Rush</name>
 					<job>Actor</job>
 					<character>Hector Barbossa</character>
-					<character_description> </character_description>
+					<character_description>Captain Hector Barbossa is a fictional character of the Pirates of the Caribbean franchise, appearing in all five films in the series. Starting out as a villainous undead pirate in The Curse of the Black Pearl (2003), the character dies at the end of the film. However, he is revealed to have been brought back to life at the end of Dead Man's Chest before appearing in anti-heroic roles as a Pirate Lord in At World's End (2007), a privateer with the Royal Navy in On Stranger Tides (2011), and finally as the rich and influential leader of his own pirate fleet in Dead Men Tell No Tales (2017). Throughout the series, the character has been conceptualized as a "dark trickster" and the evil counterpart of Captain Jack Sparrow.[1]</character_description>
 					<role>Protagonist</role>
 				</employee>
 			</lead_role>
@@ -927,15 +869,15 @@
 					<name>Zoe Saldana</name>
 					<job>Actor</job>
 					<character>Anamaria</character>
-					<character_description> </character_description>
+					<character_description>Anamaria was a tough female smuggler and pirate who operated in the Caribbean. What little is known of her life came largely from her adventures with the infamous Captain Jack Sparrow, who once referred to Anamaria as the "delicate flower of the Caribbean." The Jolly Mon was once Anamaria's boat until it was "borrowed" by Jack Sparrow, who eventually sailed it to the town of Port Royal, where it sank to the bottom of the harbor. Anamaria later reunited with Captain Sparrow when Joshamee Gibbs brought together a ragtag group to help crew the Interceptor. Believing Jack had a debt to repay, she joined the line of sailors and accused him of stealing her boat, adding a couple of slaps for emphasis. In turn, Jack offered the Interceptor, knowing Anamaria was a good sailor and that he needed her onboard. Anamaria sailed the Interceptor to Isla de Muerta during Will Turner's attempt to rescue Elizabeth Swann from Hector Barbossa's cursed crew, but was soon imprisoned with the other crewmen in the brig of the Black Pearl. After taking the Black Pearl, Anamaria served under Jack Sparrow's command, embarking on several misadventures before leaving the crew.</character_description>
 					<role>Neutral</role>
 				</employee>
 			</support_role>
 		</cast>
 		<post_production>
 			<employee>
-				<name></name>
-				<biography></biography>
+				<name>Craig Wood</name>
+				<biography>Craig Wood is an Australian film editor working in America.Born in Sydney, Wood began his career at the age of 19 as an assistant editor in the Australian Broadcasting Corporation's documentary department before moving into music video and advertising work.He has worked as an editor on almost all of director Gore Verbinski’s films, including the 1996 short film The Ritual, as well as on over a dozen Verbinski-directed commercials, including the Clio Awards and Silver Lion-winning Budweiser "Frogs" (1995).</biography>
 				<job>Film Editor</job>
 			</employee>
 			<employee>
@@ -943,34 +885,18 @@
 				<biography>Christopher Boyes is an American sound engineer. He has won four Academy Awards and has been nominated for another eleven. He has worked on more than 100 films since 1991.</biography>
 				<job>Sound Designer</job>
 			</employee>
-			<marketing_company>
-				<company>
-					<name> </name>
-				</company>
-			</marketing_company>
 			<publicity_company>
 				<company>
-					<name> </name>
+					<name>Gabriela Gutentag</name>
 				</company>
 			</publicity_company>
 		</post_production>
 		<release_and_distribution>
 			<distribution_company>
 				<company>
-					<name> </name>
+					<name>Buena Vista Pictures Distribution</name>
 				</company>
 			</distribution_company>
-			<streaming_services>
-				<company>
-					<name> </name>
-				</company>
-				<company>
-					<name> </name>
-				</company>
-				<company>
-					<name> </name>
-				</company>
-			</streaming_services>
 		</release_and_distribution>
 		<reception>
 			<viewer_rating>4.8</viewer_rating>
@@ -982,11 +908,11 @@
 			</revenue>
 		</reception>
 	</movie>
-	<movie id="ID-7" title="Twilight" genre="Drama" release_date="2008-11-17" duration="121" rating="PG">
+	<movie id="ID-7" title="Twilight" genre="Fantasy" release_date="2008-11-17" duration="121" rating="PG-13">
 		<plot>
 				Twilight is a 2008 American romantic fantasy vampire film directed by Catherine Hardwicke from a screenplay by Melissa Rosenberg, based on the 2005 novel of the same name by Stephenie Meyer. It is the first installment in The Twilight Saga film series. The film stars Kristen Stewart and Robert Pattinson as Bella Swan, a teenage girl, and Edward Cullen, a vampire, and focuses on the development of Bella and Edward's relationship and the subsequent efforts of Edward and his family to keep Bella safe from another coven of vampires.
-				The project was in development for approximately three years at Paramount Pictures' MTV Films, during which time a film adaptation that differed significantly from the novel was written. Summit Entertainment acquired the rights to the novel after the project's stagnant development. Melissa Rosenberg wrote a new adaptation of the novel shortly before the 2007–2008 Writers Guild of America strike and sought to be faithful to the novel's storyline. Principal photography began in March 2008 and took 44 days,[6] being completed on May 2;[7] the film was shot in the states of Oregon[8] and Washington.[9]
-				Twilight premiered in Los Angeles on November 17, 2008,[citation needed] and was theatrically released in the United States on November 21, by Summit Entertainment. Despite receiving mixed reviews from critics, the film grossed over $407 million worldwide.[5] It was released on DVD and Blu-ray Disc on March 21, 2009, and became the most purchased DVD of the year.[10] The soundtrack was released on November 4, 2008.[11]
+				The project was in development for approximately three years at Paramount Pictures' MTV Films, during which time a film adaptation that differed significantly from the novel was written. Summit Entertainment acquired the rights to the novel after the project's stagnant development. Melissa Rosenberg wrote a new adaptation of the novel shortly before the 2007–2008 Writers Guild of America strike and sought to be faithful to the novel's storyline. Principal photography began in March 2008 and took 44 days, being completed on May 2; the film was shot in the states of Oregon and Washington.
+				Twilight premiered in Los Angeles on November 17, 2008,(citation needed) and was theatrically released in the United States on November 21, by Summit Entertainment. Despite receiving mixed reviews from critics, the film grossed over $407 million worldwide. It was released on DVD and Blu-ray Disc on March 21, 2009, and became the most purchased DVD of the year. The soundtrack was released on November 4, 2008.
 				The film was followed by four sequels: New Moon (2009), Eclipse (2010), Breaking Dawn – Part 1 (2011), and Breaking Dawn – Part 2 (2012)
 		</plot>
 		<production>
@@ -1025,9 +951,7 @@
 			<employee>
 				<name>Melissa Rosenberg</name>
 				<biography>	
-					Melissa Anne Rosenberg is an American television writer, television producer, and screenwriter. She has worked in both film and television and has won a Peabody Award. She has also been nominated for two Emmy Awards, and two Writers Guild of America Awards. Since joining the Writers Guild of America, she has been involved in its board of directors and was a strike captain during the 2007–2008 Writers Guild of America strike. She supports female screenwriters through the WGA Diversity Committee and co-founded the League of Hollywood Women Writers.
-					She worked on several television series between 1993 and 2003 before joining The O.C.'s writing staff, eventually leaving the show to write the 2006 film Step Up. From 2006 to 2009, she served as the head writer of the Showtime series Dexter, rising to executive producer by the time she departed at the end of the fourth season. She wrote her second produced screenplay, the 2008 film adaptation of Stephenie Meyer's novel Twilight in 2007, and then adapted the novel's three sequels.
-					Rosenberg is also widely known as the creator of the Netflix series Jessica Jones.
+					Melissa Anne Rosenberg is an American television writer, television producer, and screenwriter. She has worked in both film and television and has won a Peabody Award. She has also been nominated for two Emmy Awards, and two Writers Guild of America Awards. Since joining the Writers Guild of America, she has been involved in its board of directors and was a strike captain during the 2007–2008 Writers Guild of America strike. She supports female screenwriters through the WGA Diversity Committee and co-founded the League of Hollywood Women Writers.She worked on several television series between 1993 and 2003 before joining The O.C.'s writing staff, eventually leaving the show to write the 2006 film Step Up. From 2006 to 2009, she served as the head writer of the Showtime series Dexter, rising to executive producer by the time she departed at the end of the fourth season. She wrote her second produced screenplay, the 2008 film adaptation of Stephenie Meyer's novel Twilight in 2007, and then adapted the novel's three sequels.Rosenberg is also widely known as the creator of the Netflix series Jessica Jones.
 				</biography>
 				<job>Screenwriter</job>
 			</employee>
@@ -1052,21 +976,21 @@
 					<name>Kristen Stewart</name>
 					<job>Actor</job>
 					<character>Bella Swan</character>
-					<character_description> </character_description>
+					<character_description>Isabella Marie Cullen is the protagonist character of the Twilight book series by Stephenie Meyer. She is initially an ordinary teenage girl, but during the series, Bella marries vampire Edward Cullen, with whom she has a human-vampire hybrid daughter, Renesmee Cullen. The Twilight series, consisting of the novels Twilight, New Moon, Eclipse, and Breaking Dawn, is primarily narrated from Bella's point of view. In The Twilight Saga film series, Bella is portrayed by actress Kristen Stewart.She is the daughter of Charlie Swan and Renée Swan-Dwyer and the daughter-in-law of Edward Masen Sr. and Elizabeth Masen (Edward's deceased biological parents). Bella is the step-daughter of Phil Dwyer (Renée's second husband) and the adoptive daughter-in-law of Esme Cullen and Carlisle Cullen (Edward's second and adoptive parents). Bella is the adoptive sister-in-law of Alice Cullen and Emmett Cullen as well as Rosalie Hale and Jasper Hale, the granddaughter of Geoffrey and Helen Swan (Charlie's deceased parents) and Marie Higginbotham (Renée's deceased mother).In Twilight, 17-year-old Bella moves to her father's home in Forks, Washington, meets the mysterious Cullen family, and falls in love with seemingly teenage Edward Cullen. However, she soon discovers that the family is a coven of vampires. Bella expresses a desire to become a vampire herself, but Edward refuses to turn her. In the second novel, New Moon, Edward and the other Cullens leave Forks in an effort to keep now-18-year-old human Bella safe from the vampire world. Jacob Black, a member of the Quileute tribe who is also a shape-shifter taking a werewolf form, comforts the distraught and severely depressed Bella. She comes to care deeply for Jacob, though less than she loves Edward. At the end of Eclipse, she becomes engaged to Edward Cullen, and they marry in Breaking Dawn, one month prior to her 19th birthday. On their honeymoon, she becomes pregnant, and, due to the peculiar nature of her baby, Bella nearly dies giving birth to their daughter, Renesmee. Edward turns Bella into a vampire to save her.</character_description>
 					<role>Protagonist</role>
 				</employee>
 				<employee>
 					<name>Robert Pattinson</name>
 					<job>Actor</job>
 					<character>Edward Cullen</character>
-					<character_description> </character_description>
+					<character_description>Edward Cullen (né Edward Anthony Masen, Jr.) is a character in the Twilight book series by Stephenie Meyer. He is featured in the novels Twilight, New Moon, Eclipse and Breaking Dawn, and their corresponding film adaptations, and the novel Midnight Sun—a re-telling of the events of Twilight from Edward's perspective. Edward is a telepathic vampire who, over the course of the series, falls in love with, marries, and fathers a child with Bella Swan, a human teenager who later chooses to become a vampire as well. In the films, Edward is played by actor Robert Pattinson.</character_description>
 					<role>Protagonist</role>
 				</employee>
 				<employee>
 					<name>Taylor Lautner</name>
 					<job>Actor</job>
 					<character>Jacob Black</character>
-					<character_description> </character_description>
+					<character_description>Jacob Black is a character in the Twilight book series by Stephenie Meyer. He is described as an attractive Native American of the Quileute tribe in La Push, near Forks, Washington. In the second book of the series, New Moon, he discovers that he is a therianthrope who can shapeshift into a wolf. For the majority of the series, Jacob competes with Edward Cullen for Bella Swan's love. In The Twilight Saga film series, Jacob is played by Taylor Lautner.</character_description>
 					<role>Protagonist</role>
 				</employee>
 			</lead_role>
@@ -1075,50 +999,29 @@
 					<name>Peter Facinelli</name>
 					<job>Actor</job>
 					<character>Dr. Carlisle Cullen</character>
-					<character_description> </character_description>
+					<character_description>Carlisle Cullen (pronounced Car-lyle) was born in 1640 in London, England and is the founder and leader of the Olympic coven. He is the second husband of Esme Cullen and the adoptive father of Emmett, Alice, Edward Cullen, and Jasper and Rosalie Hale. He is also the adoptive father-in-law of Bella Swan and adoptive grandfather of Renesmee Cullen.In his human life, Carlisle was very compassionate, when he was turned this manifested into unparalleled compassion that allowed him to perfect his lifestyle as a "vegetarian" among vampires, to the point that he is able to completely resist the temptation of human blood even if it is in large amounts and pass this restraint to his family. His Life and Death counterpart is Carine Cullen.He is portrayed by Peter Facinelli in the movie adaptations. He is also portrayed by James Physick and Justin Rose in two separate segments.</character_description>
 					<role>Neutral</role>
 				</employee>
 			</support_role>
 		</cast>
 		<post_production>
 			<employee>
-				<name></name>
-				<biography></biography>
+				<name>Nancy Richardson</name>
+				<biography>Nancy Richardson's credits include Stand and Deliver, To Sleep with Anger, Selena, Thirteen, Lords of Dogtown, Twilight, Step Up, and Fighting with my Family. She has served as a Creative Advisor for the Sundance Directors Lab several times. She has also been a professor at UCLA's Department of Film, Television and Digital Media for 20 years.</biography>
 				<job>Film Editor</job>
 			</employee>
 			<employee>
 				<name>Christopher Boyes</name>
-				<biography> </biography>
+				<biography>Christopher Boyes is an American sound engineer. He has won four Academy Awards and has been nominated for another eleven. He has worked on more than 100 films since 1991.</biography>
 				<job>Sound Designer</job>
 			</employee>
-			<marketing_company>
-				<company>
-					<name> </name>
-				</company>
-			</marketing_company>
-			<publicity_company>
-				<company>
-					<name> </name>
-				</company>
-			</publicity_company>
 		</post_production>
 		<release_and_distribution>
 			<distribution_company>
 				<company>
-					<name> </name>
+					<name>Summit Entertainment</name>
 				</company>
 			</distribution_company>
-			<streaming_services>
-				<company>
-					<name> </name>
-				</company>
-				<company>
-					<name> </name>
-				</company>
-				<company>
-					<name> </name>
-				</company>
-			</streaming_services>
 		</release_and_distribution>
 		<reception>
 			<viewer_rating>3</viewer_rating>
@@ -1174,9 +1077,7 @@
 			<employee>
 				<name>James Wan</name>
 				<biography>	
-					James Wan (born 26 February 1977) is an Australian filmmaker. He has primarily worked in the horror genre as the co-creator of the Saw and Insidious franchises and the creator of The Conjuring Universe. The lattermost is the highest-grossing horror franchise at over $2 billion. Wan is also the founder of film and television production company Atomic Monster.
-					Beginning his career with the Saw franchise, Wan made his feature directorial debut with his first film in 2004. The franchise became commercially successful and grossed more than $1 billion globally. Following a period of setbacks, Wan found new success with the Insidious series, in which he directed the first film in 2010 and its 2013 sequel. The same year as the second Insidious, Wan directed the first Conjuring film to critical and commercial success. He served as the director of the second installment in 2016 and produced subsequent films in the franchise.
-					Outside of horror, Wan directed Furious 7 (2015), the seventh installment of the Fast & Furious franchise, and the DC Extended Universe superhero films Aquaman (2018) and the upcoming Aquaman and the Lost Kingdom. Both Furious 7 and Aquaman grossed over $1 billion, making Wan the eighth director with two films to reach the milestone.He is the 19th highest-grossing director of all time as of 2021, with his films having grossed over $3.7 billion worldwide.
+					James Wan (born 26 February 1977) is an Australian filmmaker. He has primarily worked in the horror genre as the co-creator of the Saw and Insidious franchises and the creator of The Conjuring Universe. The lattermost is the highest-grossing horror franchise at over $2 billion. Wan is also the founder of film and television production company Atomic Monster.Beginning his career with the Saw franchise, Wan made his feature directorial debut with his first film in 2004. The franchise became commercially successful and grossed more than $1 billion globally. Following a period of setbacks, Wan found new success with the Insidious series, in which he directed the first film in 2010 and its 2013 sequel. The same year as the second Insidious, Wan directed the first Conjuring film to critical and commercial success. He served as the director of the second installment in 2016 and produced subsequent films in the franchise.Outside of horror, Wan directed Furious 7 (2015), the seventh installment of the Fast & Furious franchise, and the DC Extended Universe superhero films Aquaman (2018) and the upcoming Aquaman and the Lost Kingdom. Both Furious 7 and Aquaman grossed over $1 billion, making Wan the eighth director with two films to reach the milestone.He is the 19th highest-grossing director of all time as of 2021, with his films having grossed over $3.7 billion worldwide.
 				</biography>
 				<job>Director</job>
 			</employee>
@@ -1190,7 +1091,7 @@
 			<employee>
 				<name>Peter Safran</name>
 				<biography>
-					Peter Safran (born 22 November 1965) is a British-American film producer and manager.[1] He currently serves as the co-chairperson and CEO of DC Studios alongside James Gunn.	
+					Peter Safran (born 22 November 1965) is a British-American film producer and manager. He currently serves as the co-chairperson and CEO of DC Studios alongside James Gunn.	
 				</biography>
 				<job>Producer</job>
 			</employee>
@@ -1201,21 +1102,21 @@
 					<name>Jason Momoa</name>
 					<job>Actor</job>
 					<character>Arthur Curry</character>
-					<character_description> </character_description>
+					<character_description>Arthur Curry, also known by his superhero moniker Aquaman, is a fictional character in the DC Extended Universe based on the DC Comics superhero of the same name. He is portrayed by American actor Jason Momoa. Originally appearing as a cameo in Batman v Superman: Dawn of Justice, Curry had a prominent role in the film Justice League and its director's cut, and is later the subject of his own film Aquaman. Momoa also cameoed in the first season finale of the HBO Max series Peacemaker and the film The Flash. The DCEU marks Aquaman's first portrayal in cinema, with his character having been re-imagined as compared to his comics counterpart.</character_description>
 					<role>Protagonist</role>
 				</employee>
 				<employee>
 					<name>Amber Heard</name>
 					<job>Actor</job>
 					<character>Mera</character>
-					<character_description> </character_description>
+					<character_description>Mera is a superheroine appearing in American comic books published by DC Comics. Created by Jack Miller and Nick Cardy, the character first appeared in Aquaman #11 (September 1963).Originally portrayed as a supporting character to her husband, the superhero Aquaman, possessing the formidable hydrokinetic power to create and control water, modern writers have given greater emphasis to her superhuman physical strength. Mera has been depicted as a member of DC Comics' flagship superhero team, the Justice League. Queen Mera's earlier storylines have also portrayed her mental breakdown, as she was faced with crippling loss. The stories explored her attempts at coping with lasting anger and rage. More recent storylines have explored her approach to rulership in comparison to her husband.The character has been adapted substantially in various media, she was played by Elena Satine on Smallville and most notably featured in the DC Extended Universe where Amber Heard portrayed Mera in Justice League and its director's cut,reprised the role in Aquaman and will return in Aquaman and the Lost Kingdom. The character has also been adapted in the animated Young Justice television series.</character_description>
 					<role>Protagonist</role>
 				</employee>
 				<employee>
 					<name>Patrick Wilson</name>
 					<job>Actor</job>
-					<character>Ocean Master/character>
-					<character_description> </character_description>
+					<character>Ocean Master</character>
+					<character_description>Orm Marius, aka the Ocean Master, is the half-brother of Aquaman plotting to overthrow Aquaman, who is considered the rightful king of Atlantis. Although he is jailed for an attempt on the "surface world" and escapes, he is conflicted between his family rivalry and the safety of Atlantis, the latter being more important to him than the former.</character_description>
 					<role>Antagonist</role>
 				</employee>
 			</lead_role>
@@ -1224,50 +1125,39 @@
 					<name>Randall Park</name>
 					<job>Actor</job>
 					<character>Dr. Stephen Shin</character>
-					<character_description> </character_description>
+					<character_description>Stephen Shin was a scientist and friend of Tom Curry. He helped a young Aquaman develop his powers, but would later grow obsessed with finding out where the lost city of Atlantis was located.</character_description>
 					<role>Neutral</role>
 				</employee>
 			</support_role>
 		</cast>
 		<post_production>
 			<employee>
-				<name></name>
-				<biography></biography>
+				<name>Kirk Morri</name>
+				<biography>Best known for his work in the the horror thriller The Conjuring (2013) and the action movie Furious Seven (2015), Kirk Morri is an American film editor. He started out as an assistant editor in the mid-1990s, and subsequently made his independent editorial debut with the horror film Feast in 2005.</biography>
 				<job>Film Editor</job>
 			</employee>
 			<employee>
 				<name>Christopher Boyes</name>
-				<biography> </biography>
+				<biography>Boyes is an American sound engineer who has won four Academy Awards. He has worked on over 70 films since 1991.</biography>
 				<job>Sound Designer</job>
 			</employee>
 			<marketing_company>
 				<company>
-					<name> </name>
+					<name>Curt Cash</name>
 				</company>
 			</marketing_company>
 			<publicity_company>
 				<company>
-					<name> </name>
+					<name>Morgan Jago</name>
 				</company>
 			</publicity_company>
 		</post_production>
 		<release_and_distribution>
 			<distribution_company>
 				<company>
-					<name> </name>
+					<name>Warner Bros. Pictures</name>
 				</company>
 			</distribution_company>
-			<streaming_services>
-				<company>
-					<name> </name>
-				</company>
-				<company>
-					<name> </name>
-				</company>
-				<company>
-					<name> </name>
-				</company>
-			</streaming_services>
 		</release_and_distribution>
 		<reception>
 			<viewer_rating>3</viewer_rating>
@@ -1279,9 +1169,9 @@
 			</revenue>
 		</reception>
 	</movie>
-	<movie id="ID-9" title="Barbie" genre="Fantasy" release_date="2023-07-09" duration="114" rating="PG">
+	<movie id="ID-9" title="Barbie" genre="Musical" release_date="2023-07-09" duration="114" rating="G">
 		<plot>
-				Barbie[a] is a 2023 fantasy comedy film directed by Greta Gerwig from a screenplay she wrote with Noah Baumbach. Based on the eponymous fashion dolls by Mattel, it is the first live-action Barbie film after numerous computer-animated films and specials. The film stars Margot Robbie as the title character and Ryan Gosling as Ken, and follows the pair on a journey of self-discovery following an existential crisis. The supporting cast includes America Ferrera, Kate McKinnon, Issa Rae, Rhea Perlman, and Will Ferrell.
+				Barbie is a 2023 fantasy comedy film directed by Greta Gerwig from a screenplay she wrote with Noah Baumbach. Based on the eponymous fashion dolls by Mattel, it is the first live-action Barbie film after numerous computer-animated films and specials. The film stars Margot Robbie as the title character and Ryan Gosling as Ken, and follows the pair on a journey of self-discovery following an existential crisis. The supporting cast includes America Ferrera, Kate McKinnon, Issa Rae, Rhea Perlman, and Will Ferrell.
 				A live-action Barbie film was announced in September 2009 by Universal Pictures with Laurence Mark producing. Development began in April 2014, when Sony Pictures acquired the film rights. Following multiple writer and director changes and the casting of Amy Schumer and later Anne Hathaway as Barbie, the rights were transferred to Warner Bros. Pictures in October 2018. Robbie was cast in 2019, after Gal Gadot turned down the role due to scheduling conflicts, and Gerwig was announced as director and co-writer with Baumbach in 2020. The rest of the cast was announced in early 2022, with principal photography occurring primarily at Warner Bros. Studios, Leavesden, in England and at the Venice Beach Skatepark in Los Angeles from March to July of that year.
 				Barbie premiered at the Shrine Auditorium in Los Angeles on July 9, 2023, and was released in the United States on July 21. Its simultaneous release with Universal's Oppenheimer led to the "Barbenheimer" cultural phenomenon, which encouraged audiences to see both films as a double feature. The film received critical acclaim and has grossed $1.44 billion, becoming the highest-grossing film of 2023 as well as the highest-grossing film by a solo female director, the highest-grossing film ever released by Warner Bros., and the 14th highest-grossing film of all time.
 		</plot>
@@ -1314,18 +1204,14 @@
 			<employee>
 				<name>Greta Gerwig</name>
 				<biography>	
-					Greta Celeste Gerwig (/ˈɡɜːrwɪɡ/;[1] born August 4, 1983) is an American actress, writer, and director. Initially known for working on mumblecore films,[2][3] she has since expanded from acting in and co-writing independent films to directing major studio films. Gerwig was included in the annual Time 100 list of the most influential people in the world in 2018.[4]
-					Gerwig began her career working with Joe Swanberg on films such as Hannah Takes the Stairs (2007) and Nights and Weekends (2008).[5] She has collaborated with her partner Noah Baumbach on several films, including Greenberg (2010) and Frances Ha (2012), for which she received a Golden Globe Award nomination, Mistress America (2015), and White Noise (2022). She also acted in such films as Whit Stillman's Damsels in Distress (2011), Woody Allen's To Rome with Love (2012), Rebecca Miller's Maggie's Plan (2015), Pablo Larraín's Jackie (2016), Mike Mills' 20th Century Women (2016), and Wes Anderson's Isle of Dogs (2018).[6][7]
-					As a solo filmmaker, Gerwig has written and directed the coming-of-age films Lady Bird (2017) and Little Women (2019), both of which earned nominations for the Academy Award for Best Picture. For the former, she received Academy Award nominations for Best Director and Best Original Screenplay,[8] and for the latter, she was nominated for Best Adapted Screenplay. Her next directorial, the fantasy comedy Barbie (2023), which she co-wrote with Baumbach, became the first film from a solo female director to gross over $1 billion worldwide.
+					Greta Celeste Gerwig (born August 4, 1983) is an American actress, writer, and director. Initially known for working on mumblecore films, she has since expanded from acting in and co-writing independent films to directing major studio films. Gerwig was included in the annual Time 100 list of the most influential people in the world in 2018.Gerwig began her career working with Joe Swanberg on films such as Hannah Takes the Stairs (2007) and Nights and Weekends (2008).She has collaborated with her partner Noah Baumbach on several films, including Greenberg (2010) and Frances Ha (2012), for which she received a Golden Globe Award nomination, Mistress America (2015), and White Noise (2022). She also acted in such films as Whit Stillman's Damsels in Distress (2011), Woody Allen's To Rome with Love (2012), Rebecca Miller's Maggie's Plan (2015), Pablo Larraín's Jackie (2016), Mike Mills' 20th Century Women (2016), and Wes Anderson's Isle of Dogs (2018).As a solo filmmaker, Gerwig has written and directed the coming-of-age films Lady Bird (2017) and Little Women (2019), both of which earned nominations for the Academy Award for Best Picture. For the former, she received Academy Award nominations for Best Director and Best Original Screenplay, and for the latter, she was nominated for Best Adapted Screenplay. Her next directorial, the fantasy comedy Barbie (2023), which she co-wrote with Baumbach, became the first film from a solo female director to gross over $1 billion worldwide.
 				</biography>
 				<job>Director</job>
 			</employee>
 			<employee>
 				<name>Noah Baumbach</name>
 				<biography>	
-					Noah Baumbach (born September 3, 1969) is an American film director and screenwriter. He is known for making comedies set in New York City, and his works are inspired by writer-directors such as Woody Allen and Whit Stillman. His frequent collaborators include Wes Anderson, Adam Driver, and Greta Gerwig.
-					Baumbach gained attention for his early films Kicking and Screaming (1995), and Mr. Jealousy (1997). His breakthrough film The Squid and the Whale (2005) earned him a nomination for the Academy Award for Best Original Screenplay. He started with his long time collaborations with Gerwig with Greenberg (2010), and continued with Frances Ha (2013), Mistress America (2015), White Noise (2022) and Barbie (2023).
-					His other films include Margot at the Wedding (2007), While We're Young (2014), and The Meyerowitz Stories (2017). His film Marriage Story (2019) earned an Academy Award for Best Picture nomination and Baumbach's second Best Original Screenplay nomination. He is also known for co-writing with Anderson on The Life Aquatic with Steve Zissou (2004) and Fantastic Mr. Fox (2009).
+					Noah Baumbach (born September 3, 1969) is an American film director and screenwriter. He is known for making comedies set in New York City, and his works are inspired by writer-directors such as Woody Allen and Whit Stillman. His frequent collaborators include Wes Anderson, Adam Driver, and Greta Gerwig.Baumbach gained attention for his early films Kicking and Screaming (1995), and Mr. Jealousy (1997). His breakthrough film The Squid and the Whale (2005) earned him a nomination for the Academy Award for Best Original Screenplay. He started with his long time collaborations with Gerwig with Greenberg (2010), and continued with Frances Ha (2013), Mistress America (2015), White Noise (2022) and Barbie (2023).His other films include Margot at the Wedding (2007), While We're Young (2014), and The Meyerowitz Stories (2017). His film Marriage Story (2019) earned an Academy Award for Best Picture nomination and Baumbach's second Best Original Screenplay nomination. He is also known for co-writing with Anderson on The Life Aquatic with Steve Zissou (2004) and Fantastic Mr. Fox (2009).
 				</biography>
 				<job>Screenwriter</job>
 			</employee>
@@ -1339,12 +1225,16 @@
 			<employee>
 				<name>Margot Robbie</name>
 				<biography>
-					Margot Elise Robbie (born 2 July 1990) is an Australian actress and producer. Known for her work in both blockbuster and independent films, she has received various accolades, including nominations for two Academy Awards, five BAFTA Awards and four Golden Globe Awards. Time named her one of the 100 most influential people in the world in 2017, and Forbes named her one of the world's highest-paid actresses in 2019.
-					Born and raised in Queensland, Robbie began her career in 2008 on the television series Neighbours, on which she was a regular until 2011. After moving to America, she led the television series Pan Am (2011–2012) and had her breakthrough in 2013 with Martin Scorsese’s black comedy film The Wolf of Wall Street. She achieved wider recognition with starring roles as Jane Porter in The Legend of Tarzan (2016) and Harley Quinn in the DC Extended Universe films, beginning with Suicide Squad (2016).
-					Robbie received critical acclaim and a nomination for the Academy Award for Best Actress for her portrayal of figure skater Tonya Harding in the biopic I, Tonya (2017). This acclaim continued for her performances as Queen Elizabeth I in Mary Queen of Scots (2018), Sharon Tate in Once Upon a Time in Hollywood (2019), and a Fox News employee in Bombshell (2019). She received BAFTA Award nominations for all three and a nomination for the Academy Award for Best Supporting Actress for the last. Robbie has since starred as an aspiring actress in the period film Babylon (2022) and the titular fashion doll in the comedy Barbie (2023), which emerged as her highest-grossing release.
-					Robbie and her husband, filmmaker Tom Ackerley, co-founded the production company LuckyChap Entertainment in 2014, under which they have produced several films, including I, Tonya, Promising Young Woman (2020) and Barbie, as well as the Hulu series Dollface (2019–2022) and the Netflix miniseries Maid (2021).
+					Margot Elise Robbie (born 2 July 1990) is an Australian actress and producer. Known for her work in both blockbuster and independent films, she has received various accolades, including nominations for two Academy Awards, five BAFTA Awards and four Golden Globe Awards. Time named her one of the 100 most influential people in the world in 2017, and Forbes named her one of the world's highest-paid actresses in 2019.Born and raised in Queensland, Robbie began her career in 2008 on the television series Neighbours, on which she was a regular until 2011. After moving to America, she led the television series Pan Am (2011–2012) and had her breakthrough in 2013 with Martin Scorsese’s black comedy film The Wolf of Wall Street. She achieved wider recognition with starring roles as Jane Porter in The Legend of Tarzan (2016) and Harley Quinn in the DC Extended Universe films, beginning with Suicide Squad (2016).Robbie received critical acclaim and a nomination for the Academy Award for Best Actress for her portrayal of figure skater Tonya Harding in the biopic I, Tonya (2017). This acclaim continued for her performances as Queen Elizabeth I in Mary Queen of Scots (2018), Sharon Tate in Once Upon a Time in Hollywood (2019), and a Fox News employee in Bombshell (2019). She received BAFTA Award nominations for all three and a nomination for the Academy Award for Best Supporting Actress for the last. Robbie has since starred as an aspiring actress in the period film Babylon (2022) and the titular fashion doll in the comedy Barbie (2023), which emerged as her highest-grossing release.Robbie and her husband, filmmaker Tom Ackerley, co-founded the production company LuckyChap Entertainment in 2014, under which they have produced several films, including I, Tonya, Promising Young Woman (2020) and Barbie, as well as the Hulu series Dollface (2019–2022) and the Netflix miniseries Maid (2021).
 				</biography>
 				<job>Producer</job>
+			</employee>
+			<employee>
+				<name>Mark Ronson</name>
+				<biography>
+					Mark Daniel Ronson (born 4 September 1975) is a British musician, DJ, record producer, songwriter, and remixer. He is best known for his collaborations with artists such as Amy Winehouse, Lady Gaga, Dua Lipa, Adele, Lily Allen, Duran Duran, Miley Cyrus, Queens of the Stone Age, and Bruno Mars. He has received seven Grammy Awards, including Producer of the Year for Winehouse's album Back to Black (2006) and two for Record of the Year singles "Rehab" and "Uptown Funk". He received an Oscar, a Golden Globe and a Grammy Award for co-writing "Shallow" (performed by Lady Gaga and Bradley Cooper) for the film A Star Is Born (2018).Ronson was born in London and raised in New York City. His stepfather is Foreigner guitarist Mick Jones, which contributed to a childhood surrounded by music. While attending New York University, Ronson became a popular DJ in the hip-hop scene. His debut album, Here Comes the Fuzz, failed to have an effect on the charts. In 2006, he received acclaim for producing albums for Lily Allen, Christina Aguilera, and Amy Winehouse. In 2007, Ronson released his second album, Version. The album reached number two in the UK and included three top ten singles and earned him the Brit Award for British Male Solo Artist. He subsequently released his third studio album, Record Collection, which peaked at number two in the UK.In 2014, Ronson released his single "Uptown Funk" featuring vocals from Bruno Mars. The single spent 14 consecutive weeks at number one on the U.S. Billboard Hot 100 and seven non-consecutive weeks at number one on the UK Singles Chart and became one of the best-selling singles of all-time. His fourth studio album, Uptown Special, became his most successful album to date. In 2018, he founded his own label, Zelig Records (an imprint of Columbia Records), and formed the duo Silk City with fellow producer Diplo; they released their debut single "Electricity" featuring Dua Lipa for which he received the Grammy Award for Best Dance Recording.In 2015, he became a patron of the Amy Winehouse Foundation, which helps disadvantaged youth through music. He has also worked with the End the Silence campaign to raise money and awareness for the Hope and Homes for Children charity and served as an artist mentor at Turnaround Arts, a national program of the John F. Kennedy Center for the Performing Arts, which helped low-performing schools through arts education.
+				</biography>
+				<job>Composer</job>
 			</employee>
 		</creative_team>
 		<cast>
@@ -1353,66 +1243,38 @@
 					<name>Margot Robbie</name>
 					<job>Actor</job>
 					<character>Barbie</character>
-					<character_description> </character_description>
 					<role>Protagonist</role>
 				</employee>
 				<employee>
 					<name>Ryan Gosling</name>
 					<job>Actor</job>
 					<character>Ken</character>
-					<character_description> </character_description>
 					<role>Protagonist</role>
 				</employee>
 			</lead_role>
-			<support_role>
-				<employee>
-					<name></name>
-					<job>Actor</job>
-					<character></character>
-					<character_description> </character_description>
-					<role>Neutral</role>
-				</employee>
-			</support_role>
 		</cast>
 		<post_production>
 			<employee>
-				<name></name>
-				<biography></biography>
+				<name>Nick Houy</name>
 				<job>Film Editor</job>
 			</employee>
 			<employee>
 				<name>Christopher Boyes</name>
-				<biography> </biography>
+				<biography>Boyes is an American sound engineer who has won four Academy Awards. He has worked on over 70 films since 1991.</biography>
 				<job>Sound Designer</job>
 			</employee>
-			<marketing_company>
-				<company>
-					<name> </name>
-				</company>
-			</marketing_company>
 			<publicity_company>
 				<company>
-					<name> </name>
+					<name>Stu Oakley</name>
 				</company>
 			</publicity_company>
 		</post_production>
 		<release_and_distribution>
 			<distribution_company>
 				<company>
-					<name> </name>
+					<name>Warner Bros. Pictures</name>
 				</company>
 			</distribution_company>
-			<streaming_services>
-				<company>
-					<name> </name>
-				</company>
-				<company>
-					<name> </name>
-				</company>
-				<company>
-					<name> </name>
-				</company>
-			</streaming_services>
 		</release_and_distribution>
 		<reception>
 			<viewer_rating>4</viewer_rating>
@@ -1462,10 +1324,9 @@
 				<job>Screenwriter</job>
 			</employee>
 			<employee>
-				<name>Basil Iwanyk</name>
+				<name>Mark Johnson</name>
 				<biography>	
-					Basil William Iwanyk (born January 4, 1970) is an American film producer. He is the founder of Thunder Road Films and most known for Sicario, The Town, Greenland and the John Wick franchise. His films have earned more than $2 billion internationally as of 2018. He is of Ukrainian descent.
-					After starting out working for Warner Bros in the 1990s, Basil founded his own company, Thunder Road, in 2000. The company has a stellar reputation within the industry and a remarkable track record of critical and commercial success.</biography>
+					Mark Johnson (born December 27, 1945) is an American film and television producer. He won the Academy Award for Best Picture for producing the 1988 film Rain Man.
 				<job>Producer</job>
 			</employee>
 			<employee>
@@ -1482,27 +1343,27 @@
 					<name>Ryan Gosling</name>
 					<job>Actor</job>
 					<character>Noah Calhoun</character>
-					<character_description> </character_description>
+					<character_description>Noah Calhoun is the main protagonist of the 2004 film,The notebook. He's the boyfriend and later husband of 17 year-old Allie Hamilton.At a summer carnival in 1940,Noah saw Allie. He fell in love with the young lady and wanted to go on a date with her. So bad actually, that the dude was willing to risk his life for it.</character_description>
 					<role>Protagonist</role>
 				</employee>
 				<employee>
 					<name>Rachel McAdams</name>
 					<job>Actor</job>
 					<character>Allie Hamilton</character>
-					<character_description> </character_description>
+					<character_description>Allison "Allie" Hamilton is a 17 year old rich girl in The Notebook (film). She soon falls in love with a poor boy Noah Calhoun. Allison's parents parents do not approve of him and later left town.</character_description>
 					<role>Protagonist</role>
 				</employee>
 				<employee>
 					<name>James Garner</name>
 					<job>Actor</job>
 					<character>Noah Calhoun</character>
-					<character_description> </character_description>
+					<character_description>Noah Calhoun is the main protagonist of the 2004 film,The notebook. He's the boyfriend and later husband of 17 year-old Allie Hamilton.At a summer carnival in 1940,Noah saw Allie. He fell in love with the young lady and wanted to go on a date with her. So bad actually, that the dude was willing to risk his life for it.</character_description>
 					<role>Protagonist</role>
 				<employee>
 					<name>Gena Rowlands</name>
 					<job>Actor</job>
 					<character>Allie Hamilton</character>
-					<character_description> </character_description>
+					<character_description>Allison "Allie" Hamilton is a 17 year old rich girl in The Notebook (film). She soon falls in love with a poor boy Noah Calhoun. Allison's parents parents do not approve of him and later left town.</character_description>
 					<role>Protagonist</role>
 				</employee>
 				</employee>
@@ -1512,14 +1373,14 @@
 					<name>James Marsden</name>
 					<job>Actor</job>
 					<character>Lon Hammond</character>
-					<character_description> </character_description>
+					<character_description>Lon Hammond, Jr. is Allie's fiancé; he's an intelligent and hardworking lawyer who comes from a wealthy, powerful family who made their money in the cotton industry long ago</character_description>
 					<role>Neutral</role>
 				</employee>
 				<employee>
 					<name>Jamie Anne Allmank</name>
 					<job>Actor</job>
 					<character>Martha Shaw</character>
-					<character_description> </character_description>
+					<character_description>Martha Shaw is a war widow and Noah’s neighbor in New Bern. Noah regularly helps Martha, a single mother of three, with home repairs and small favors. In return, Martha often brings over homemade food and baked goods.</character_description>
 					<role>Neutral</role>
 				</employee>
 			</support_role>
@@ -1527,7 +1388,7 @@
 		<post_production>
 			<employee>
 				<name>Justine Halliday</name>
-				<biography></biography>
+				<biography>Justine Halliday is known for The Notebook (2004), One Hour Photo (2002) and Alpha Dog (2006).</biography>
 				<job>Film Editor</job>
 			</employee>
 			<employee>
@@ -1535,34 +1396,18 @@
 				<biography>Letessier studied psycho-acoustics and political economy (PhD) before starting what would become the most important music production and sound design company in Europe: Vol de Nuit. In 1996, upon his invitation, he joined long time friend Hans Zimmer, to create a sound design division at Media Ventures in Santa Monica and collaborate with Hans on numerous major projects. Working with Terrence Malick on The Thin Red Line (1998) as a sound designer and an ethnomusicologist (Malick and Letessier produced a CD of the Solomon Islands Melanesian choirs: The Blessed Islands) and _Endurance (1998)_ certainly was the highlight of his career. Letessier has art directed soundscapes, created and composed sounds and sound design for some of the most prestigious and creative directors: Steven Spielberg, Marc Pellington, Tarsem, Wong-Kar Wai, Michael Bay, Wim Wenders, Terrence Malick to name a few.</biography>
 				<job>Sound Designer</job>
 			</employee>
-			<marketing_company>
-				<company>
-					<name> </name>
-				</company>
-			</marketing_company>
 			<publicity_company>
 				<company>
-					<name> </name>
+					<name>Steven Gorel</name>
 				</company>
 			</publicity_company>
 		</post_production>
 		<release_and_distribution>
 			<distribution_company>
 				<company>
-					<name> </name>
+					<name>New Line Cinema</name>
 				</company>
 			</distribution_company>
-			<streaming_services>
-				<company>
-					<name> </name>
-				</company>
-				<company>
-					<name> </name>
-				</company>
-				<company>
-					<name> </name>
-				</company>
-			</streaming_services>
 		</release_and_distribution>
 		<reception>
 			<viewer_rating>3</viewer_rating>
