@@ -2,7 +2,11 @@
 <!-- Movies tag represents a list of movies -->
 <movies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		xsi:noNamespaceSchemaLocation="moviesSchema.xsd">
-	<movie id="ID-1" title="Harry Potter And The Philosopher Stone" genre="Fantasy" release_date="2001-11-04" duration="152" rating="PG">
+	<movie id="ID-1" title="Harry Potter And The Philosopher Stone" release_date="2001-11-04" duration="152" rating="PG">
+		<genres>
+			<genre type="Fantasy"/>
+			<genre type="Adventure"/>
+		</genres>
 		<plot>	
 				Late one night, Albus Dumbledore and Minerva McGonagall, professors at Hogwarts School of Witchcraft and Wizardry, along with groundskeeper Rubeus Hagrid, deliver an orphaned infant wizard named Harry Potter to his Muggle aunt and uncle, Petunia and Vernon Dursley, his only living relatives.
 				Ten years later, just before Harry's eleventh birthday, owls begin delivering letters addressed to him. When the abusive Dursleys adamantly refuse to allow Harry to open any and flee to an island hut, Hagrid arrives to personally deliver Harry's letter of acceptance to Hogwarts. Hagrid also reveals that Harry's parents, James and Lily, were killed by a dark wizard named Lord Voldemort. The killing curse that Voldemort had cast towards Harry rebounded, destroying Voldemort's body and giving Harry his lightning-bolt scar. Hagrid then takes Harry to Diagon Alley for school supplies and gives him a pet snowy owl whom he names Hedwig. Harry buys a wand that is connected to Voldemort's own wand.
@@ -14,15 +18,9 @@
 		</plot>
 		<production>
 			<companies>
-				<company>
-					<name>Warner Bros. Pictures</name>
-				</company>
-				<company>
-					<name>Heyday Films</name>
-				</company>
-				<company>
-					<name>1492 Pictures</name>
-				</company>
+				<company name="Warner Bros. Pictures"/>
+				<company name="Heyday Films"/>
+				<company name="1492 Pictures"/>
 			</companies>
 			<budget>
 				<currency>Dollar</currency>
@@ -149,32 +147,20 @@
 				<job>Sound Designer</job>
 			</employee>
 			<marketing_company>
-				<company>
-					<name>Warner Bros. Pictures</name>
-				</company>
+				<company name="Warner Bros. Pictures"/>
 			</marketing_company>
 			<publicity_company>
-				<company>
-					<name>Warner Bros. Pictures</name>
-				</company>
+				<company name="Warner Bros. Pictures"/>
 			</publicity_company>
 		</post_production>
 		<release_and_distribution>
 			<distribution_company>
-				<company>
-					<name>Warner Bros. Pictures</name>
-				</company>
+				<company name="Warner Bros. Pictures"/>
 			</distribution_company>
 			<streaming_services>
-				<company>
-					<name>Peacock</name>
-				</company>
-				<company>
-					<name>Prime Video</name>
-				</company>
-				<company>
-					<name>Max</name>
-				</company>
+				<company name="Peacock"/>
+				<company name="Prime Video"/>
+				<company name="Max"/>
 			</streaming_services>
 		</release_and_distribution>
 		<reception>
@@ -187,7 +173,12 @@
 			</revenue>
 		</reception>
 	</movie>
-	<movie id="ID-2" title="Green Mile" genre="Drama" release_date="1999-12-10" duration="189" rating="PG-13">
+	<movie id="ID-2" title="Green Mile" release_date="1999-12-10" duration="189" rating="PG-13">
+		<genres>
+			<genre type="Drama" />
+			<genre type="Fantasy" />
+			<genre type="Supernatural"/>
+		</genres>
 		<plot>
 				At a Louisiana assisted-living home in 1999, retiree Paul Edgecomb begins to cry while watching the film Top Hat. His companion Elaine becomes concerned, and Paul explains to her that the film reminded him of events that he witnessed when he was an officer at Cold Mountain Penitentiary's death row, nicknamed "The Green Mile".
 				In 1935, Paul supervised Corrections Officers Brutus "Brutal" Howell, Dean Stanton, Harry Terwilliger, and Percy Wetmore, reporting to Warden Hal Moores. Percy, the nephew of the state governor's wife, demonstrates a severe sadistic streak but flaunts his family connections to avoid being held accountable. He is particularly abusive towards prisoner Eduard "Del" Delacroix, breaking his fingers and killing his pet mouse, Mr. Jingles.
@@ -200,20 +191,16 @@
 		</plot>
 		<production>
 			<companies>
-				<company>
-					<name>Castle Rock Entertainment </name>
-				</company>
-				<company>
-					<name>Darkwoods Productions</name>
-				</company>
+				<company name="Castle Rock Entertainment"/>
+				<company name="Darkwoods Productions"/>
 			</companies>
 			<budget>
 				<currency>Dollar</currency>
 				<amount>60000000</amount>
 			</budget>
 			<shooting_locations>
-				<country name="United Kingdom">
-					<cities>United States</cities>
+				<country name="United States of America">
+					<cities>California, Shelbyville, Tennessee, North Carolina</cities>
 				</country>
 			</shooting_locations>
 		</production>
@@ -277,7 +264,7 @@
 					<name>Sam Rockwell</name>
 					<job>Actor</job>
 					<character>Wild Bill</character>
-					<character_description>William "Wild Bill" Wharton is the main antagonist of the novel The Green Mile by Stephen King and its 1999 film adaptation. He is a wild-acting, dangerous multiple-murderer who is determined to make as much trouble as he can before he is executed. He is also responsible for killing a family, raping two kids, and framing John Coffey for it. He was also the arch-nemesis of John Coffey.He was portrayed by Sam Rockwell, who also portrayed Eric Knox in Charlie's Angels, Zaphod Beeblebrox in The Hitchhiker's Guide to the Galaxy, Justin Hammer in the Marvel Cinematic Universe, Billy Bickle in Seven Psychopaths, Randy Borland in Law & Order, Mortimer Ramsey in Dishonored 2, Jason Dixon in Three Billboards Outside Ebbing, Missouri and Mr. Wolf in The Bad Guys.</character_description>
+					<character_description>William "Wild Bill" Wharton is the main antagonist of the novel The Green Mile by Stephen King and its 1999 film adaptation. He is a wild-acting, dangerous multiple-murderer who is determined to make as much trouble as he can before he is executed. He is also responsible for killing a family, raping two kids, and framing John Coffey for it. He was also the arch-nemesis of John Coffey.He was portrayed by Sam Rockwell, who also portrayed Eric Knox in Charlie's Angels, Zaphod Beeblebrox in The Hitchhiker's Guide to the Galaxy, Justin Hammer in the Marvel Cinematic Universe, Billy Bickle in Seven Psychopaths, Randy Borland in Law And Order, Mortimer Ramsey in Dishonored 2, Jason Dixon in Three Billboards Outside Ebbing, Missouri and Mr. Wolf in The Bad Guys.</character_description>
 					<role>Antagonist</role>
 				</employee>
 			</lead_role>
@@ -310,19 +297,13 @@
 				<job>Sound Designer</job>
 			</employee>
 			<publicity_company>
-				<company>
-					<name>Paulette Osorio</name>
-				</company>
+				<company name="Paulette Osorio"/>
 			</publicity_company>
 		</post_production>
 		<release_and_distribution>
 			<distribution_company>
-				<company>
-					<name>Warner Bros.</name>
-				</company>
-				<company>
-					<name>Universal Pictures</name>
-				</company>
+				<company name="Warner Bros"/>
+				<company name="Universal Pictures"/>
 			</distribution_company>
 		</release_and_distribution>
 		<reception>
@@ -335,7 +316,11 @@
 			</revenue>
 		</reception>
 	</movie>
-	<movie id="ID-3" title="Titanic" genre="Drama" release_date="1997-11-01" duration="195" rating="G">
+	<movie id="ID-3" title="Titanic" release_date="1997-11-01" duration="195" rating="G">
+		<genres>
+			<genre type="Romance"/>
+			<genre type="Drama"/>
+		</genres>
 		<plot>
 				In 1996, aboard the research vessel Akademik Mstislav Keldysh, Brock Lovett and his team search the wreck of RMS Titanic. They recover a safe they hope contains a necklace with a large diamond known as the Heart of the Ocean. Instead, they find only a drawing of a young nude woman wearing the necklace. The sketch is dated April 14, 1912, the same day the Titanic struck the iceberg that caused it to sink. After viewing a television news story about the discovery, centenarian Rose Dawson Calvert contacts Lovett, identifying herself as the woman in the drawing. Hoping she can help locate the necklace, Lovett brings Rose aboard Keldysh, where she recounts her experiences as a Titanic passenger.
 				In 1912 Southampton, 17-year-old Rose DeWitt Bukater, her wealthy fiancé Caledon "Cal" Hockley and Rose's widowed mother Ruth board the Titanic. Ruth emphasizes that Rose's marrying Cal will resolve the family's financial problems and maintain their upper-class status. Meanwhile, Jack Dawson, a poor young artist, wins a third-class Titanic ticket in a poker game. After setting sail, Rose, distraught over her loveless engagement, climbs over the stern railing, intending to commit suicide. Jack coaxes her back onto the deck and they develop a friendship. Jack soon admits that he has feelings for Rose. When Cal and Ruth object, Rose rejects Jack's attentions, but returns to him after realizing she has fallen in love.
@@ -346,23 +331,23 @@
 		</plot>
 		<production>
 			<companies>
-				<company>
-					<name>Paramount Pictures</name>
-				</company>
-				<company>
-					<name>20th Century Studios</name>
-				</company>
-				<company>
-					<name>Lightstorm Entertainment</name>
-				</company>
+				<company name="Paramount Pictures"/>
+				<company name="20th Century Studios"/>
+				<company name="Lightstorm Entertainment"/>
 			</companies>
 			<budget>
 				<currency>Dollar</currency>
 				<amount>200000000</amount>
 			</budget>
 			<shooting_locations>
-				<country name="United Kingdom">
-					<cities>United States</cities>
+				<country name="Mexico">
+					<cities>Rosarito Beach</cities>
+				</country>
+				<country name="Canada">
+					<cities>Nova Scotia</cities>
+				</country>
+				<country name="United States of America">
+					<cities>California</cities>
 				</country>
 			</shooting_locations>
 		</production>
@@ -466,21 +451,15 @@
 				<job>Sound Designer</job>
 			</employee>
 			<marketing_company>
-				<company>
-					<name>Greg Ferris</name>
-				</company>
+				<company name="Greg Ferris"/>
 			</marketing_company>
 			<publicity_company>
-				<company>
-					<name>Eileen Peterson</name>
-				</company>
+				<company name="Eileen Peterson"/>
 			</publicity_company>
 		</post_production>
 		<release_and_distribution>
 			<distribution_company>
-				<company>
-					<name>Tyler Atkinson</name>
-				</company>
+				<company name="Tyler Atkinson"/>
 			</distribution_company>
 		</release_and_distribution>
 		<reception>
@@ -493,7 +472,13 @@
 			</revenue>
 		</reception>
 	</movie>
-	<movie id="ID-4" title="The Lord of the Rings: The Fellowship of the Ring" genre="Fantastic" release_date="1997-11-01" duration="195" rating="PG-13">
+	<movie id="ID-4" title="The Lord of the Rings: The Fellowship of the Ring" release_date="1997-11-01" duration="195" rating="PG-13">
+		<genres>
+			<genre type="Fantasy" />
+			<genre type="Action" />
+			<genre type="Adventure" />
+			<genre type="Drama" />
+		</genres>
 		<plot>
 				In the Second Age of Middle-earth, the lords of Elves, Dwarves, and Men are given Rings of Power. Unbeknownst to them, the Dark Lord Sauron forges the One Ring in 			Mount Doom, instilling into it a great part of his power, to dominate the other Rings and conquer Middle-earth. A final alliance of Men and Elves battles Sauron's 			forces in Mordor. Isildur of Gondor severs Sauron's finger and the Ring with it, thereby vanquishing Sauron and returning him to spirit form. With Sauron's first 			defeat, the Third Age of Middle-earth begins. The Ring's influence corrupts Isildur, who takes it for himself and is later killed by Orcs. The Ring is lost in a 			river for 2,500 years until it is found by Gollum, who owns it for over four and a half centuries. The ring abandons Gollum and it is subsequently found by a hobbit 			named Bilbo Baggins, who is unaware of its history.
 				Sixty years later, Bilbo celebrates his 111th birthday in the Shire, reuniting with his old friend, the wizard Gandalf the Grey. Bilbo departs the Shire for one 			last adventure, and he leaves his inheritance, including the Ring, to his nephew Frodo. Gandalf investigates the Ring, discovers its true nature, and learns that 			Gollum was captured and brutally tortured by Sauron's Orcs, revealing two words during his interrogation: "Shire" and "Baggins." Gandalf returns and warns Frodo to 			leave the Shire. As Frodo departs with his friend, gardener Samwise Gamgee, Gandalf rides to Isengard to meet with the wizard Saruman, but discovers his betrayal 			and alliance with Sauron, who has dispatched his nine undead Nazgûl servants to find Frodo.
@@ -504,20 +489,16 @@
 		</plot>
 		<production>
 			<companies>
-				<company>
-					<name>New Line Cinema</name>
-				</company>
-				<company>
-					<name>WingNut Films</name>
-				</company>
+				<company name="New Line Cinema"/>
+				<company name="WingNut Films"/>
 			</companies>
 			<budget>
 				<currency>Dollar</currency>
 				<amount>93000000</amount>
 			</budget>
 			<shooting_locations>
-				<country name="United Kingdom">
-					<cities>United States, New Zealand </cities>
+				<country name="New Zealand">
+					<cities>Matamata, Wellington Region, Queenstown</cities>
 				</country>
 			</shooting_locations>
 		</production>
@@ -593,7 +574,7 @@
 					<role>Neutral</role>
 				</employee>
 				<employee>
-					<name></name>
+					<name>Dominic Monaghan</name>
 					<job>Actor</job>
 					<character>Meriadoc Brandybuck</character>
 					<character_description>Meriadoc Brandybuck romane J. R. R. Tolkieni The Lord of the Rings de yew karaktero. Meriadoc Brandybuck, hem yew hobbito hem zi embaze wayire iştanan Frodo Bagginso. Dewre Hireyıne de, Shire de ameyo riye dınya. Dewre Çeharıne de merdo.</character_description>
@@ -613,16 +594,12 @@
 				<job>Sound Designer</job>
 			</employee>
 			<publicity_company>
-				<company>
-					<name>Dennis Davidson</name>
-				</company>
+				<company name="Dennis Davidson" />
 			</publicity_company>
 		</post_production>
 		<release_and_distribution>
 			<distribution_company>
-				<company>
-					<name>New Line Cinema</name>
-				</company>
+				<company name="New Line Cinema" />
 			</distribution_company>
 		</release_and_distribution>
 		<reception>
@@ -635,7 +612,11 @@
 			</revenue>
 		</reception>
 	</movie>
-	<movie id="ID-5" title="John Wick" genre="Action" release_date="2014-10-24" duration="101" rating="PG-13">
+	<movie id="ID-5" title="John Wick" release_date="2014-10-24" duration="101" rating="PG-13">
+		<genres>
+			<genre type="Action" />
+			<genre type="Thriller" />
+		</genres>
 		<plot>
 				In New York City, John Wick is grieving the death of his wife Helen, who had arranged for him to receive a beagle puppy to help cope with his loss. A few days later, a group of Russian gangsters, led by Iosef Tarasov, accost John at a gas station and fail to intimidate him into selling them his 1969 Boss 429 Mustang. That night, they break into John's home, assault him, kill the puppy, and steal the car. Iosef takes the Mustang to a chop shop to remove its identifying details, but the shop owner, Aurelio, recognizes it and refuses service. Aurelio informs John that Iosef is the son of Viggo Tarasov, the boss of New York City's Russian mafia.
 				Upon learning of his son's actions, Viggo berates Iosef for incurring John's wrath. He reveals John was once a hitman in his employ, and was renowned and feared in the criminal underworld as the Baba Yaga, a ruthless, relentless "man of focus, commitment, and sheer will". After John fell in love with Helen, a civilian, Viggo gave him a seemingly impossible task to earn his freedom; he succeeded.
@@ -646,26 +627,21 @@
 		</plot>
 		<production>
 			<companies>
-				<company>
-					<name>Thunder Road Pictures</name>
-				</company>
-				<company>
-					<name>87Eleven Productions</name>
-				</company>
-				<company>
-					<name>MJW Films</name>
-				</company>
-				<company>
-					<name>DefyNite Films</name>
-				</company>
+				<company name="Thunder Road Pictures" />
+				<company name="87Eleven Productions" />
+				<company name="MJW Films" />
+				<company name="DefyNite Films" />
 			</companies>
 			<budget>
 				<currency>Dollar</currency>
 				<amount>30000000</amount>
 			</budget>
 			<shooting_locations>
-				<country name="United Kingdom">
-					<cities>United States</cities>
+				<country name="United States of America">
+					<cities>New York</cities>
+				</country>
+				<country name="Canada">
+					<cities>Montreal</cities>
 				</country>
 			</shooting_locations>
 		</production>
@@ -693,7 +669,7 @@
 			<employee>
 				<name>David Leitch</name>
 				<biography>
-					David Leitch (born November 16, 1975) is an American filmmaker, actor, stunt performer and stunt coordinator who made his directorial debut on the 2014 action film John Wick with Chad Stahelski, though only Stahelski was credited. Leitch then directed the 2017 thriller film Atomic Blonde, starring Charlize Theron, and 2018's Deadpool 2, the sequel to the 2016 film. In 2019, he directed Hobbs & Shaw, a spin-off of the Fast & Furious franchise, and in 2022 directed Bullet Train, starring Brad Pitt.</biography>
+					David Leitch (born November 16, 1975) is an American filmmaker, actor, stunt performer and stunt coordinator who made his directorial debut on the 2014 action film John Wick with Chad Stahelski, though only Stahelski was credited. Leitch then directed the 2017 thriller film Atomic Blonde, starring Charlize Theron, and 2018's Deadpool 2, the sequel to the 2016 film. In 2019, he directed Hobbs and Shaw, a spin-off of the Fast and Furious franchise, and in 2022 directed Bullet Train, starring Brad Pitt.</biography>
 				<job>Producer</job>			
 				</employee>
 			<employee>
@@ -757,16 +733,12 @@
 				<job>Sound Designer</job>
 			</employee>
 			<publicity_company>
-				<company>
-					<name>Peter J. Silbermann</name>
-				</company>
+				<company name="Peter J. Silbermann" />
 			</publicity_company>
 		</post_production>
 		<release_and_distribution>
 			<distribution_company>
-				<company>
-					<name>	Summit Entertainment</name>
-				</company>
+				<company name="Summit Entertainment" />
 			</distribution_company>
 		</release_and_distribution>
 		<reception>
@@ -779,7 +751,11 @@
 			</revenue>
 		</reception>
 	</movie>
-	<movie id="ID-6" title="Pirates of the Caribbean: The Curse of the Black Pearl" genre="Action" release_date="2003-06-28" duration="143" rating="PG-13">
+	<movie id="ID-6" title="Pirates of the Caribbean: The Curse of the Black Pearl" release_date="2003-06-28" duration="143" rating="PG-13">
+		<genres>
+			<genre type="Adventure" />
+			<genre type="Fantasy" />
+		</genres>
 		<plot>
 				In 1720, Governor Weatherby Swann and his daughter, Elizabeth, sail aboard the HMS Dauntless. Lieutenant Norrington's crew recovers a shipwrecked survivor, Will Turner. Elizabeth takes a gold medallion from around Will's neck before seeing a ship with black sails. Eight years later in Port Royal, Jamaica, Norrington is promoted to commodore and proposes to Elizabeth at Fort Charles. Elizabeth's corset makes her faint and fall into the water below, causing the medallion to emit a pulse. Captain Jack Sparrow, who initially arrived to "commandeer" a ship, rescues Elizabeth before escaping Commodore Norrington, who identifies Jack with his pirate brand. Will, now a blacksmith, meets Jack and fights long enough for Sparrow to be imprisoned.
 				That night, Port Royal is attacked by the Black Pearl, the ship Elizabeth Swann saw years earlier, searching for the medallion. Invoking parley, Elizabeth is taken aboard to meet Captain Barbossa. Although she gave her name as "Elizabeth Turner" to conceal her identity as the governor's daughter, Barbossa takes Elizabeth with them. Barbossa explains that the medallion is one of 882 Aztec gold pieces in a stone chest used to bribe Cortés to stop his slaughter, but because of Cortés's greed, the heathen gods placed a curse on the gold. Barbossa's crew found the treasure at Isla de Muerta, but after spending it, they feel and taste nothing, and turn into immortal undead skeletons in the moonlight. To lift the curse, Barbossa's crew must return all the gold with their blood. Having discovered that "Bootstrap Bill" Turner sent a piece to his child, Barbossa sent Bootstrap to the bottom of the ocean. Assuming Elizabeth is Bootstrap's child, Barbossa intends to use her blood instead.
@@ -789,21 +765,18 @@
 		</plot>
 		<production>
 			<companies>
-				<company>
-					<name>Walt Disney Pictures</name>
-				</company>
-				<company>
-					<name>Jerry Bruckheimer Films</name>
-				</company>
+				<company name="Walt Disney Pictures" />
+				<company name="Jerry Bruckheimer Films" />
 			</companies>
 			<budget>
 				<currency>Dollar</currency>
 				<amount>140000000</amount>
 			</budget>
 			<shooting_locations>
-				<country name="United Kingdom">
-					<cities>United States</cities>
+				<country name="Jamaica">
+					<cities>Port Royal</cities>
 				</country>
+				<country name="Dominican Republic"/>
 			</shooting_locations>
 		</production>
 		<creative_team>
@@ -886,16 +859,12 @@
 				<job>Sound Designer</job>
 			</employee>
 			<publicity_company>
-				<company>
-					<name>Gabriela Gutentag</name>
-				</company>
+				<company name="Gabriela Gutentag" />
 			</publicity_company>
 		</post_production>
 		<release_and_distribution>
 			<distribution_company>
-				<company>
-					<name>Buena Vista Pictures Distribution</name>
-				</company>
+				<company name="Buena Vista Pictures Distribution" />
 			</distribution_company>
 		</release_and_distribution>
 		<reception>
@@ -908,7 +877,11 @@
 			</revenue>
 		</reception>
 	</movie>
-	<movie id="ID-7" title="Twilight" genre="Fantasy" release_date="2008-11-17" duration="121" rating="PG-13">
+	<movie id="ID-7" title="Twilight" release_date="2008-11-17" duration="121" rating="PG-13">
+		<genres>
+			<genre type="Fantasy" />
+			<genre type="Romance" />
+		</genres>	
 		<plot>
 				Twilight is a 2008 American romantic fantasy vampire film directed by Catherine Hardwicke from a screenplay by Melissa Rosenberg, based on the 2005 novel of the same name by Stephenie Meyer. It is the first installment in The Twilight Saga film series. The film stars Kristen Stewart and Robert Pattinson as Bella Swan, a teenage girl, and Edward Cullen, a vampire, and focuses on the development of Bella and Edward's relationship and the subsequent efforts of Edward and his family to keep Bella safe from another coven of vampires.
 				The project was in development for approximately three years at Paramount Pictures' MTV Films, during which time a film adaptation that differed significantly from the novel was written. Summit Entertainment acquired the rights to the novel after the project's stagnant development. Melissa Rosenberg wrote a new adaptation of the novel shortly before the 2007–2008 Writers Guild of America strike and sought to be faithful to the novel's storyline. Principal photography began in March 2008 and took 44 days, being completed on May 2; the film was shot in the states of Oregon and Washington.
@@ -917,26 +890,21 @@
 		</plot>
 		<production>
 			<companies>
-				<company>
-					<name>Temple Hill Entertainment</name>
-				</company>
-				<company>
-					<name>Maverick Films</name>
-				</company>
-				<company>
-					<name>Goldcrest Film Finance</name>
-				</company>
-				<company>
-					<name>Aura Films</name>
-				</company>
+				<company name="Temple Hill Entertainment" />
+				<company name="Maverick Films" />
+				<company name="Goldcrest Film Finance" />
+				<company name="Aura Films" />
 			</companies>
 			<budget>
 				<currency>Dollar</currency>
 				<amount>37000000</amount>
 			</budget>
 			<shooting_locations>
-				<country name="United Kingdom">
-					<cities>United States</cities>
+				<country name="United States of America">
+					<cities>Oregon, Washington</cities>
+				</country>
+				<country name="Canada">
+					<cities>British Columbia</cities>
 				</country>
 			</shooting_locations>
 		</production>
@@ -958,7 +926,7 @@
 			<employee>
 				<name>Mark Morgan</name>
 				<biography>
-					Mark Paul Morgan is an American film producer. He has been a producer and executive producer on films including The Twilight Saga film series, Percy Jackson & the Olympians: The Lightning Thief, and the Agent Cody Banks films.	
+					Mark Paul Morgan is an American film producer. He has been a producer and executive producer on films including The Twilight Saga film series, Percy Jackson and the Olympians: The Lightning Thief, and the Agent Cody Banks films.	
 				</biography>
 				<job>Producer</job>
 			</employee>
@@ -1018,9 +986,7 @@
 		</post_production>
 		<release_and_distribution>
 			<distribution_company>
-				<company>
-					<name>Summit Entertainment</name>
-				</company>
+				<company name="Summit Entertainment" />
 			</distribution_company>
 		</release_and_distribution>
 		<reception>
@@ -1033,7 +999,11 @@
 			</revenue>
 		</reception>
 	</movie>
-	<movie id="ID-8" title="Aquaman" genre="Action" release_date="2018-11-26" duration="143" rating="PG">
+	<movie id="ID-8" title="Aquaman" release_date="2018-11-26" duration="143" rating="PG">
+		<genres>
+			<genre type="Superhero" />
+			<genre type="Fantasy"/>
+		</genres>
 		<plot>
 				Aquaman is a 2018 American superhero film based on the DC character of the same name. Co-produced and distributed by Warner Bros. Pictures, it is the sixth film in the DC Extended Universe (DCEU). The film was directed by James Wan from a screenplay by David Leslie Johnson-McGoldrick and Will Beall. It stars Jason Momoa as Arthur Curry / Aquaman, who sets out to lead the underwater kingdom of Atlantis and stop his half-brother, King Orm, from uniting the seven underwater kingdoms to destroy the surface world. Amber Heard, Willem Dafoe, Patrick Wilson, Dolph Lundgren, Yahya Abdul-Mateen II, and Nicole Kidman appear in supporting roles.
 				Development began in 2004 but did not gain traction until Man of Steel was released in 2013. In August 2014, Beall and Kurt Johnstad were hired to write competing scripts. Wan signed on as director in April 2015, and in July 2016, the film moved forward with Beall's screenplay. The main cast was confirmed through 2016 and early 2017. Principal photography began in Australia in May 2017, taking place at Village Roadshow Studios on the Gold Coast, Queensland, Australia, with additional production teams in Canada, Italy and Morocco. Filming concluded the following October. Several vendors provided visual effects, ranging from high-detail hair simulations to the creation of CGI animals and locations.
@@ -1041,43 +1011,29 @@
 		</plot>
 		<production>
 			<companies>
-				<company>
-					<name>Warner Bros. Pictures</name>
-				</company>
-				<company>
-					<name>DC Entertainment</name>
-				</company>
-				<company>
-					<name>DC Films</name>
-				</company>
-				<company>
-					<name>RatPac Entertainment</name>
-				</company>
-				<company>
-					<name>Cruel and Unusual Films</name>
-				</company>
-				<company>
-					<name>The Safran Company</name>
-				</company>
-				<company>
-					<name>Mad Ghost Productions</name>
-				</company>
+				<company name="Warner Bros. Pictures" />
+				<company name="DC Entertainment" />
+				<company name="DC Films" />
+				<company name="RatPac Entertainment" />
+				<company name="Cruel and Unusual Films" />
+				<company name="The Safran Company" />
+				<company name="Mad Ghost Productions" />
 			</companies>
 			<budget>
 				<currency>Dollar</currency>
 				<amount>200000000</amount>
 			</budget>
 			<shooting_locations>
-				<country name="United Kingdom">
-					<cities>United States</cities>
-				</country>
+				<country name="Australia"/>
+				<country name="Italy"/>
+				<country name="Canada"/>
 			</shooting_locations>
 		</production>
 		<creative_team>
 			<employee>
 				<name>James Wan</name>
 				<biography>	
-					James Wan (born 26 February 1977) is an Australian filmmaker. He has primarily worked in the horror genre as the co-creator of the Saw and Insidious franchises and the creator of The Conjuring Universe. The lattermost is the highest-grossing horror franchise at over $2 billion. Wan is also the founder of film and television production company Atomic Monster.Beginning his career with the Saw franchise, Wan made his feature directorial debut with his first film in 2004. The franchise became commercially successful and grossed more than $1 billion globally. Following a period of setbacks, Wan found new success with the Insidious series, in which he directed the first film in 2010 and its 2013 sequel. The same year as the second Insidious, Wan directed the first Conjuring film to critical and commercial success. He served as the director of the second installment in 2016 and produced subsequent films in the franchise.Outside of horror, Wan directed Furious 7 (2015), the seventh installment of the Fast & Furious franchise, and the DC Extended Universe superhero films Aquaman (2018) and the upcoming Aquaman and the Lost Kingdom. Both Furious 7 and Aquaman grossed over $1 billion, making Wan the eighth director with two films to reach the milestone.He is the 19th highest-grossing director of all time as of 2021, with his films having grossed over $3.7 billion worldwide.
+					James Wan (born 26 February 1977) is an Australian filmmaker. He has primarily worked in the horror genre as the co-creator of the Saw and Insidious franchises and the creator of The Conjuring Universe. The lattermost is the highest-grossing horror franchise at over $2 billion. Wan is also the founder of film and television production company Atomic Monster.Beginning his career with the Saw franchise, Wan made his feature directorial debut with his first film in 2004. The franchise became commercially successful and grossed more than $1 billion globally. Following a period of setbacks, Wan found new success with the Insidious series, in which he directed the first film in 2010 and its 2013 sequel. The same year as the second Insidious, Wan directed the first Conjuring film to critical and commercial success. He served as the director of the second installment in 2016 and produced subsequent films in the franchise.Outside of horror, Wan directed Furious 7 (2015), the seventh installment of the Fast and Furious franchise, and the DC Extended Universe superhero films Aquaman (2018) and the upcoming Aquaman and the Lost Kingdom. Both Furious 7 and Aquaman grossed over $1 billion, making Wan the eighth director with two films to reach the milestone.He is the 19th highest-grossing director of all time as of 2021, with his films having grossed over $3.7 billion worldwide.
 				</biography>
 				<job>Director</job>
 			</employee>
@@ -1142,21 +1098,15 @@
 				<job>Sound Designer</job>
 			</employee>
 			<marketing_company>
-				<company>
-					<name>Curt Cash</name>
-				</company>
+				<company name="Curt Cash" />
 			</marketing_company>
 			<publicity_company>
-				<company>
-					<name>Morgan Jago</name>
-				</company>
+				<company name="Morgan Jago" />
 			</publicity_company>
 		</post_production>
 		<release_and_distribution>
 			<distribution_company>
-				<company>
-					<name>Warner Bros. Pictures</name>
-				</company>
+				<company name="Warner Bros. Pictures" />
 			</distribution_company>
 		</release_and_distribution>
 		<reception>
@@ -1169,7 +1119,12 @@
 			</revenue>
 		</reception>
 	</movie>
-	<movie id="ID-9" title="Barbie" genre="Musical" release_date="2023-07-09" duration="114" rating="G">
+	<movie id="ID-9" title="Barbie" release_date="2023-07-09" duration="114" rating="G">
+		<genres>
+			<genre type="Adventure" />
+			<genre type="Comedy" />
+			<genre type="Fantasy" />
+		</genres>
 		<plot>
 				Barbie is a 2023 fantasy comedy film directed by Greta Gerwig from a screenplay she wrote with Noah Baumbach. Based on the eponymous fashion dolls by Mattel, it is the first live-action Barbie film after numerous computer-animated films and specials. The film stars Margot Robbie as the title character and Ryan Gosling as Ken, and follows the pair on a journey of self-discovery following an existential crisis. The supporting cast includes America Ferrera, Kate McKinnon, Issa Rae, Rhea Perlman, and Will Ferrell.
 				A live-action Barbie film was announced in September 2009 by Universal Pictures with Laurence Mark producing. Development began in April 2014, when Sony Pictures acquired the film rights. Following multiple writer and director changes and the casting of Amy Schumer and later Anne Hathaway as Barbie, the rights were transferred to Warner Bros. Pictures in October 2018. Robbie was cast in 2019, after Gal Gadot turned down the role due to scheduling conflicts, and Gerwig was announced as director and co-writer with Baumbach in 2020. The rest of the cast was announced in early 2022, with principal photography occurring primarily at Warner Bros. Studios, Leavesden, in England and at the Venice Beach Skatepark in Los Angeles from March to July of that year.
@@ -1177,27 +1132,17 @@
 		</plot>
 		<production>
 			<companies>
-				<company>
-					<name>Heyday Films</name>
-				</company>
-				<company>
-					<name>LuckyChap Entertainment</name>
-				</company>
-				<company>
-					<name>NB/GG Pictures</name>
-				</company>
-				<company>
-					<name>Mattel Films</name>
-				</company>
+				<company name="Heyday Films" />
+				<company name="LuckyChap Entertainment" />
+				<company name="NB/GG Pictures" />
+				<company name="Mattel Films" />
 			</companies>
 			<budget>
 				<currency>Dollar</currency>
 				<amount>145000000</amount>
 			</budget>
 			<shooting_locations>
-				<country name="United Kingdom">
-					<cities>United States</cities>
-				</country>
+				<country name="United States of America"/>
 			</shooting_locations>
 		</production>
 		<creative_team>
@@ -1252,6 +1197,18 @@
 					<role>Protagonist</role>
 				</employee>
 			</lead_role>
+			<support_role>
+				<employee>
+					<name>Will Ferrell</name>
+					<job>Actor</job>
+					<character>CEO of Mattel</character>
+				</employee>
+				<employee>
+					<name>Michael Cera </name>
+					<job>Actor</job>
+					<character>Allan</character>
+				</employee>
+			</support_role>
 		</cast>
 		<post_production>
 			<employee>
@@ -1264,16 +1221,12 @@
 				<job>Sound Designer</job>
 			</employee>
 			<publicity_company>
-				<company>
-					<name>Stu Oakley</name>
-				</company>
+				<company name="Stu Oakley" />
 			</publicity_company>
 		</post_production>
 		<release_and_distribution>
 			<distribution_company>
-				<company>
-					<name>Warner Bros. Pictures</name>
-				</company>
+				<company name="Warner Bros. Pictures" />
 			</distribution_company>
 		</release_and_distribution>
 		<reception>
@@ -1286,7 +1239,11 @@
 			</revenue>
 		</reception>
 	</movie>
-	<movie id="ID-10" title="The Notebook" genre="Drama" release_date="2004-05-20" duration="124" rating="PG">
+	<movie id="ID-10" title="The Notebook" release_date="2004-05-20" duration="124" rating="PG">
+		<genres>
+			<genre type="Romance" />
+			<genre type="Drama" />
+		</genres>
 		<plot>
 				The Notebook is a 2004 American romantic drama film directed by Nick Cassavetes, from a screenplay by Jeremy Leven and Jan Sardi, and based on the 1996 novel of the same name by Nicholas Sparks. The film stars Ryan Gosling and Rachel McAdams as a young couple who fall in love in the 1940s. Their story is read from a notebook in the present day by an elderly man, telling the tale to a fellow nursing home resident.
 				The Notebook had its world premiere at the Seattle International Film Festival on May 20, 2004, and was theatrically released in the United States on June 25, 2004. Despite generally mixed reviews from critics, Gosling and McAdams were singled out for praise for their performances. The film was a sleeper hit at the box office, grossing $117 million against its $29 million budget, and has become a cult classic in the years since its release. On November 11, 2012, an extended version premiered on ABC Family with deleted scenes added back into the original storyline.
@@ -1294,17 +1251,15 @@
 		</plot>
 		<production>
 			<companies>
-				<company>
-					<name>Gran Via</name>
-				</company>
+				<company name="Gran Via" />
 			</companies>
 			<budget>
 				<currency>Dollar</currency>
 				<amount>29000000</amount>
 			</budget>
 			<shooting_locations>
-				<country name="United Kingdom">
-					<cities>United States</cities>
+				<country name="United States of America">
+					<cities>South Carolina</cities>
 				</country>
 			</shooting_locations>
 		</production>
@@ -1327,12 +1282,13 @@
 				<name>Mark Johnson</name>
 				<biography>	
 					Mark Johnson (born December 27, 1945) is an American film and television producer. He won the Academy Award for Best Picture for producing the 1988 film Rain Man.
+				</biography>
 				<job>Producer</job>
 			</employee>
 			<employee>
 				<name>Aaron Zigman</name>
 				<biography>	
-					Aaron Zigman (born January 6, 1963) is a classically-trained American composer, producer, arranger, songwriter, and musician who has scored music for films including The Notebook, The Company Men, Bridge to Terabithia, John Q., The Proposal, Flicka, For Colored Girls, Flash of Genius, Sex & the City, Alpha Dog, and Escape from Planet Earth. He has also written, arranged and produced over 50 hit albums, and co-written songs with legendary and contemporary artists including Quincy Jones, Christina Aguilera, Phil Collins, Was (Not Was), John Legend, Dionne Warwick, Ray Charles, Natalie Cole, Aretha Franklin, Tina Turner, and Seal.
+					Aaron Zigman (born January 6, 1963) is a classically-trained American composer, producer, arranger, songwriter, and musician who has scored music for films including The Notebook, The Company Men, Bridge to Terabithia, John Q., The Proposal, Flicka, For Colored Girls, Flash of Genius, Sex and the City, Alpha Dog, and Escape from Planet Earth. He has also written, arranged and produced over 50 hit albums, and co-written songs with legendary and contemporary artists including Quincy Jones, Christina Aguilera, Phil Collins, Was (Not Was), John Legend, Dionne Warwick, Ray Charles, Natalie Cole, Aretha Franklin, Tina Turner, and Seal.
 				</biography>
 				<job>Composer</job>
 			</employee>
@@ -1359,13 +1315,13 @@
 					<character>Noah Calhoun</character>
 					<character_description>Noah Calhoun is the main protagonist of the 2004 film,The notebook. He's the boyfriend and later husband of 17 year-old Allie Hamilton.At a summer carnival in 1940,Noah saw Allie. He fell in love with the young lady and wanted to go on a date with her. So bad actually, that the dude was willing to risk his life for it.</character_description>
 					<role>Protagonist</role>
+				</employee>
 				<employee>
 					<name>Gena Rowlands</name>
 					<job>Actor</job>
 					<character>Allie Hamilton</character>
 					<character_description>Allison "Allie" Hamilton is a 17 year old rich girl in The Notebook (film). She soon falls in love with a poor boy Noah Calhoun. Allison's parents parents do not approve of him and later left town.</character_description>
 					<role>Protagonist</role>
-				</employee>
 				</employee>
 			</lead_role>
 			<support_role>
@@ -1397,16 +1353,12 @@
 				<job>Sound Designer</job>
 			</employee>
 			<publicity_company>
-				<company>
-					<name>Steven Gorel</name>
-				</company>
+				<company name="Steven Gorel" />
 			</publicity_company>
 		</post_production>
 		<release_and_distribution>
 			<distribution_company>
-				<company>
-					<name>New Line Cinema</name>
-				</company>
+				<company name="New Line Cinema" />
 			</distribution_company>
 		</release_and_distribution>
 		<reception>
