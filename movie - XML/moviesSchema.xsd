@@ -36,6 +36,12 @@
 	</xs:sequence>
 </xs:complexType>
 
+<!-- Used in Employee and Franchise schema -->
+
+<xs:complexType name="IDREFSType">
+	<xs:attribute name="ID" type="xs:IDREFS" use="required"/>
+</xs:complexType>
+
 <!-- ___________________________________________________________________  -->
 
 <!-- ROOT ELEMENT - MOVIES SCHEMA -->
@@ -381,11 +387,18 @@
 <!-- ___________________________________________________________________  -->
 
 <!-- CREATIVE TEAM SCHEMA -->
+<xs:complexType name="creativeTeamType">
+	<xs:sequence>
+		<xs:element name="employee" type="employeeType" minOccurs="0" maxOccurs="unbounded"/>
+	</xs:sequence>
+</xs:complexType>
+
 <xs:complexType name="employeeType">
 	<xs:sequence>
 		<xs:element name="name" type="xs:string"/>
 		<xs:element name="biography" type="xs:string" minOccurs="0"/>
 		<xs:element name="job" type="jobType"/>
+		<xs:element name="other_works" type="IDREFSType" minOccurs="0"/>
 	</xs:sequence>
 </xs:complexType>
 
@@ -400,12 +413,6 @@
 		<xs:enumeration value="Sound Designer"/>
 	</xs:restriction>
 </xs:simpleType>
-
-<xs:complexType name="creativeTeamType">
-	<xs:sequence>
-		<xs:element name="employee" type="employeeType" minOccurs="0" maxOccurs="unbounded"/>
-	</xs:sequence>
-</xs:complexType>
 
 <!-- ___________________________________________________________________  -->
 
@@ -545,17 +552,10 @@
 <!-- FRANCHISE SCHEMA-->
 <xs:complexType name="franchiseType">
 	<xs:sequence>
-		<xs:element name="prequels" minOccurs="0" type="franchiseElementType"/>
-		<xs:element name="sequels" minOccurs="0" type="franchiseElementType"/>
+		<xs:element name="prequels" minOccurs="0" type="IDREFSType"/>
+		<xs:element name="sequels" minOccurs="0" type="IDREFSType"/>
 	</xs:sequence>
 </xs:complexType>
-
-<xs:complexType name="franchiseElementType">
-	<xs:attribute name="ID" type="xs:IDREFS"/>
-</xs:complexType>
-
-
-
 
 <!-- ___________________________________________________________________  -->
 

@@ -61,6 +61,7 @@
 				<name>David Heyman</name>
 				<biography>David Jonathan Heyman (born 26 July 1961) is a British film producer and the founder of Heyday Films. Heyman is best known as the primary producer of all eight installments of the Harry Potter film series, which are based on a series of popular fantasy novels of the same name by author J. K. Rowling. He then produced all three installments of its spin-off prequel series, Fantastic Beasts. His work makes him the second-most commercially successful producer of all time.</biography>
 				<job>Producer</job>
+				<other_works ID="ID-9" />
 			</employee>
 			<employee>
 				<name>John Williams</name>
@@ -140,6 +141,7 @@
 				<name>Richard Francis-Bruce</name>
 				<biography>Richard Leslie Francis-Bruce AM (born 10 December 1948) is an Australian film editor who has received several nominations for the Academy Award for Best Film Editing. </biography>
 				<job>Film Editor</job>
+				<other_works ID="ID-2" />
 			</employee>
 			<employee>
 				<name>John A. Midgley</name>
@@ -290,6 +292,7 @@
 				<name>Richard Francis-Bruce</name>
 				<biography>Richard Leslie Francis-Bruce AM (born 10 December 1948) is an Australian film editor who has received several nominations for the Academy Award for Best Film Editing. </biography>
 				<job>Film Editor</job>
+				<other_works ID="ID-1" />
 			</employee>
 			<employee>
 				<name>Robert J. Litt</name>
@@ -449,6 +452,7 @@
 				<name>Christopher Boyes</name>
 				<biography>Christopher Boyes is an American sound engineer. He has won four Academy Awards and has been nominated for another eleven. He has worked on more than 100 films since 1991.</biography>
 				<job>Sound Designer</job>
+				<other_works ID="ID-6 ID-7 ID-8 ID-9" />
 			</employee>
 			<marketing_company>
 				<company name="Greg Ferris"/>
@@ -652,6 +656,7 @@
 					Chad Stahelski (born September 20, 1968) is an American stuntman and film director. He directed the 2014 film John Wick and its three sequels. He has worked as a stuntman, stunt coordinator and second unit director on several films.
 				</biography>
 				<job>Director</job>
+				<other_works ID="ID-11" />
 			</employee>
 			<employee>
 				<name>Derek Kolstad</name>
@@ -659,12 +664,14 @@
 					Derek Kolstad (born April 4, 1974) is an American screenwriter and film producer. He is the creator of the John Wick franchise, which began in 2014. He continued to write for the first two sequels of the franchise and is mainly known as a screenwriter of action films and shows. Originally from Madison, Wisconsin, Kolstad attended Edgewood High School of the Sacred Heart and later studied business administration at Taylor University in Indiana. He moved to California at age 24 to pursue screenwriting. He says he started writing films when he was a teenager, but he struggled to find success in Hollywood at first.
 				</biography>
 				<job>Screenwriter</job>
+				<other_works ID="ID-11" />
 			</employee>
 			<employee>
 				<name>Basil Iwanyk</name>
 				<biography>	
 					Basil William Iwanyk (born January 4, 1970) is an American film producer. He is the founder of Thunder Road Films and most known for Sicario, The Town, Greenland and the John Wick franchise. His films have earned more than $2 billion internationally as of 2018. He is of Ukrainian descent.After starting out working for Warner Bros in the 1990s, Basil founded his own company, Thunder Road, in 2000. The company has a stellar reputation within the industry and a remarkable track record of critical and commercial success.</biography>
 				<job>Producer</job>
+				<other_works ID="ID-11" />
 			</employee>
 			<employee>
 				<name>David Leitch</name>
@@ -678,6 +685,7 @@
 					Tyler Bates (born June 5, 1965 is an American musician,producer, and composer for film, television, and video game scores.Much of his work is in the action and horror film genres, with films like Dawn of the Dead, 300, Sucker Punch, Halloween I and II, and the John Wick franchise. He has collaborated with directors like Zack Snyder, Rob Zombie, Neil Marshall, William Friedkin, Scott Derrickson, James Gunn, Chad Stahelski and David Leitch. In addition, he is also the former lead guitarist of the American rock band Marilyn Manson, and produced its albums The Pale Emperor and Heaven Upside Down. He's currently Jerry Cantrell‘s touring/studio member.
 				</biography>
 				<job>Composer</job>
+				<other_works ID="ID-11" />
 			</employee>
 		</creative_team>
 		<cast>
@@ -685,6 +693,7 @@
 				<employee>
 					<name>Keanu Reeves</name>
 					<job>Actor</job>
+					<other_works ID="ID-11" />
 					<character>John Wick</character>
 					<character_description>John Wick is a fictional character created by American screenwriter Derek Kolstad and portrayed by Canadian actor Keanu Reeves. He is the titular protagonist of the American media franchise John Wick. In the franchise's film series, he is introduced as a legendary Belarusian-American ex-hitman who left the criminal underworld after falling in love with and marrying a woman named Helen. While suffering from a terminal illness, Helen made arrangements for a puppy to be delivered to John in order to serve as his companion after her death. Days after her funeral, a Russian-American mobster — the son of John's former mafia boss — takes an interest in John's car after seeing it a gas station and is angered when John refuses to sell it to him. That night, he leads a group and breaks into John's house, assaulting him and killing his puppy before stealing his car. The attack sets John on a path of revenge, returning him to the violent lifestyle that he had left behind and eventually bringing him into conflict with the international organization of assassins of which he was once a part.</character_description>
 					<role>Protagonist</role>
@@ -708,6 +717,7 @@
 				<employee>
 					<name>Ian McShane</name>
 					<job>Actor</job>
+					<other_works ID="ID-6 ID-11" />
 					<character>Winston</character>
 					<character_description>Winston Scott is the current owner and manager of the New York Continental Hotel, an establishment that functions as a neutral territory and safe zone for criminals and hired killers. No business is allowed to be conducted on Continental grounds, and those who violate this important rule are given severe penalties: which are often ordered and overseen by Winston himself. Although he is a close friend and ally of John Wick, he is still a high-ranking and powerful member of the Continental, and does what he has to do to those who break its rules.</character_description>
 					<role>Neutral</role>
@@ -750,6 +760,9 @@
 				<amount>86000000</amount>
 			</revenue>
 		</reception>
+		<franchise>
+			<sequels ID="ID-11"/>
+		</franchise>
 	</movie>
 	<movie id="ID-6" title="Pirates of the Caribbean: The Curse of the Black Pearl" release_date="2003-06-28" duration="143" rating="PG-13">
 		<genres>
@@ -825,6 +838,7 @@
 				<employee>
 					<name>Ian McShane</name>
 					<job>Actor</job>
+					<other_works ID="ID-5 ID-11" />
 					<character>Edward Teach</character>
 					<character_description>Blackbeard (d. 1718), otherwise known as Edward Teach (probably an assumed name), was an infamous English pirate who operated in the Caribbean and Atlantic during a surprisingly short career lasting just 15 months. With his long black beard tied with ribbons, lighted fuses under his hat, and bristling with pistols, Blackbeard’s name, reputation, and appearance were all calculated to freeze his victims with dreadful terror.Thanks largely to a wildly exaggerated and mostly fictional portrait by the author Charles Johnson/Daniel Defoe (1660-1731), Blackbeard became the most colourful of all the pirates of the so-called Golden Age of Piracy. He is portrayed as a man with no morals or scruples, either towards his innocent victims or his own crews, and as a pirate who got his just deserts when he was killed in action against the Royal Navy, but then only after being struck down by five pistol shots and 20 sword cuts.</character_description>
 					<role>Antagonist</role>
@@ -857,6 +871,7 @@
 				<name>Christopher Boyes</name>
 				<biography>Christopher Boyes is an American sound engineer. He has won four Academy Awards and has been nominated for another eleven. He has worked on more than 100 films since 1991.</biography>
 				<job>Sound Designer</job>
+				<other_works ID="ID-3 ID-7 ID-8 ID-9" />
 			</employee>
 			<publicity_company>
 				<company name="Gabriela Gutentag" />
@@ -982,6 +997,7 @@
 				<name>Christopher Boyes</name>
 				<biography>Christopher Boyes is an American sound engineer. He has won four Academy Awards and has been nominated for another eleven. He has worked on more than 100 films since 1991.</biography>
 				<job>Sound Designer</job>
+				<other_works ID="ID-3 ID-6 ID-8 ID-9" />
 			</employee>
 		</post_production>
 		<release_and_distribution>
@@ -1096,6 +1112,7 @@
 				<name>Christopher Boyes</name>
 				<biography>Boyes is an American sound engineer who has won four Academy Awards. He has worked on over 70 films since 1991.</biography>
 				<job>Sound Designer</job>
+				<other_works ID="ID-3 ID-6 ID-7 ID-9" />
 			</employee>
 			<marketing_company>
 				<company name="Curt Cash" />
@@ -1166,6 +1183,7 @@
 					David Jonathan Heyman (born 26 July 1961) is a British film producer and the founder of Heyday Films. Heyman is best known as the primary producer of all eight installments of the Harry Potter film series, which are based on a series of popular fantasy novels of the same name by author J. K. Rowling. He then produced all three installments of its spin-off prequel series, Fantastic Beasts. His work makes him the second-most commercially successful producer of all time.
 				</biography>
 				<job>Producer</job>
+				<other_works ID="ID-1" />
 			</employee>
 			<employee>
 				<name>Margot Robbie</name>
@@ -1193,6 +1211,7 @@
 				<employee>
 					<name>Ryan Gosling</name>
 					<job>Actor</job>
+					<other_works ID="ID-10" />
 					<character>Ken</character>
 					<role>Protagonist</role>
 				</employee>
@@ -1219,6 +1238,7 @@
 				<name>Christopher Boyes</name>
 				<biography>Boyes is an American sound engineer who has won four Academy Awards. He has worked on over 70 films since 1991.</biography>
 				<job>Sound Designer</job>
+				<other_works ID="ID-3 ID-6 ID-7 ID-8" />
 			</employee>
 			<publicity_company>
 				<company name="Stu Oakley" />
@@ -1298,6 +1318,7 @@
 				<employee>
 					<name>Ryan Gosling</name>
 					<job>Actor</job>
+					<other_works ID="ID-9" />
 					<character>Noah Calhoun</character>
 					<character_description>Noah Calhoun is the main protagonist of the 2004 film,The notebook. He's the boyfriend and later husband of 17 year-old Allie Hamilton.At a summer carnival in 1940,Noah saw Allie. He fell in love with the young lady and wanted to go on a date with her. So bad actually, that the dude was willing to risk his life for it.</character_description>
 					<role>Protagonist</role>
@@ -1410,6 +1431,7 @@
 					Chad Stahelski (born September 20, 1968) is an American stuntman and film director. He directed the 2014 film John Wick and its three sequels. He has worked as a stuntman, stunt coordinator and second unit director on several films.
 				</biography>
 				<job>Director</job>
+				<other_works ID="ID-5" />
 			</employee>
 			<employee>
 				<name>Derek Kolstad</name>
@@ -1417,12 +1439,14 @@
 					Derek Kolstad (born April 4, 1974) is an American screenwriter and film producer. He is the creator of the John Wick franchise, which began in 2014. He continued to write for the first two sequels of the franchise and is mainly known as a screenwriter of action films and shows. Originally from Madison, Wisconsin, Kolstad attended Edgewood High School of the Sacred Heart and later studied business administration at Taylor University in Indiana. He moved to California at age 24 to pursue screenwriting. He says he started writing films when he was a teenager, but he struggled to find success in Hollywood at first.
 				</biography>
 				<job>Screenwriter</job>
+				<other_works ID="ID-5" />
 			</employee>
 			<employee>
 				<name>Basil Iwanyk</name>
 				<biography>	
 					Basil William Iwanyk (born January 4, 1970) is an American film producer. He is the founder of Thunder Road Films and most known for Sicario, The Town, Greenland and the John Wick franchise. His films have earned more than $2 billion internationally as of 2018. He is of Ukrainian descent.After starting out working for Warner Bros in the 1990s, Basil founded his own company, Thunder Road, in 2000. The company has a stellar reputation within the industry and a remarkable track record of critical and commercial success.</biography>
 				<job>Producer</job>
+				<other_works ID="ID-5" />
 			</employee>
 			<employee>
 				<name>Tyler Bates</name>
@@ -1430,6 +1454,7 @@
 					Tyler Bates (born June 5, 1965 is an American musician,producer, and composer for film, television, and video game scores.Much of his work is in the action and horror film genres, with films like Dawn of the Dead, 300, Sucker Punch, Halloween I and II, and the John Wick franchise. He has collaborated with directors like Zack Snyder, Rob Zombie, Neil Marshall, William Friedkin, Scott Derrickson, James Gunn, Chad Stahelski and David Leitch. In addition, he is also the former lead guitarist of the American rock band Marilyn Manson, and produced its albums The Pale Emperor and Heaven Upside Down. He's currently Jerry Cantrell‘s touring/studio member.
 				</biography>
 				<job>Composer</job>
+				<other_works ID="ID-5" />
 			</employee>
 		</creative_team>
 		<cast>
@@ -1437,6 +1462,7 @@
 				<employee>
 					<name>Keanu Reeves</name>
 					<job>Actor</job>
+					<other_works ID="ID-5" />
 					<character>John Wick</character>
 					<character_description>John Wick is a fictional character created by American screenwriter Derek Kolstad and portrayed by Canadian actor Keanu Reeves. He is the titular protagonist of the American media franchise John Wick. In the franchise's film series, he is introduced as a legendary Belarusian-American ex-hitman who left the criminal underworld after falling in love with and marrying a woman named Helen. While suffering from a terminal illness, Helen made arrangements for a puppy to be delivered to John in order to serve as his companion after her death. Days after her funeral, a Russian-American mobster — the son of John's former mafia boss — takes an interest in John's car after seeing it a gas station and is angered when John refuses to sell it to him. That night, he leads a group and breaks into John's house, assaulting him and killing his puppy before stealing his car. The attack sets John on a path of revenge, returning him to the violent lifestyle that he had left behind and eventually bringing him into conflict with the international organization of assassins of which he was once a part.</character_description>
 					<role>Protagonist</role>
@@ -1460,6 +1486,7 @@
 				<employee>
 					<name>Ian McShane</name>
 					<job>Actor</job>
+					<other_works ID="ID-5 ID-6" />
 					<character>Winston</character>
 					<character_description>Winston Scott is the current owner and manager of the New York Continental Hotel, an establishment that functions as a neutral territory and safe zone for criminals and hired killers. No business is allowed to be conducted on Continental grounds, and those who violate this important rule are given severe penalties: which are often ordered and overseen by Winston himself. Although he is a close friend and ally of John Wick, he is still a high-ranking and powerful member of the Continental, and does what he has to do to those who break its rules.</character_description>
 					<role>Neutral</role>
