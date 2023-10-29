@@ -1529,5 +1529,8 @@
 				<amount>174300000</amount>
 			</revenue>
 		</reception>
+		<franchise>
+			<prequels ID="ID-5" />
+		</franchise>
 	</movie>
 </movies>
