@@ -299,8 +299,11 @@
 				<biography>Litt is an American sound engineer. He was nominated for three Academy Awards in the category Best Sound. He worked on over 160 films between 1964 and 2000.</biography>
 				<job>Sound Designer</job>
 			</employee>
+			<marketing_company>
+				<company name=" Warner Bros. Pictures" />
+			</marketing_company>
 			<publicity_company>
-				<company name="Paulette Osorio"/>
+				<company name=" Warner Bros. Pictures"/>
 			</publicity_company>
 		</post_production>
 		<release_and_distribution>
@@ -432,7 +435,7 @@
 				<employee>
 					<name>Gloria Stuart</name>
 					<job>Actor</job>
-					<character>Rose DeWitt BuKater</character>
+					<character>Rose Dawson Calvert</character>
 					<role>Neutral</role>
 				</employee>
 			</support_role>
@@ -455,15 +458,16 @@
 				<other_works ID="ID-6 ID-7 ID-8 ID-9" />
 			</employee>
 			<marketing_company>
-				<company name="Greg Ferris"/>
+				<company name="20th Century Fox"/>
 			</marketing_company>
 			<publicity_company>
-				<company name="Eileen Peterson"/>
+				<company name="Paramount Pictures"/>
 			</publicity_company>
 		</post_production>
 		<release_and_distribution>
 			<distribution_company>
-				<company name="Tyler Atkinson"/>
+				<company name="Paramount Pictures"/>
+				<company name="20th Century Fox"/>
 			</distribution_company>
 		</release_and_distribution>
 		<reception>
@@ -568,20 +572,34 @@
 					<character_description>As a wizard and the bearer of one of the Three Rings, Gandalf has great power, but works mostly by encouraging and persuading. He sets out as Gandalf the Grey, possessing great knowledge and travelling continually. Gandalf is focused on the mission to counter the Dark Lord Sauron by destroying the One Ring. He is associated with fire; his ring of power is Narya, the Ring of Fire. As such, he delights in fireworks to entertain the hobbits of the Shire, while in great need he uses fire as a weapon. As one of the Maiar, he is an immortal spirit from Valinor, but his physical body can be killed.In The Hobbit, Gandalf assists the 13 dwarves and the hobbit Bilbo Baggins with their quest to retake the Lonely Mountain from Smaug the dragon, but leaves them to urge the White Council to expel Sauron from his fortress of Dol Guldur. In the course of the quest, Bilbo finds a magical ring. The expulsion succeeds, but in The Lord of the Rings, Gandalf reveals that Sauron's retreat was only a feint, as he soon reappeared in Mordor. Gandalf further explains that, after years of investigation, he is sure that Bilbo's ring is the One Ring that Sauron needs to dominate the whole of Middle-earth. The Council of Elrond creates the Fellowship of the Ring, with Gandalf as its leader, to defeat Sauron by destroying the Ring. He takes them south through the Misty Mountains, but is killed fighting a Balrog, an evil spirit-being, in the underground realm of Moria. After he dies, he is sent back to Middle-earth to complete his mission as Gandalf the White. He reappears to three of the Fellowship and helps to counter the enemy in Rohan, then in Gondor, and finally at the Black Gate of Mordor, in each case largely by offering guidance. When victory is complete, he crowns Aragorn as King before leaving Middle-earth for ever to return to Valinor.</character_description>
 					<role>Protagonist</role>
 				</employee>
+				<employee>
+					<name>Sean Astin</name>
+					<job>Actor</job>
+					<character>Samwise "Sam" Gamgee</character>
+					<character_description>Sam is Frodo's loyal and steadfast friend. He accompanies Frodo on his journey to Mount Doom and plays a crucial role in supporting and protecting him.</character_description>
+					<role>Protagonist</role>
+				</employee>
+				<employee>
+					<name>Charlie Vickers</name>
+					<job>Actor</job>
+					<character>Sauron</character>
+					<character_description>Sauron is an ancient and powerful dark lord who forged the One Ring to control and dominate the other Rings of Power. His ultimate goal is to reclaim the One Ring to achieve total domination over Middle-earth.</character_description>
+					<role>Antagonist</role>
+				</employee>
 			</lead_role>
 			<support_role>
 				<employee>
-					<name>Dominic Monaghan</name>
+					<name>Andy Serkis</name>
 					<job>Actor</job>
-					<character></character>
-					<character_description> </character_description>
-					<role>Neutral</role>
+					<character>Gollum</character>
+					<character_description>Formerly known as Sméagol, Gollum is a tortured creature corrupted by the One Ring. His presence becomes more prominent in the later films.</character_description>
+					<role>Antagonist</role>
 				</employee>
 				<employee>
-					<name>Dominic Monaghan</name>
+					<name>Sean Bean</name>
 					<job>Actor</job>
-					<character>Meriadoc Brandybuck</character>
-					<character_description>Meriadoc Brandybuck romane J. R. R. Tolkieni The Lord of the Rings de yew karaktero. Meriadoc Brandybuck, hem yew hobbito hem zi embaze wayire iştanan Frodo Bagginso. Dewre Hireyıne de, Shire de ameyo riye dınya. Dewre Çeharıne de merdo.</character_description>
+					<character>Boromir</character>
+					<character_description>Gondorian warrior and member of the Fellowship. Initially conflicted, he seeks to protect his people but succumbs to the temptation of the Ring.</character_description>
 					<role>Neutral</role>
 				</employee>
 			</support_role>
@@ -597,8 +615,11 @@
 				<biography>Michael Semanick (born 1963) is an American sound engineer, credited as a sound re-recording mixer. He has won two Academy Awards for Best Sound and has been nominated for nine more in the same category. He has worked on more than 110 films since 1987.</biography>
 				<job>Sound Designer</job>
 			</employee>
+			<marketing_company>
+				<company name="New Line Cinema" />
+			</marketing_company>
 			<publicity_company>
-				<company name="Dennis Davidson" />
+				<company name="New Line Cinema" />
 			</publicity_company>
 		</post_production>
 		<release_and_distribution>
@@ -743,7 +764,7 @@
 				<job>Sound Designer</job>
 			</employee>
 			<publicity_company>
-				<company name="Peter J. Silbermann" />
+				<company name="Lionsgate" />
 			</publicity_company>
 		</post_production>
 		<release_and_distribution>
@@ -874,7 +895,7 @@
 				<other_works ID="ID-3 ID-7 ID-8 ID-9" />
 			</employee>
 			<publicity_company>
-				<company name="Gabriela Gutentag" />
+				<company name="Walt Disney Pictures" />
 			</publicity_company>
 		</post_production>
 		<release_and_distribution>
@@ -1115,10 +1136,10 @@
 				<other_works ID="ID-3 ID-6 ID-7 ID-9" />
 			</employee>
 			<marketing_company>
-				<company name="Curt Cash" />
+				<company name="Warner Bros. Pictures" />
 			</marketing_company>
 			<publicity_company>
-				<company name="Morgan Jago" />
+				<company name="Warner Bros. Pictures" />
 			</publicity_company>
 		</post_production>
 		<release_and_distribution>
@@ -1223,7 +1244,7 @@
 					<character>CEO of Mattel</character>
 				</employee>
 				<employee>
-					<name>Michael Cera </name>
+					<name>Michael Cera</name>
 					<job>Actor</job>
 					<character>Allan</character>
 				</employee>
@@ -1240,9 +1261,6 @@
 				<job>Sound Designer</job>
 				<other_works ID="ID-3 ID-6 ID-7 ID-8" />
 			</employee>
-			<publicity_company>
-				<company name="Stu Oakley" />
-			</publicity_company>
 		</post_production>
 		<release_and_distribution>
 			<distribution_company>
@@ -1374,7 +1392,7 @@
 				<job>Sound Designer</job>
 			</employee>
 			<publicity_company>
-				<company name="Steven Gorel" />
+				<company name="New Line Cinema" />
 			</publicity_company>
 		</post_production>
 		<release_and_distribution>
@@ -1487,7 +1505,7 @@
 					<name>Ian McShane</name>
 					<job>Actor</job>
 					<other_works ID="ID-5 ID-6" />
-					<character>Winston</character>
+					<character>Winston Scott</character>
 					<character_description>Winston Scott is the current owner and manager of the New York Continental Hotel, an establishment that functions as a neutral territory and safe zone for criminals and hired killers. No business is allowed to be conducted on Continental grounds, and those who violate this important rule are given severe penalties: which are often ordered and overseen by Winston himself. Although he is a close friend and ally of John Wick, he is still a high-ranking and powerful member of the Continental, and does what he has to do to those who break its rules.</character_description>
 					<role>Neutral</role>
 				</employee>
@@ -1512,7 +1530,7 @@
 				<job>Sound Designer</job>
 			</employee>
 			<publicity_company>
-				<company name="Julie Fontaine" />
+				<company name="Lionsgate" />
 			</publicity_company>
 		</post_production>
 		<release_and_distribution>
